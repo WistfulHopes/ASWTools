@@ -1,5 +1,4 @@
 ﻿using System.Text;
-using BBScript.Config;
 using BBScript.Language;
 using BBScript.Parser;
 using sly.parser;
