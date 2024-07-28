@@ -1,0 +1,32 @@
+genericLexer BBSLexer;
+
+[Int] INT;
+[Hexa] HEX;
+[String] STRING;
+[KeyWord] CONST : "Const";
+[KeyWord] VAR : "Var";
+[AlphaNumDashId] IDENTIFIER;
+
+[Sugar] LPAREN: "(";
+[Sugar] RPAREN: ")";
+[Sugar] COMMA: ",";
+[Sugar] SEMICOLON: ";";
+
+[SingleLineComment] SINGLECOMMENT : "//";
+[MultiLineComment] MULTICOMMENT: "/*" "*/";
+
+parser BBSParser;
+
+-> root: instruction+;
+
+instruction: IDENTIFIER LPAREN [d] args? RPAREN [d] SEMICOLON [d];
+
+const: CONST [d] LPAREN [d] INT RPAREN [d];
+var: VAR [d] LPAREN [d] IDENTIFIER RPAREN [d];
+expr: INT;
+expr: HEX;
+expr: STRING;
+expr: IDENTIFIER;
+expr: const;
+expr: var;
+args: expr (COMMA [d] expr)*;

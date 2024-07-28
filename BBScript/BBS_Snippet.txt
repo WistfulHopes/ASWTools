@@ -1,0 +1,9 @@
+ActionBegin( "Test" ); 
+	CellBegin( "sl56_04", 3 );
+		CreateObject("HUMMER_OBJ2", 0);
+
+		ControlObject(CO_PREV); //manipulate the object created just before
+			SetSpeedX(Const(10000));
+		ControlObjectEnd();
+	CellEnd();
+ActionEnd();
