@@ -20,6 +20,6 @@ public class BBSVarExpr : BBSExpression
         context.Bytecode.AddRange(BitConverter.GetBytes(0).ToList());
         if (BBSConfig.Instance.Variables!.TryGetValue(Name, out var value))
             context.Bytecode.AddRange(BitConverter.GetBytes(value).ToList());
-        else throw new KeyNotFoundException();
+        else throw new KeyNotFoundException($"Variable {Name} not found!");
     }
 }

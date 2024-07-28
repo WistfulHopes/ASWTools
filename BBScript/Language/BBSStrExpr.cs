@@ -18,7 +18,7 @@ public class BBSStrExpr : BBSExpression
     
     public void Compile(CompilerContext context)
     {
-        if (Value.Length > Length) throw new InvalidDataException();
+        if (Value.Length > Length - 1) throw new InvalidDataException($"The string should be shorter than {Length}!");
         context.Bytecode!.AddRange(Encoding.ASCII.GetBytes(Value));
         for (var i = 0; i < Length - Value.Length; i++) context.Bytecode.Add(0);
     }

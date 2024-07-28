@@ -28,7 +28,17 @@ public class BBSInstruction : BBSAST
         }
         
         var instruction = BBSConfig.Instance.Instructions!.Values.FirstOrDefault(inst => inst.Name == Name);
-        if (instruction == null) throw new KeyNotFoundException();
+        if (instruction == null)
+        {
+            if (Name.StartsWith("Unknown"))
+            {
+                instruction = BBSConfig.Instance.Instructions![int.Parse(Name[7..])];
+            }
+            else
+            {
+                throw new KeyNotFoundException($"Instruction {Name} not found!");
+            }
+        }
 
         var id = BBSConfig.Instance.Instructions!.FirstOrDefault(x => x.Value == instruction).Key;
         context.Bytecode.AddRange(BitConverter.GetBytes(id).ToList());
@@ -45,33 +55,33 @@ public class BBSInstruction : BBSAST
                     case ArgType.S16:
                     case ArgType.S32:
                         if ((Args.Expressions[i] as BBSExpression)!.Type != BBSExpressionType.INT)
-                            throw new InvalidDataException();
+                            throw new InvalidDataException($"Argument {i} should be an integer, but it was {(Args.Expressions[i] as BBSExpression)!.Type}");
                         break;
                     case ArgType.U8:
                     case ArgType.U16:
                     case ArgType.U32:
                         if ((Args.Expressions[i] as BBSExpression)!.Type != BBSExpressionType.HEX)
-                            throw new InvalidDataException();
+                            throw new InvalidDataException($"Argument {i} should be a hexadecimal number, but it was {(Args.Expressions[i] as BBSExpression)!.Type}");
                         break;
                     case ArgType.Enum:
                         if ((Args.Expressions[i] as BBSExpression)!.Type != BBSExpressionType.ENUM
                             && (Args.Expressions[i] as BBSExpression)!.Type != BBSExpressionType.INT)
-                            throw new InvalidDataException();
+                            throw new InvalidDataException($"Argument {i} should be an enum value or an integer, but it was {(Args.Expressions[i] as BBSExpression)!.Type}");
                         break;
                     case ArgType.C16BYTE:
                         if ((Args.Expressions[i] as BBSExpression)!.Type != BBSExpressionType.STRING)
-                            throw new InvalidDataException();
+                            throw new InvalidDataException($"Argument {i} should be a string, but it was {(Args.Expressions[i] as BBSExpression)!.Type}");
                         (Args.Expressions[i] as BBSStrExpr)!.Length = 16;
                         break;
                     case ArgType.C32BYTE:
                         if ((Args.Expressions[i] as BBSExpression)!.Type != BBSExpressionType.STRING)
-                            throw new InvalidDataException();
+                            throw new InvalidDataException($"Argument {i} should be a string, but it was {(Args.Expressions[i] as BBSExpression)!.Type}");
                         (Args.Expressions[i] as BBSStrExpr)!.Length = 32;
                         break;
                     case ArgType.COperand:
                         if ((Args.Expressions[i] as BBSExpression)!.Type != BBSExpressionType.CONST
                             && (Args.Expressions[i] as BBSExpression)!.Type != BBSExpressionType.VAR)
-                            throw new InvalidDataException();
+                            throw new InvalidDataException($"Argument {i} should be a COperand, but it was {(Args.Expressions[i] as BBSExpression)!.Type}");
                         break;
                     default:
                         throw new ArgumentOutOfRangeException();

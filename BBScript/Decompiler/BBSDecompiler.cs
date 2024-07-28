@@ -21,7 +21,8 @@ public static class BBSDecompiler
             var id = BitConverter.ToInt32(bytecode, pos);
             pos += 4;
             
-            if (!BBSConfig.Instance.Instructions!.TryGetValue(id, out Instruction? value)) throw new KeyNotFoundException();
+            if (!BBSConfig.Instance.Instructions!.TryGetValue(id, out Instruction? value))
+                throw new KeyNotFoundException($"Instruction {id} not found!");
 
             var expressions = new List<string>();
 
@@ -122,7 +123,16 @@ public static class BBSDecompiler
             {
                 output.Append('\t');
             }
-            output.Append(value.Name + "(");
+
+            if (value.Name != null)
+            {
+                output.Append(value.Name + "(");
+            }
+            else
+            {
+                output.Append("Unknown" + id + "(");
+            }
+            
             for (var i = 0; i < expressions.Count; i++)
             {
                 output.Append(expressions[i]);

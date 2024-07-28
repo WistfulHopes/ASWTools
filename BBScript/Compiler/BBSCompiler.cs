@@ -22,7 +22,7 @@ public class BBSCompiler
     public byte[] Compile(string source)
     {
         var result = _bbsParser.Parse(source);
-        if (!result.IsOk) throw new InvalidDataException();
+        if (!result.IsOk) throw new InvalidDataException("Could not parse script!");
         var ast = result.Result;
             
         var context = new CompilerContext();

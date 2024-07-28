@@ -25,6 +25,6 @@ public class BBSEnumExpr : BBSExpression
             return;
         }
 
-        throw new KeyNotFoundException();
+        throw new KeyNotFoundException($"Enum value {Name} not found!");
     }
 }
