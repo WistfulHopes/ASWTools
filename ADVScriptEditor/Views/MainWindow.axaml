@@ -33,6 +33,8 @@
                 <MenuItem Header="_File">
                     <MenuItem Header="_Open..." Command="{Binding OpenFile}"/>
                     <MenuItem Header="_Save..." Command="{Binding SaveFile}"/>
+                    <MenuItem Header="_Import..." Command="{Binding ImportFile}"/>
+                    <MenuItem Header="_Export..." Command="{Binding ExportFile}"/>
                     <Separator/>
                     <MenuItem Header="_Exit"/>
                 </MenuItem>

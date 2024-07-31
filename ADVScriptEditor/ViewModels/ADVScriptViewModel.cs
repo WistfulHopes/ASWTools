@@ -21,15 +21,20 @@ public class ADVScriptViewModel : EditorViewModel
         ParsedScript = new CParsedScript(_advScriptMem);
     }
 
+    public ADVScriptViewModel(CParsedScript inParsedScript)
+    {
+        _advScriptMem = new CScriptData();
+        ParsedScript = inParsedScript;
+    }
+
     public void AddCommand(int index)
     {
         ParsedScript.Commands.Insert(index, new SParsedCommand());
     }
 
-    public void DeleteCommand(int index)
+    public void DeleteCommand(SParsedCommand command)
     {
-        if (ParsedScript.Commands.Count <= index) return;
-        ParsedScript.Commands.RemoveAt(index);
+        if (ParsedScript.Commands.Count > 1) ParsedScript.Commands.Remove(command);
     }
 
     public override void PrepareSave()
