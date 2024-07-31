@@ -122,7 +122,9 @@ public partial class MainWindowViewModel : ViewModelBase
         };
         var script = JsonSerializer.Deserialize<CParsedScript>(text, options);
 
-        if (script != null) EditorView = new ADVScriptViewModel(script);
+        if (script == null) return;
+        EditorView = new ADVScriptViewModel(script);
+        _advScript = script.Compile();
     }
     
     public async void ExportFile()
