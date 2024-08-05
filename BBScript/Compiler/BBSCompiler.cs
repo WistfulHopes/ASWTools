@@ -31,8 +31,8 @@ public class BBSCompiler
         output.AddRange(BitConverter.GetBytes(context.JumpEntryTable.Count).ToList());
         foreach (var jumpEntry in context.JumpEntryTable)
         {
-            output.AddRange(BitConverter.GetBytes(jumpEntry.Item1).ToList());
             output.AddRange(Encoding.ASCII.GetBytes(jumpEntry.Item2));
+            output.AddRange(BitConverter.GetBytes(jumpEntry.Item1).ToList());
             for (var i = 0; i < 32 - jumpEntry.Item2.Length; i++) output.Add(0);
         }
         

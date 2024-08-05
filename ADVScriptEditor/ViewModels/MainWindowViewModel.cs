@@ -1,6 +1,7 @@
 ﻿using System.IO;
 using System.Text.Json;
 using System.Text.Json.Serialization;
+using System.Threading.Tasks;
 using ADVScriptEditor.ADVScript;
 using ADVScriptEditor.Views;
 using Avalonia.Controls.ApplicationLifetimes;
@@ -15,7 +16,7 @@ public partial class MainWindowViewModel : ViewModelBase
     {
         Patterns = new[] { "*.advbin" }
     };
-    private static FilePickerFileType ADVScriptJson { get; } = new("ADVScript JSON")
+    private static FilePickerFileType Json { get; } = new("JSON")
     {
         Patterns = new[] { "*.json" }
     };
@@ -32,7 +33,26 @@ public partial class MainWindowViewModel : ViewModelBase
     public MainWindowViewModel()
     {
         _editorView = new DefaultViewModel();
-        
+    }
+
+    public async Task<bool> OpenConfig()
+    {
+        if (Avalonia.Application.Current.ApplicationLifetime is not IClassicDesktopStyleApplicationLifetime desktop)
+            return false;
+        // Start async operation to open the dialog.
+        var files = await desktop.MainWindow.StorageProvider.OpenFilePickerAsync(new FilePickerOpenOptions
+        {
+            Title = "Open Config JSON (.json)",
+            AllowMultiple = false,
+            FileTypeFilter = [ Json ] 
+        });
+
+        if (files.Count < 1) return false;
+        // Open reading stream from the first file.
+        await using var stream = await files[0].OpenReadAsync();
+        using var streamReader = new StreamReader(stream);
+        var text = await streamReader.ReadToEndAsync();
+
         var options = new JsonSerializerOptions
         {
             WriteIndented = true,
@@ -41,15 +61,20 @@ public partial class MainWindowViewModel : ViewModelBase
                 new JsonStringEnumConverter(JsonNamingPolicy.CamelCase)
             }
         };
-        var config = JsonSerializer.Deserialize<AdvConfig>(File.ReadAllText("ggst.json"), options);
+        var config = JsonSerializer.Deserialize<AdvConfig>(text, options);
 
         AdvConfig.Instance.Commands = config!.Commands;
+        return true;
     }
-
+    
     public async void OpenFile()
     {
+        var configSuccess = await OpenConfig();
+        if (!configSuccess) return;
+        
         if (Avalonia.Application.Current.ApplicationLifetime is not IClassicDesktopStyleApplicationLifetime desktop)
             return;
+        
         // Start async operation to open the dialog.
         var files = await desktop.MainWindow.StorageProvider.OpenFilePickerAsync(new FilePickerOpenOptions
         {
@@ -96,14 +121,18 @@ public partial class MainWindowViewModel : ViewModelBase
     
     public async void ImportFile()
     {
+        var configSuccess = await OpenConfig();
+        if (!configSuccess) return;
+        
         if (Avalonia.Application.Current.ApplicationLifetime is not IClassicDesktopStyleApplicationLifetime desktop)
             return;
+
         // Start async operation to open the dialog.
         var files = await desktop.MainWindow.StorageProvider.OpenFilePickerAsync(new FilePickerOpenOptions
         {
             Title = "Open ADVScript JSON (.json)",
             AllowMultiple = false,
-            FileTypeFilter = [ ADVScriptJson ] 
+            FileTypeFilter = [ Json ] 
         });
 
         if (files.Count < 1) return;
@@ -141,7 +170,7 @@ public partial class MainWindowViewModel : ViewModelBase
         {
             Title = "Save ADVScript JSON (.json)",
             DefaultExtension = ".json",
-            FileTypeChoices = [ ADVScriptJson ],
+            FileTypeChoices = [ Json ],
         });
 
         if (file is null) return;
