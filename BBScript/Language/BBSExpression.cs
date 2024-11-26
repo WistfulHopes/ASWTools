@@ -4,6 +4,7 @@ public enum BBSExpressionType
 {
     INT,
     HEX,
+    BOOL,
     NEGATIVE,
     STRING,
     CONST,

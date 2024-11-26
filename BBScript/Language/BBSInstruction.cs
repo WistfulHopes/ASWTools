@@ -51,6 +51,9 @@ public class BBSInstruction : BBSAST
                 switch (instruction.Args[i].Type)
                 {
                     case ArgType.BOOL:
+                        if ((Args.Expressions[i] as BBSExpression)!.Type != BBSExpressionType.BOOL)
+                            throw new InvalidDataException($"Argument {i} should be a boolean, but it was {(Args.Expressions[i] as BBSExpression)!.Type}");
+                        break;
                     case ArgType.S8:
                     case ArgType.S16:
                     case ArgType.S32:

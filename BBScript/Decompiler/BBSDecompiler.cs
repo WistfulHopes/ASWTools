@@ -29,6 +29,11 @@ public static class BBSDecompiler
                     switch (arg.Type)
                     {
                         case ArgType.BOOL:
+                        {
+                            var val = reader.ReadInt32();
+                            expressions.Add(val > 0 ? "true" : "false");
+                            break;
+                        }
                         case ArgType.S8:
                         case ArgType.S16:
                         case ArgType.S32:

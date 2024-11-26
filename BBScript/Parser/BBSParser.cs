@@ -37,7 +37,7 @@ public class BBSParser
     {
         return new BBSConstExpr
         {
-            Value = value.IntValue,
+            Value = value.IntValue
         };
     }
 
@@ -47,7 +47,7 @@ public class BBSParser
     {
         return new BBSConstExpr
         {
-            Value = -value.IntValue,
+            Value = -value.IntValue
         };
     }
 
@@ -57,7 +57,7 @@ public class BBSParser
     {
         return new BBSVarExpr
         {
-            Name = name.StringWithoutQuotes,
+            Name = name.StringWithoutQuotes
         };
     }
 
@@ -66,7 +66,17 @@ public class BBSParser
     {
         return new BBSIntExpr
         {
-            Value = value.IntValue,
+            Value = value.IntValue
+        };
+    }
+
+    [Production("expr : TRUE")]
+    [Production("expr : FALSE")]
+    public BBSAST expr_BOOL(Token<BBSLexer> boolToken)
+    {
+        return new BBSBoolExpr
+        {
+            Value = bool.Parse(boolToken.StringWithoutQuotes)
         };
     }
 
@@ -75,7 +85,7 @@ public class BBSParser
     {
         return new BBSIntExpr
         {
-            Value = -value.IntValue,
+            Value = -value.IntValue
         };
     }
 
@@ -84,7 +94,7 @@ public class BBSParser
     {
         return new BBSHexExpr
         {
-            Value = value.HexaIntValue,
+            Value = value.HexaIntValue
         };
     }
 
@@ -93,7 +103,7 @@ public class BBSParser
     {
         return new BBSStrExpr
         {
-            Value = value.StringWithoutQuotes,
+            Value = value.StringWithoutQuotes
         };
     }
 
@@ -102,7 +112,7 @@ public class BBSParser
     {
         return new BBSEnumExpr
         {
-            Name = name.StringWithoutQuotes,
+            Name = name.StringWithoutQuotes
         };
     }
 
@@ -126,7 +136,7 @@ public class BBSParser
 
         return new BBSArgs
         {
-            Expressions = expressions,
+            Expressions = expressions
         };
     }
 }
