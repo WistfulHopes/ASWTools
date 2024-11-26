@@ -10,6 +10,8 @@ public class BBSVarExpr : BBSExpression
     public BBSExpressionType Type => BBSExpressionType.VAR;
     public required string Name { get; init; }
     
+    public required int Value { get; init; }
+
     public string Dump()
     {
         return $"(VAR {Name})";
@@ -18,12 +20,12 @@ public class BBSVarExpr : BBSExpression
     public void Compile(CompilerContext context)
     {
         context.Bytecode.AddRange(BitConverter.GetBytes(2).ToList());
-        if (BBSConfig.Instance.Variables!.TryGetValue(Name, out var value))
-            context.Bytecode.AddRange(BitConverter.GetBytes(value).ToList());
-        else if (int.TryParse(Name, out var parsed))
+        if (Name.Length == 0)
         {
-            context.Bytecode.AddRange(BitConverter.GetBytes(parsed).ToList());
+            context.Bytecode.AddRange(BitConverter.GetBytes(Value).ToList());
         }
+        else if (BBSConfig.Instance.Variables!.TryGetValue(Name, out var value))
+            context.Bytecode.AddRange(BitConverter.GetBytes(value).ToList());
         else throw new KeyNotFoundException($"Variable {Name} not found!");
     }
 }

@@ -57,7 +57,19 @@ public class BBSParser
     {
         return new BBSVarExpr
         {
-            Name = name.StringWithoutQuotes
+            Name = name.StringWithoutQuotes,
+            Value = -1
+        };
+    }
+
+    [Production("var : VAR LPAREN INT RPAREN")]
+    public BBSAST var_VAR_LPAREN_INT_RPAREN(Token<BBSLexer> var, Token<BBSLexer> lParen,
+        Token<BBSLexer> val, Token<BBSLexer> rParen)
+    {
+        return new BBSVarExpr
+        {
+            Value = val.IntValue,
+            Name = ""
         };
     }
 
