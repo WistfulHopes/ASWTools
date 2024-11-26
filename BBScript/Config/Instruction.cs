@@ -22,6 +22,9 @@ public enum ArgType
     Enum,
     C16BYTE,
     C32BYTE,
+    C64BYTE,
+    C128BYTE,
+    C256BYTE,
     COperand,
 }
 

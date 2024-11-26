@@ -94,8 +94,8 @@ abstract class Program
         BBSConfig.Instance.Enums = config.Enums;
         BBSConfig.Instance.Instructions = config.Instructions;
         
-        var output = BBSDecompiler.Decompile(File.ReadAllBytes(verbs.Input));
-        
-        File.WriteAllText(verbs.Output!, output);
+        using (BinaryReader reader = new BinaryReader(new FileStream(verbs.Input, FileMode.Open, FileAccess.Read)))
+        using (StreamWriter writer = new StreamWriter(new FileStream(verbs.Output!, FileMode.Create, FileAccess.Write)))
+            BBSDecompiler.Decompile(reader, writer);
     }
 }

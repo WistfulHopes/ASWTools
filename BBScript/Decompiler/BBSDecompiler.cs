@@ -6,21 +6,18 @@ namespace BBScript.Decompiler;
 
 public static class BBSDecompiler
 {
-    public static string Decompile(byte[] bytecode)
+    public static void Decompile(BinaryReader reader, StreamWriter writer)
     {
-        var output = new StringBuilder();
-        
-        var jumpTableSize = BitConverter.ToInt32(bytecode);
+        var jumpTableSize = reader.ReadInt32();
 
-        var pos = jumpTableSize * 0x24 + 0x4;
+        reader.BaseStream.Position = jumpTableSize * 0x24 + 0x4;
 
         var indentLevel = 0;
 
-        while (pos < bytecode.Length)
+        while (reader.BaseStream.Position < reader.BaseStream.Length)
         {
-            var id = BitConverter.ToInt32(bytecode, pos);
-            pos += 4;
-            
+            var id = reader.ReadInt32();
+
             if (!BBSConfig.Instance.Instructions!.TryGetValue(id, out Instruction? value))
                 throw new KeyNotFoundException($"Instruction {id} not found!");
 
@@ -36,23 +33,21 @@ public static class BBSDecompiler
                         case ArgType.S16:
                         case ArgType.S32:
                         {
-                            var val = BitConverter.ToInt32(bytecode, pos);
+                            var val = reader.ReadInt32();
                             expressions.Add(val.ToString());
-                            pos += 4;
                             break;
                         }
                         case ArgType.U8:
                         case ArgType.U16:
                         case ArgType.U32:
                         {
-                            var val = BitConverter.ToUInt32(bytecode, pos);
+                            var val = reader.ReadUInt32();
                             expressions.Add($"0x{val}");
-                            pos += 4;
                             break;
                         }
                         case ArgType.Enum:
                         {
-                            var val = BitConverter.ToInt32(bytecode, pos);
+                            var val = reader.ReadInt32();
                             if (BBSConfig.Instance.Enums![arg.EnumName!]!.ContainsValue(val))
                             {
                                 expressions.Add(BBSConfig.Instance.Enums![arg.EnumName!]!
@@ -62,41 +57,65 @@ public static class BBSDecompiler
                             {
                                 expressions.Add(val.ToString());
                             }
-                            pos += 4;
                             break;
                         }
                         case ArgType.C16BYTE:
                         {
-                            var val = "\"" + Encoding.ASCII.GetString(bytecode, pos, 16) + "\"";
+                            var val = "\"" + Encoding.ASCII.GetString(reader.ReadBytes(16)) + "\"";
                             val = val.Replace("\0", string.Empty);
                             expressions.Add(val);
-                            pos += 16;
                             break;
                         }
                         case ArgType.C32BYTE:
                         {
-                            var val = "\"" + Encoding.ASCII.GetString(bytecode, pos, 32) + "\"";
+                            var val = "\"" + Encoding.ASCII.GetString(reader.ReadBytes(32)) + "\"";
                             val = val.Replace("\0", string.Empty);
                             expressions.Add(val);
-                            pos += 32;
+                            break;
+                        }
+                        case ArgType.C64BYTE:
+                        {
+                            var val = "\"" + Encoding.ASCII.GetString(reader.ReadBytes(64)) + "\"";
+                            val = val.Replace("\0", string.Empty);
+                            expressions.Add(val);
+                            break;
+                        }
+                        case ArgType.C128BYTE:
+                        {
+                            var val = "\"" + Encoding.ASCII.GetString(reader.ReadBytes(128)) + "\"";
+                            val = val.Replace("\0", string.Empty);
+                            expressions.Add(val);
+                            break;
+                        }
+                        case ArgType.C256BYTE:
+                        {
+                            var val = "\"" + Encoding.ASCII.GetString(reader.ReadBytes(256)) + "\"";
+                            val = val.Replace("\0", string.Empty);
+                            expressions.Add(val);
                             break;
                         }
                         case ArgType.COperand:
                         {
-                            var type = BitConverter.ToInt32(bytecode, pos);
-                            pos += 4;
-                            var val = BitConverter.ToInt32(bytecode, pos);
+                            var type = reader.ReadInt32();
+                            var val = reader.ReadInt32();
                             if (type == 0)
                             {
                                 expressions.Add($"Const({val})");
                             }
                             else
                             {
-                                var name = BBSConfig.Instance.Variables!
-                                    .First(x => x.Value == val).Key;
+                                string name;
+                                if (BBSConfig.Instance.Variables!.ContainsValue(val))
+                                {
+                                    name = BBSConfig.Instance.Variables!
+                                        .First(x => x.Value == val).Key;
+                                }
+                                else
+                                {
+                                    name = val.ToString();
+                                }
                                 expressions.Add($"Var({name})");
                             }
-                            pos += 4;
                             break;
                         }
                         default:
@@ -121,24 +140,24 @@ public static class BBSDecompiler
 
             for (var i = 0; i < indentLevel; i++)
             {
-                output.Append('\t');
+                writer.Write('\t');
             }
 
             if (value.Name != null)
             {
-                output.Append(value.Name + "(");
+                writer.Write(value.Name + "(");
             }
             else
             {
-                output.Append("Unknown" + id + "(");
+                writer.Write("Unknown" + id + "(");
             }
             
             for (var i = 0; i < expressions.Count; i++)
             {
-                output.Append(expressions[i]);
-                if (i < expressions.Count - 1) output.Append(", ");
+                writer.Write(expressions[i]);
+                if (i < expressions.Count - 1) writer.Write(", ");
             }
-            output.Append(");\n");
+            writer.Write(");\n");
 
             switch (value.Indent)
             {
@@ -152,11 +171,9 @@ public static class BBSDecompiler
                     indentLevel = 2;
                     break;
                 case IndentType.ScopeEnd:
-                    output.Append('\n');
+                    writer.Write('\n');
                     break;
             }
         }
-        
-        return output.ToString();
     }
 }
