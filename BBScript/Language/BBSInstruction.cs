@@ -27,7 +27,7 @@ public class BBSInstruction : BBSAST
             context.JumpEntryTable[context.Bytecode.Count] = (Args!.Expressions[0] as BBSStrExpr)!.Value;
         }
         
-        var instruction = BBSConfig.Instance.Instructions!.Values.FirstOrDefault(inst => inst.Name == Name);
+        var instruction = BBSConfig.Instance.Instructions!.Values.SingleOrDefault(inst => inst.Name == Name);
         if (instruction == null)
         {
             if (Name.StartsWith("Unknown"))
@@ -40,7 +40,7 @@ public class BBSInstruction : BBSAST
             }
         }
 
-        var id = BBSConfig.Instance.Instructions!.FirstOrDefault(x => x.Value == instruction).Key;
+        var id = BBSConfig.Instance.Instructions!.Single(x => x.Value == instruction).Key;
         context.Bytecode.AddRange(BitConverter.GetBytes(id).ToList());
 
         if (Args != null)

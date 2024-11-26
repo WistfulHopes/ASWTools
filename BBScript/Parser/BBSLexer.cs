@@ -16,6 +16,8 @@ public enum BBSLexer
     VAR,
     [AlphaNumDashId]
     IDENTIFIER,
+    [Sugar("-")]
+    MINUS,
     [Sugar("(")]
     LPAREN,
     [Sugar(")")]

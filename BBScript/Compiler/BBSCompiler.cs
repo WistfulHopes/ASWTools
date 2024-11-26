@@ -21,7 +21,7 @@ public class BBSCompiler
     public byte[] Compile(string source)
     {
         var result = _bbsParser.Parse(source);
-        if (!result.IsOk) throw new InvalidDataException("Could not parse script!");
+        if (!result.IsOk) throw new InvalidDataException("Could not parse script!\n" + result);
         var ast = result.Result;
             
         var context = new CompilerContext();
@@ -32,8 +32,8 @@ public class BBSCompiler
         foreach (var jumpEntry in context.JumpEntryTable)
         {
             output.AddRange(Encoding.ASCII.GetBytes(jumpEntry.Value));
-            output.AddRange(BitConverter.GetBytes(jumpEntry.Key).ToList());
             for (var i = 0; i < 32 - jumpEntry.Value.Length; i++) output.Add(0);
+            output.AddRange(BitConverter.GetBytes(jumpEntry.Key).ToList());
         }
         
         output.AddRange(context.Bytecode);

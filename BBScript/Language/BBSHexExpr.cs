@@ -16,6 +16,6 @@ public class BBSHexExpr : BBSExpression
 
     public void Compile(CompilerContext context)
     {
-        context.Bytecode.AddRange(BitConverter.GetBytes(Value).ToList());
+        context.Bytecode.AddRange(BitConverter.GetBytes((uint)Value).ToList());
     }
 }

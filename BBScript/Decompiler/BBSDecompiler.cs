@@ -42,7 +42,7 @@ public static class BBSDecompiler
                         case ArgType.U32:
                         {
                             var val = reader.ReadUInt32();
-                            expressions.Add($"0x{val}");
+                            expressions.Add($"0x{val:X}");
                             break;
                         }
                         case ArgType.Enum:
@@ -132,6 +132,8 @@ public static class BBSDecompiler
                     indentLevel = 0;
                     break;
                 case IndentType.Cell:
+                    indentLevel = 1;
+                    break;
                 default:
                     break;
             }

@@ -32,12 +32,22 @@ public class BBSParser
     }
 
     [Production("const : CONST LPAREN INT RPAREN")]
-    public BBSAST const_CONST_LPAREN_INT_RPAREN(Token<BBSLexer> @const, Token<BBSLexer> lParen,
-        Token<BBSLexer> value, Token<BBSLexer> rParen)
+    public BBSAST const_CONST_LPAREN_INT_RPAREN(Token<BBSLexer> @const, Token<BBSLexer> @lParen,
+        Token<BBSLexer> value, Token<BBSLexer> @rParen)
     {
         return new BBSConstExpr
         {
             Value = value.IntValue,
+        };
+    }
+
+    [Production("const : CONST LPAREN MINUS INT RPAREN")]
+    public BBSAST const_CONST_LPAREN_MINUS_INT_RPAREN(Token<BBSLexer> @const, Token<BBSLexer> @lParen,
+        Token<BBSLexer> @minus, Token<BBSLexer> value, Token<BBSLexer> @rParen)
+    {
+        return new BBSConstExpr
+        {
+            Value = -value.IntValue,
         };
     }
 
@@ -57,6 +67,15 @@ public class BBSParser
         return new BBSIntExpr
         {
             Value = value.IntValue,
+        };
+    }
+
+    [Production("expr : MINUS INT")]
+    public BBSAST expr_MINUS_INT(Token<BBSLexer> @minus, Token<BBSLexer> value)
+    {
+        return new BBSIntExpr
+        {
+            Value = -value.IntValue,
         };
     }
 
