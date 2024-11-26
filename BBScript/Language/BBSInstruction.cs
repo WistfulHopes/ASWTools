@@ -24,7 +24,7 @@ public class BBSInstruction : BBSAST
     {
         if (BBSConfig.Instance.JumpTableEntries!.Contains(Name))
         {
-            context.JumpEntryTable.Add(new Tuple<int, string>(context.Bytecode.Count, (Args!.Expressions[0] as BBSStrExpr)!.Value));
+            context.JumpEntryTable[context.Bytecode.Count] = (Args!.Expressions[0] as BBSStrExpr)!.Value;
         }
         
         var instruction = BBSConfig.Instance.Instructions!.Values.FirstOrDefault(inst => inst.Name == Name);
