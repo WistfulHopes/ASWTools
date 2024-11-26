@@ -81,6 +81,30 @@ public static class BBSDecompiler
                             pos += 32;
                             break;
                         }
+                        case ArgType.C64BYTE:
+                        {
+                            var val = "\"" + Encoding.ASCII.GetString(bytecode, pos, 64) + "\"";
+                            val = val.Replace("\0", string.Empty);
+                            expressions.Add(val);
+                            pos += 64;
+                            break;
+                        }
+                        case ArgType.C128BYTE:
+                        {
+                            var val = "\"" + Encoding.ASCII.GetString(bytecode, pos, 128) + "\"";
+                            val = val.Replace("\0", string.Empty);
+                            expressions.Add(val);
+                            pos += 128;
+                            break;
+                        }
+                        case ArgType.C256BYTE:
+                        {
+                            var val = "\"" + Encoding.ASCII.GetString(bytecode, pos, 256) + "\"";
+                            val = val.Replace("\0", string.Empty);
+                            expressions.Add(val);
+                            pos += 256;
+                            break;
+                        }
                         case ArgType.COperand:
                         {
                             var type = BitConverter.ToInt32(bytecode, pos);
@@ -92,8 +116,16 @@ public static class BBSDecompiler
                             }
                             else
                             {
-                                var name = BBSConfig.Instance.Variables!
-                                    .First(x => x.Value == val).Key;
+                                string name;
+                                if (BBSConfig.Instance.Variables!.ContainsValue(val))
+                                {
+                                    name = BBSConfig.Instance.Variables!
+                                        .First(x => x.Value == val).Key;
+                                }
+                                else
+                                {
+                                    name = val.ToString();
+                                }
                                 expressions.Add($"Var({name})");
                             }
                             pos += 4;

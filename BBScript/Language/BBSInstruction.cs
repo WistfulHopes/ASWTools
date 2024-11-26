@@ -78,6 +78,21 @@ public class BBSInstruction : BBSAST
                             throw new InvalidDataException($"Argument {i} should be a string, but it was {(Args.Expressions[i] as BBSExpression)!.Type}");
                         (Args.Expressions[i] as BBSStrExpr)!.Length = 32;
                         break;
+                    case ArgType.C64BYTE:
+                        if ((Args.Expressions[i] as BBSExpression)!.Type != BBSExpressionType.STRING)
+                            throw new InvalidDataException($"Argument {i} should be a string, but it was {(Args.Expressions[i] as BBSExpression)!.Type}");
+                        (Args.Expressions[i] as BBSStrExpr)!.Length = 64;
+                        break;
+                    case ArgType.C128BYTE:
+                        if ((Args.Expressions[i] as BBSExpression)!.Type != BBSExpressionType.STRING)
+                            throw new InvalidDataException($"Argument {i} should be a string, but it was {(Args.Expressions[i] as BBSExpression)!.Type}");
+                        (Args.Expressions[i] as BBSStrExpr)!.Length = 128;
+                        break;
+                    case ArgType.C256BYTE:
+                        if ((Args.Expressions[i] as BBSExpression)!.Type != BBSExpressionType.STRING)
+                            throw new InvalidDataException($"Argument {i} should be a string, but it was {(Args.Expressions[i] as BBSExpression)!.Type}");
+                        (Args.Expressions[i] as BBSStrExpr)!.Length = 256;
+                        break;
                     case ArgType.COperand:
                         if ((Args.Expressions[i] as BBSExpression)!.Type != BBSExpressionType.CONST
                             && (Args.Expressions[i] as BBSExpression)!.Type != BBSExpressionType.VAR)
