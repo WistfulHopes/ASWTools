@@ -11,3 +11,5 @@ The reason I made a new tool for BBScript was partially to challenge myself, and
 To decompile scripts, use the command `bbscript decompile -c <config_file> -i <input_file> -o <output_file>`. For example, if you were to decompile GGST's BBS_CMNEF, use `bbscript decompile -c ggst.json -i BBS_CMNEF.bbsbin -o BBS_CMNEF.bbs`.
 
 To compile scripts, use the command `bbscript compile -c <config_file> -i <input_file> -o <output_file>`. For example, if you were to compile GGST's BBS_CMNEF, use `bbscript decompile -c ggst.json -i BBS_CMNEF.bbs -o BBS_CMNEF.bbsbin`.
+
+Updated configurations may be found [here](https://github.com/WistfulHopes/ASWTools/tree/master/BBScript/Config).
