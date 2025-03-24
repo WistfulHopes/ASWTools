@@ -9258,6 +9258,40 @@
                 }
             ]
         },
+        "740": {
+            "Size": 8,
+            "Indent": "None",
+            "Args": [
+                {
+                    "Type": "S32",
+                    "Name": "val"
+                }
+            ]
+        },
+        "741": {
+            "Size": 8,
+            "Indent": "None",
+            "Args": [
+                {
+                    "Type": "S32",
+                    "Name": "val"
+                }
+            ]
+        },
+        "742": {
+            "Size": 8,
+            "Indent": "None",
+            "Args": [
+                {
+                    "Type": "S32",
+                    "Name": "val"
+                },
+                {
+                    "Type": "S32",
+                    "Name": "val"
+                }
+            ]
+        },
         "754": {
             "Size": 12,
             "Name": "AtkVectorX",
