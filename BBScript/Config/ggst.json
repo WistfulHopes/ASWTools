@@ -22621,7 +22621,7 @@
             ]
         },
         "2205": {
-            "Size": 16,
+            "Size": 24,
             "Name": "VeBall",
             "Indent": "None",
             "Args": [
@@ -22636,6 +22636,14 @@
                 {
                     "Type": "S32",
                     "Name": "arg2"
+                },
+                {
+                    "Type": "S32",
+                    "Name": "arg3"
+                },
+                {
+                    "Type": "S32",
+                    "Name": "arg4"
                 }
             ]
         },
