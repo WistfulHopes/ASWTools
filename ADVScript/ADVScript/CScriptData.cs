@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Text;
 
-namespace ADVScriptEditor.ADVScript;
+namespace ADVScript.ADVScript;
 
 public class SAdvScrHeader
 {
@@ -21,58 +19,44 @@ public class SAdvScrParamHeader
 public class SAdvScrCommand
 {
     public int Command { get; set; }
-    public int[] Arg { get; set; }
+    public int[] Arg { get; } = new int[14];
     public int StrFlag { get; set; }
-
-    public SAdvScrCommand()
-    {
-        Arg = new int[14];
-    }
 }
 
 public class SAdvScrStringHeader
 {
-    public uint StringIdx { get; set; }
-    public uint Length { get; set; }
+    public uint StringIdx { get; init; }
+    public uint Length { get; init; }
 }
 
 public class CScriptData
 {
-    public SAdvScrHeader m_ScriptHeader { get; set; }
-    public SAdvScrParamHeader[] m_ParamHeader { get; set; }
-    public SAdvScrCommand[] m_CommandList { get; set; }
-    public SAdvScrStringHeader[] m_StringHeader { get; set; }
-    public List<string> m_StringBuffer { get; set; }
+    public SAdvScrHeader ScriptHeader { get; set; } = new();
+    public SAdvScrParamHeader[] ParamHeader { get; set; } = [new(), new(), new()];
+    public SAdvScrCommand[] CommandList { get; set; } = [];
+    public SAdvScrStringHeader[] StringHeader { get; set; } = [];
+    public List<string> StringBuffer { get; set; } = new();
 
-    public CScriptData()
-    {
-        m_ScriptHeader = new SAdvScrHeader();
-        m_ParamHeader = [new(), new(), new()];
-        m_CommandList = Array.Empty<SAdvScrCommand>();
-        m_StringHeader = Array.Empty<SAdvScrStringHeader>();
-        m_StringBuffer = new List<string>();
-    }
-    
     public void Read(byte[] bytecode)
     {
         var pos = 0;
         
-        m_ScriptHeader.Type = BitConverter.ToUInt32(bytecode);
-        m_ScriptHeader.Version = BitConverter.ToUInt32(bytecode, 4);
-        m_ScriptHeader.CommandNum = BitConverter.ToUInt32(bytecode, 8);
-        m_ScriptHeader.Flag = BitConverter.ToUInt32(bytecode, 12);
+        ScriptHeader.Type = BitConverter.ToUInt32(bytecode);
+        ScriptHeader.Version = BitConverter.ToUInt32(bytecode, 4);
+        ScriptHeader.CommandNum = BitConverter.ToUInt32(bytecode, 8);
+        ScriptHeader.Flag = BitConverter.ToUInt32(bytecode, 12);
 
         pos += 16;
 
-        foreach (var paramHeader in m_ParamHeader)
+        foreach (var paramHeader in ParamHeader)
         {
             paramHeader.Offset = BitConverter.ToUInt32(bytecode, pos);
             paramHeader.Num = BitConverter.ToUInt32(bytecode, pos + 4);
             pos += 16;
         }
 
-        m_CommandList = new SAdvScrCommand[m_ScriptHeader.CommandNum];
-        for (var i = 0; i < m_ScriptHeader.CommandNum; i++)
+        CommandList = new SAdvScrCommand[ScriptHeader.CommandNum];
+        for (var i = 0; i < ScriptHeader.CommandNum; i++)
         {
             var command = new SAdvScrCommand
             {
@@ -89,11 +73,11 @@ public class CScriptData
             command.StrFlag = BitConverter.ToInt32(bytecode, pos);
             pos += 4;
 
-            m_CommandList[i] = command;
+            CommandList[i] = command;
         }
 
-        m_StringHeader = new SAdvScrStringHeader[m_ParamHeader[1].Num];
-        for (var i = 0; i < m_ParamHeader[1].Num; i++)
+        StringHeader = new SAdvScrStringHeader[ParamHeader[1].Num];
+        for (var i = 0; i < ParamHeader[1].Num; i++)
         {
             var stringHeader = new SAdvScrStringHeader
             {
@@ -102,15 +86,15 @@ public class CScriptData
             };
             pos += 16;
 
-            m_StringHeader[i] = stringHeader;
+            StringHeader[i] = stringHeader;
         }
         
-        m_StringBuffer = [..new string[m_ParamHeader[1].Num]];
-        for (var i = 0; i < m_ParamHeader[1].Num; i++)
+        StringBuffer = [..new string[ParamHeader[1].Num]];
+        for (var i = 0; i < ParamHeader[1].Num; i++)
         {
-            if (m_StringHeader[i].Length == 0) m_StringBuffer[i] = "";
-            else m_StringBuffer[i] = Encoding.ASCII.GetString(bytecode, pos, (int)m_StringHeader[i].Length);
-            pos += (int)m_StringHeader[i].Length + 1;
+            if (StringHeader[i].Length == 0) StringBuffer[i] = "";
+            else StringBuffer[i] = Encoding.ASCII.GetString(bytecode, pos, (int)StringHeader[i].Length);
+            pos += (int)StringHeader[i].Length + 1;
         }
     }
 
@@ -118,19 +102,19 @@ public class CScriptData
     {
         var output = new List<byte>();
         
-        output.AddRange(BitConverter.GetBytes(m_ScriptHeader.Type));
-        output.AddRange(BitConverter.GetBytes(m_ScriptHeader.Version));
-        output.AddRange(BitConverter.GetBytes(m_ScriptHeader.CommandNum));
-        output.AddRange(BitConverter.GetBytes(m_ScriptHeader.Flag));
+        output.AddRange(BitConverter.GetBytes(ScriptHeader.Type));
+        output.AddRange(BitConverter.GetBytes(ScriptHeader.Version));
+        output.AddRange(BitConverter.GetBytes(ScriptHeader.CommandNum));
+        output.AddRange(BitConverter.GetBytes(ScriptHeader.Flag));
         
-        foreach (var paramHeader in m_ParamHeader)
+        foreach (var paramHeader in ParamHeader)
         {
             output.AddRange(BitConverter.GetBytes(paramHeader.Offset));
             output.AddRange(BitConverter.GetBytes(paramHeader.Num));
             output.AddRange(BitConverter.GetBytes((ulong)0));
         }
 
-        foreach (var command in m_CommandList)
+        foreach (var command in CommandList)
         {
             output.AddRange(BitConverter.GetBytes(command.Command));
             foreach (var arg in command.Arg)
@@ -140,14 +124,14 @@ public class CScriptData
             output.AddRange(BitConverter.GetBytes(command.StrFlag));
         }
 
-        foreach (var stringHeader in m_StringHeader)
+        foreach (var stringHeader in StringHeader)
         {
             output.AddRange(BitConverter.GetBytes(stringHeader.StringIdx));
             output.AddRange(BitConverter.GetBytes(stringHeader.Length));
             output.AddRange(BitConverter.GetBytes((ulong)0));
         }
 
-        foreach (var @string in m_StringBuffer)
+        foreach (var @string in StringBuffer)
         {
             if (@string != "") output.AddRange(Encoding.ASCII.GetBytes(@string));
             output.Add(0);

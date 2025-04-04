@@ -1,35 +1,46 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Linq;
+﻿using System.Collections.ObjectModel;
 using System.Runtime.InteropServices;
 using System.Text;
-using DynamicData;
 
-namespace ADVScriptEditor.ADVScript;
+namespace ADVScript.ADVScript;
 
-public struct SParsedArg
+public record struct SParsedArg()
 {
     public bool IsInt { get; set; } 
     public bool IsString { get; set; } 
     public int Value { get; set; }
-    public string StrValue { get; set; }
-    
-    public SParsedArg()
-    {
-        StrValue = "";
-    }
+    public string StrValue { get; set; } = "";
 }
 
-public struct SParsedCommand
+public struct SParsedCommand() : IEquatable<SParsedCommand>
 {
-    public string Name { get; set; }
-    public List<SParsedArg> Args { get; set; }
+    public string Name { get; set; } = "";
+    public List<SParsedArg> Args { get; set; } = [];
     public int StrFlag { get; set; }
 
-    public SParsedCommand()
+    public bool Equals(SParsedCommand other)
     {
-        Args = new List<SParsedArg>();
+        return Name == other.Name && Args.Equals(other.Args) && StrFlag == other.StrFlag;
+    }
+
+    public override bool Equals(object? obj)
+    {
+        return obj is SParsedCommand other && Equals(other);
+    }
+
+    public override int GetHashCode()
+    {
+        return HashCode.Combine(Name, Args, StrFlag);
+    }
+
+    public static bool operator ==(SParsedCommand left, SParsedCommand right)
+    {
+        return left.Equals(right);
+    }
+
+    public static bool operator !=(SParsedCommand left, SParsedCommand right)
+    {
+        return !(left == right);
     }
 }
 
@@ -43,42 +54,42 @@ public class CParsedScript
     public CParsedScript()
     {
         Type = "";
-        Commands = new ObservableCollection<SParsedCommand>();
+        Commands = [];
     }
 
     public CParsedScript(CScriptData inAdvScript)
     {
-        Type = Encoding.ASCII.GetString(BitConverter.GetBytes(inAdvScript.m_ScriptHeader.Type), 0 ,3);
-        Version = inAdvScript.m_ScriptHeader.Version;
-        Flag = inAdvScript.m_ScriptHeader.Flag;
+        Type = Encoding.ASCII.GetString(BitConverter.GetBytes(inAdvScript.ScriptHeader.Type), 0 ,3);
+        Version = inAdvScript.ScriptHeader.Version;
+        Flag = inAdvScript.ScriptHeader.Flag;
         Commands = new ObservableCollection<SParsedCommand>();
 
-        foreach (var rawCommand in inAdvScript.m_CommandList)
+        foreach (var rawCommand in inAdvScript.CommandList)
         {
             var command = new SParsedCommand
             {
-                Name = inAdvScript.m_StringBuffer[rawCommand.Command],
+                Name = inAdvScript.StringBuffer[rawCommand.Command],
                 StrFlag = rawCommand.StrFlag
             };
 
-            if (!AdvConfig.Instance.Commands!.TryGetValue(command.Name, out var argTypes)) continue;
+            if (!ADVConfig.Instance.Commands!.TryGetValue(command.Name, out var argTypes)) continue;
 
             for (var i = 0; i < argTypes.Count; i++)
             {
                 var arg = new SParsedArg();
                 switch (argTypes[i])
                 {
-                    case AdvArg.Int:
+                    case ADVArg.Int:
                         arg.IsInt = true;
                         arg.IsString = false;
                         arg.Value = rawCommand.Arg[i];
-                        arg.StrValue = "Unused";
+                        arg.StrValue = "";
                         break;
-                    case AdvArg.String:
+                    case ADVArg.String:
                         arg.IsInt = false;
                         arg.IsString = true;
-                        arg.Value = -1;
-                        arg.StrValue = inAdvScript.m_StringBuffer[rawCommand.Arg[i]];
+                        arg.Value = 0;
+                        arg.StrValue = inAdvScript.StringBuffer[rawCommand.Arg[i]];
                         break;
                     default:
                         throw new ArgumentOutOfRangeException();
@@ -96,7 +107,7 @@ public class CParsedScript
         CollectionsMarshal.SetCount(typeBytes, 4);
         var script = new CScriptData
         {
-            m_ScriptHeader =
+            ScriptHeader =
             {
                 Type = BitConverter.ToUInt32(typeBytes.ToArray()),
                 Version = Version,
@@ -105,12 +116,12 @@ public class CParsedScript
             }
         };
 
-        script.m_StringBuffer.Add("dummy");
+        script.StringBuffer.Add("dummy");
         
-        script.m_ParamHeader[0].Offset = 0x40;
-        script.m_ParamHeader[0].Num = (uint)Commands.Count;
+        script.ParamHeader[0].Offset = 0x40;
+        script.ParamHeader[0].Num = (uint)Commands.Count;
 
-        script.m_CommandList = new SAdvScrCommand[Commands.Count];
+        script.CommandList = new SAdvScrCommand[Commands.Count];
 
         for (var i = 0; i < Commands.Count; i++)
         {
@@ -123,11 +134,11 @@ public class CParsedScript
                 var arg = command.Args[j];
                 if (arg.IsString)
                 {
-                    var index = script.m_StringBuffer.IndexOf(arg.StrValue);
+                    var index = script.StringBuffer.IndexOf(arg.StrValue);
                     if (index == -1)
                     {
-                        script.m_StringBuffer.Add(arg.StrValue);
-                        scrCommand.Arg[j] = script.m_StringBuffer.Count - 1;
+                        script.StringBuffer.Add(arg.StrValue);
+                        scrCommand.Arg[j] = script.StringBuffer.Count - 1;
                     }
                     else
                     {
@@ -141,17 +152,17 @@ public class CParsedScript
             }
 
             scrCommand.StrFlag = command.StrFlag;
-            script.m_CommandList[i] = scrCommand;
+            script.CommandList[i] = scrCommand;
         }
 
         for (var i = 0; i < Commands.Count; i++)
         {
-            var scrCommand = script.m_CommandList[i];
-            var index = script.m_StringBuffer.IndexOf(Commands[i].Name);
+            var scrCommand = script.CommandList[i];
+            var index = script.StringBuffer.IndexOf(Commands[i].Name);
             if (index == -1)
             {
-                script.m_StringBuffer.Add(Commands[i].Name);
-                scrCommand.Command = script.m_StringBuffer.Count - 1;
+                script.StringBuffer.Add(Commands[i].Name);
+                scrCommand.Command = script.StringBuffer.Count - 1;
             }
             else
             {
@@ -159,25 +170,25 @@ public class CParsedScript
             }
         }
 
-        script.m_ParamHeader[1].Offset = script.m_ParamHeader[0].Offset + script.m_ParamHeader[0].Num * 0x40;
-        script.m_ParamHeader[1].Num = (uint)script.m_StringBuffer.Count;
+        script.ParamHeader[1].Offset = script.ParamHeader[0].Offset + script.ParamHeader[0].Num * 0x40;
+        script.ParamHeader[1].Num = (uint)script.StringBuffer.Count;
 
-        script.m_ParamHeader[2].Offset = script.m_ParamHeader[1].Offset + script.m_ParamHeader[1].Num * 0x10;
+        script.ParamHeader[2].Offset = script.ParamHeader[1].Offset + script.ParamHeader[1].Num * 0x10;
 
-        script.m_StringHeader = new SAdvScrStringHeader[script.m_StringBuffer.Count];
+        script.StringHeader = new SAdvScrStringHeader[script.StringBuffer.Count];
         var stringIdx = 0;
         
-        for (var i = 0; i < script.m_StringBuffer.Count; i++)
+        for (var i = 0; i < script.StringBuffer.Count; i++)
         {
-            script.m_StringHeader[i] = new SAdvScrStringHeader
+            script.StringHeader[i] = new SAdvScrStringHeader
             {
                 StringIdx = (uint)stringIdx,
-                Length = (uint)script.m_StringBuffer[i].Length
+                Length = (uint)script.StringBuffer[i].Length
             };
-            stringIdx += script.m_StringBuffer[i].Length + 1;
+            stringIdx += script.StringBuffer[i].Length + 1;
         }
 
-        script.m_ParamHeader[2].Num = (uint)stringIdx;
+        script.ParamHeader[2].Num = (uint)stringIdx;
         
         return script;
     }
