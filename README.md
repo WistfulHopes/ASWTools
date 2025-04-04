@@ -13,3 +13,9 @@ To decompile scripts, use the command `bbscript decompile -c <config_file> -i <i
 To compile scripts, use the command `bbscript compile -c <config_file> -i <input_file> -o <output_file>`. For example, if you were to compile GGST's BBS_CMNEF, use `bbscript decompile -c ggst.json -i BBS_CMNEF.bbs -o BBS_CMNEF.bbsbin`.
 
 Updated configurations may be found [here](https://github.com/WistfulHopes/ASWTools/tree/master/BBScript/Config).
+
+## ADVScript
+
+To decompile scripts, use the command `advscript decompile -c <config_file> -i <input_file> -o <output_file>`. For example, if you were to decompile GGST's ADV_SOL, use `advscript decompile -c ggst.json -i ADV_SOL.advbin -o ADV_SOL.adv`.
+
+To compile scripts, use the command `advscript compile -c <config_file> -i <input_file> -o <output_file>`. For example, if you were to compile GGST's ADV_SOL, use `advscript decompile -c ggst.json -i ADV_SOL.adv -o ADV_SOL.advbin`.
