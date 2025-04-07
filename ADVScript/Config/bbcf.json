@@ -1,0 +1,566 @@
+{
+    "Commands": {
+        "scene": [
+            "String"
+        ],
+        "sub": [
+            "String"
+        ],
+        "end": [],
+        "call": [
+            "String"
+        ],
+        "jump": [
+            "String",
+            "Int"
+        ],
+        "jump_battle": [
+            "String"
+        ],
+        "jump_movie": [
+            "String",
+            "String",
+            "Int"
+        ],
+        "jump_staffroll": [
+            "String"
+        ],
+        "jump_setscene": [],
+        "goto": [
+            "String"
+        ],
+        "sleep": [
+            "Int"
+        ],
+        "wait": [
+            "Int"
+        ],
+        "wait_key": [],
+        "wait_start": [],
+        "request_scene": [
+            "String"
+        ],
+        "end_scene": [
+            "String"
+        ],
+        "chapterstart": [
+            "Int",
+            "Int"
+        ],
+        "chapterclear": [
+            "Int",
+            "Int"
+        ],
+        "trophyset": [
+            "Int"
+        ],
+        "commonflag_setting": [
+            "String",
+            "Int"
+        ],
+        "commonflag": [
+            "String",
+            "Int"
+        ],
+        "localflag_setting": [
+            "String"
+        ],
+        "localflag": [
+            "String",
+            "Int"
+        ],
+        "valueflag_setting": [
+            "String"
+        ],
+        "valueflag": [
+            "String",
+            "Int",
+            "String"
+        ],
+        "select": [
+            "String",
+            "String",
+            "String",
+            "String",
+            "String",
+            "String",
+            "String",
+            "String"
+        ],
+        "ifcommon": [
+            "String",
+            "String"
+        ],
+        "iflocal": [
+            "String",
+            "String"
+        ],
+        "ifvalue": [
+            "String",
+            "Int",
+            "String"
+        ],
+        "ifselect": [
+            "Int"
+        ],
+        "ifdebug": [],
+        "ifrand": [
+            "Int"
+        ],
+        "else": [],
+        "endif": [],
+        "message": [
+            "String",
+            "Int"
+        ],
+        "messagewait": [],
+        "messageclear": [],
+        "textbox": [
+            "String",
+            "Int",
+            "Int"
+        ],
+        "message_textonly": [
+            "String"
+        ],
+        "message_voiceonly": [
+            "String"
+        ],
+        "message_offset_param": [
+            "String",
+            "String",
+            "Int",
+            "Int",
+            "Int",
+            "Int",
+            "Int"
+        ],
+        "message_hide_oneshot": [],
+        "message_clear": [],
+        "message_hide_all": [
+            "Int"
+        ],
+        "param": [
+            "String",
+            "String",
+            "Int",
+            "Int",
+            "Int"
+        ],
+        "param_fhd": [
+            "String",
+            "String",
+            "Int",
+            "Int"
+        ],
+        "offset": [
+            "String",
+            "String",
+            "String",
+            "Int",
+            "Int",
+            "Int",
+            "Int",
+            "String",
+            "Int"
+        ],
+        "offset3": [
+            "String",
+            "String",
+            "Int",
+            "Int",
+            "Int",
+            "Int",
+            "Int",
+            "Int",
+            "Int"
+        ],
+        "actionkey": [
+            "String",
+            "String",
+            "Int",
+            "Int"
+        ],
+        "delete": [
+            "String",
+            "Int"
+        ],
+        "life": [
+            "String",
+            "Int"
+        ],
+        "link": [
+            "String",
+            "String"
+        ],
+        "reverse": [
+            "String",
+            "Int"
+        ],
+        "layer": [
+            "String",
+            "Int"
+        ],
+        "anime": [
+            "String",
+            "Int",
+            "Int",
+            "Int"
+        ],
+        "animetable": [
+            "String",
+            "Int"
+        ],
+        "setimage": [
+            "String",
+            "String",
+            "Int"
+        ],
+        "ignoreskip": [
+            "String",
+            "Int"
+        ],
+        "objflag": [
+            "String",
+            "String",
+            "String"
+        ],
+        "actiontime": [
+            "Int"
+        ],
+        "actionskip": [],
+        "body": [
+            "String",
+            "String",
+            "Int"
+        ],
+        "mask": [
+            "String",
+            "String",
+            "Int"
+        ],
+        "avatar": [
+            "String",
+            "String",
+            "Int"
+        ],
+        "avatar_add_obj": [
+            "String",
+            "String",
+            "Int",
+            "Int",
+            "Int",
+            "Int",
+            "String"
+        ],
+        "bg": [
+            "String",
+            "String",
+            "Int",
+            "Int"
+            
+        ],
+        "bg_layer": [
+            "String",
+            "String",
+            "String"
+        ],
+        "cg": [
+            "String",
+            "Int"
+        ],
+        "sprite": [
+            "String",
+            "String"
+        ],
+        "effect": [
+            "String",
+            "Int",
+            "Int",
+            "Int",
+            "Int"
+        ],
+        "effect2d": [
+            "String",
+            "Int",
+            "Int",
+            "Int",
+            "Int"
+        ],
+        "eff3d": [
+            "String",
+            "String",
+            "Int"
+        ],
+        "eff3d_screen": [
+            "String",
+            "String",
+            "Int"
+        ],
+        "obj_effect": [
+            "String",
+            "String",
+            "Int",
+            "Int",
+            "String",
+            "String"
+        ],
+        "obj_effect2d": [
+            "String",
+            "String",
+            "Int",
+            "Int"
+        ],
+        "obj_effectloop": [
+            "String",
+            "String",
+            "Int",
+            "Int",
+            "String",
+            "String"
+        ],
+        "screen": [
+            "String"
+        ],
+        "screen2d": [
+            "String"
+        ],
+        "sprite2d": [
+            "String",
+            "String",
+            "Int"
+        ],
+        "spritelayer": [
+            "String",
+            "String",
+            "Int",
+            "Int",
+            "Int"
+        ],
+        "capture": [
+            "Int",
+            "String"
+        ],
+        "fadeout": [
+            "Int",
+            "Int",
+            "Int",
+            "Int",
+            "String"
+        ],
+        "fadein": [
+            "Int"
+        ],
+        "filter": [
+            "String",
+            "Int"
+        ],
+        "obj_after_img_on": [
+            "String"
+        ],
+        "obj_after_img_off": [
+            "String"
+        ],
+        "obj_filter_particle": [
+            "String",
+            "String",
+            "Int",
+            "Int",
+            "Int"
+        ],
+        "param_wait": [
+            "String",
+            "String"
+        ],
+        "all_obj_param_wait": [],
+        "draw_on": [
+            "String"
+        ],
+        "draw_off": [
+            "String"
+        ],
+        "break_sprite": [
+            "String",
+            "Int",
+            "Int",
+            "Int",
+            "Int",
+            "Int"
+        ],
+        "screen_gauss": [
+            "int"
+        ],
+        "screen_gradation": [
+            "Int",
+            "Int",
+            "Int",
+            "Int",
+            "Int",
+            "String"
+        ],
+        "delete_screen_gradation": [
+            "Int"
+        ],
+        "dof": [
+            "String",
+            "Int"
+        ],
+        "set_blend_mode": [
+            "String",
+            "String"
+        ],
+        "camerasetting": [
+            "Int",
+            "Int",
+            "Int"
+        ],
+        "camera_set_look_at_pos": [
+            "Int",
+            "Int",
+            "Int",
+            "Int"
+        ],
+        "camera_set_look_at_default_pos": [
+            "Int"
+        ],
+        "bgsetting": [
+            "Int",
+            "Int",
+            "Int"
+        ],
+        "battlesetting": [
+            "String",
+            "String",
+            "Int",
+            "Int"
+        ],
+        "se": [
+            "String",
+            "String"
+        ],
+        "voice": [
+            "String",
+            "String"
+        ],
+        "bgm": [
+            "String"
+        ],
+        "sestop": [],
+        "bgmstop": [
+            "Int",
+            "Int"
+        ],
+        "sevolume": [
+            "String",
+            "Int",
+            "Int"
+        ],
+        "sevolume_target": [
+            "Int",
+            "Int"
+        ],
+        "bgmvolume": [
+            "Int",
+            "Int"
+        ],
+        "obj_se": [
+            "String",
+            "String",
+            "String"
+        ],
+        "obj_system_se": [
+            "String",
+            "String",
+            "String"
+        ],
+        "obj_se_stop": [
+            "String"
+        ],
+        "sound_param": [
+            "String",
+            "String",
+            "Int",
+            "Int",
+            "Int"
+        ],
+        "set_movie_text": [
+            "String"
+        ],
+        "movie_text_on": [],
+        "movie_text_off": [],
+        "movie_end_wait": [],
+        "transition": [
+            "String",
+            "Int"
+        ],
+        "delete_alleffect": [],
+        "obj_filter": [
+            "String",
+            "String",
+            "Int",
+            "Int"
+        ],
+        "obj_all_undisp": [
+            "Int"
+        ],
+        "pad_vibration": [
+            "Int",
+            "Int"
+        ],
+        "set_bloom": [
+            "Int",
+            "Int",
+            "Int",
+            "Int"
+        ],
+        "delete_bloom": [],
+        "set_eventside_priority": [
+            "String"
+        ],
+        "synch_renderstage": [
+            "String",
+            "String"
+        ],
+        "switching_img_resource": [
+            "String",
+            "String",
+            "String",
+            "String",
+            "String"
+        ],
+        "switching_img_frame": [
+            "Int",
+            "Int",
+            "Int",
+            "Int",
+            "Int"
+        ],
+        "switching_img_playno": [
+            "Int",
+            "Int",
+            "Int",
+            "Int",
+            "Int",
+            "Int",
+            "Int",
+            "Int"
+        ],
+        "switching_img_delete": [
+            "Int"
+        ],
+        "switching_img_fade": [
+            "Int"
+        ],
+        "change_ep": [
+            "String",
+            "String"
+        ],
+        "set_blink": [
+            "Int"
+        ],
+        "open_scenario_window": [
+            "Int",
+            "Int"
+        ]
+    }
+}

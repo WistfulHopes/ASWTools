@@ -72,7 +72,11 @@ public class CParsedScript
                 StrFlag = rawCommand.StrFlag
             };
 
-            if (!ADVConfig.Instance.Commands!.TryGetValue(command.Name, out var argTypes)) continue;
+            if (!ADVConfig.Instance.Commands!.TryGetValue(command.Name, out var argTypes))
+            {
+                Console.WriteLine("Failed to find command " + command.Name + " in the configuration! Make an issue on the GitHub repository.");
+                continue;
+            }
 
             for (var i = 0; i < argTypes.Count; i++)
             {
