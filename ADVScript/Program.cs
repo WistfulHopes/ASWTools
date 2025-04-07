@@ -90,6 +90,9 @@ internal partial class Program
             var cmdArgs = CmdArgsRegex();
             var cmdArgsMatch = cmdArgs.Match(command).Groups[1].Value.Split([','], StringSplitOptions.TrimEntries);
 
+            var strFlag = 0;
+            var cmdIdx = 0;
+            
             foreach (var cmdArg in cmdArgsMatch)
             {
                 var parsedArg = new SParsedArg();
@@ -102,18 +105,14 @@ internal partial class Program
                 {
                     parsedArg.IsString = true;
                     parsedArg.StrValue = cmdArg;
+                    strFlag += 1 << cmdIdx;
                 }
-                
+
+                cmdIdx++;
                 parsedCommand.Args.Add(parsedArg);
             }
 
-            var strFlag = StrFlagRegex();
-            var strFlagMatch = strFlag.Match(command);
-            
-            if (int.TryParse(strFlagMatch.Value[2..], out var flg))
-            {
-                parsedCommand.StrFlag = flg;
-            }
+            parsedCommand.StrFlag = strFlag;
             
             parsedScript.Commands.Add(parsedCommand);
             
@@ -158,8 +157,7 @@ internal partial class Program
                 
                 if (i != command.Args.Count - 1) sw.Write(", ");
             }
-            sw.Write("), ");
-            sw.WriteLine(command.StrFlag);
+            sw.WriteLine(")");
         }
         
         sw.Close();
@@ -169,6 +167,4 @@ internal partial class Program
     private static partial Regex CmdNameRegex();
     [GeneratedRegex(@"\(([^\)]+)\)")]
     private static partial Regex CmdArgsRegex();
-    [GeneratedRegex(@"\)\,\s(.*)")]
-    private static partial Regex StrFlagRegex();
 }
