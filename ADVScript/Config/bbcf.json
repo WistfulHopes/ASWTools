@@ -29,6 +29,9 @@
         "goto": [
             "String"
         ],
+        "label": [
+            "String"
+        ],
         "sleep": [
             "Int"
         ],
@@ -451,11 +454,6 @@
             "Int"
         ],
         "sevolume": [
-            "String",
-            "Int",
-            "Int"
-        ],
-        "sevolume_target": [
             "Int",
             "Int"
         ],
@@ -514,6 +512,9 @@
             "Int"
         ],
         "delete_bloom": [],
+        "set_debug_scene_list": [
+            "String"
+        ],
         "set_eventside_priority": [
             "String"
         ],
