@@ -65,8 +65,7 @@ abstract class Program
         BBSConfig.Instance.Enums = config.Enums;
         BBSConfig.Instance.Instructions = config.Instructions;
         
-        var compiler = new BBSCompiler();
-        var output = compiler.Compile(File.ReadAllText(verbs.Input));
+        var output = BBSCompiler.Compile(File.ReadAllText(verbs.Input));
         
         File.WriteAllBytes(verbs.Output!, output);
     }
@@ -93,9 +92,9 @@ abstract class Program
         BBSConfig.Instance.Variables = config.Variables;
         BBSConfig.Instance.Enums = config.Enums;
         BBSConfig.Instance.Instructions = config.Instructions;
-        
-        using (BinaryReader reader = new BinaryReader(new FileStream(verbs.Input, FileMode.Open, FileAccess.Read)))
-        using (StreamWriter writer = new StreamWriter(new FileStream(verbs.Output!, FileMode.Create, FileAccess.Write)))
-            BBSDecompiler.Decompile(reader, writer);
+
+        using var reader = new BinaryReader(new FileStream(verbs.Input, FileMode.Open, FileAccess.Read));
+        using var writer = new StreamWriter(new FileStream(verbs.Output!, FileMode.Create, FileAccess.Write));
+        BBSDecompiler.Decompile(reader, writer);
     }
 }

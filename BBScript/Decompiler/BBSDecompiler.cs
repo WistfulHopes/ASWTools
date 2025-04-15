@@ -1,6 +1,5 @@
 ﻿using System.Text;
 using BBScript.Config;
-using BBScript.Language;
 
 namespace BBScript.Decompiler;
 
@@ -105,7 +104,7 @@ public static class BBSDecompiler
                             var val = reader.ReadInt32();
                             if (type == 0)
                             {
-                                expressions.Add($"Const({val})");
+                                expressions.Add($"{val}");
                             }
                             else
                             {
@@ -119,7 +118,7 @@ public static class BBSDecompiler
                                 {
                                     name = val.ToString();
                                 }
-                                expressions.Add($"Var({name})");
+                                expressions.Add($"{name}");
                             }
                             break;
                         }

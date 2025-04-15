@@ -9,7 +9,7 @@
 
     <ItemGroup>
       <PackageReference Include="CommandLineParser" Version="2.9.1" />
-      <PackageReference Include="sly" Version="3.2.8" />
+      <PackageReference Include="Pidgin" Version="3.4.0" />
     </ItemGroup>
 
 </Project>
