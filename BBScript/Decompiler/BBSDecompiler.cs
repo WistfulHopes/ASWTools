@@ -116,7 +116,7 @@ public static class BBSDecompiler
                                 }
                                 else
                                 {
-                                    name = val.ToString();
+                                    name = "VAR_" + val;
                                 }
                                 expressions.Add($"{name}");
                             }

@@ -252,8 +252,6 @@ public class BBSConstExpr : BBSIntExpr
 
 public class BBSVarExpr : BBSEnumExpr
 {
-    public int Value { get; init; }
-
     public BBSVarExpr(BBSEnumExpr _base)
     {
         Name = _base.Name;
@@ -261,18 +259,18 @@ public class BBSVarExpr : BBSEnumExpr
 
     public override string ToString()
     {
-        return $"(VAR {(Name.Length > 0 ? Name : Value)})";
+        return $"(VAR {Name})";
     }
 
     public override void Compile(CompilerContext context)
     {
         context.Bytecode.AddRange(BitConverter.GetBytes(2).ToList());
-        if (Name.Length == 0)
-        {
-            context.Bytecode.AddRange(BitConverter.GetBytes(Value).ToList());
-        }
-        else if (BBSConfig.Instance.Variables!.TryGetValue(Name, out var value))
+        if (BBSConfig.Instance.Variables!.TryGetValue(Name, out var value))
             context.Bytecode.AddRange(BitConverter.GetBytes(value).ToList());
+        else if (int.TryParse(Name[4..], out value))
+        {
+            context.Bytecode.AddRange(BitConverter.GetBytes(value).ToList());
+        }
         else throw new KeyNotFoundException($"Variable {Name} not found!");
     }
 }
