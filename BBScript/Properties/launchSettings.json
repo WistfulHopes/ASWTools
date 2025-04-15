@@ -2,7 +2,7 @@
   "profiles": {
     "BBScript": {
       "commandName": "Project",
-      "commandLineArgs": "compile -c ggst.json -i BBS_CMNEF_BETA.bbs -o BBS_CMNEF_BETA.bbsbin"
+      "commandLineArgs": "compile -c ggst.json -i BBS_CMNEF.bbs -o BBS_CMNEF.bbsbin"
     }
   }
 }
