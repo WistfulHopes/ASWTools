@@ -5,7 +5,7 @@ namespace BBScript.Compiler;
 
 public abstract class BBS
 {
-    public abstract void Compile(CompilerContext context);
+    public abstract void Compile(CompilerContext context, bool bigEndian = false);
 }
 
 public class BBSInst : BBS
@@ -28,14 +28,23 @@ public class BBSInst : BBS
         return dump.ToString();
     }
 
-    public override void Compile(CompilerContext context)
+    public override void Compile(CompilerContext context, bool bigEndian = false)
     {
         if (BBSConfig.Instance.JumpTableEntries!.Contains(Name))
         {
             context.JumpEntryTable[context.Bytecode.Count] = (Args[0] as BBSStrExpr)!.Value;
         }
 
-        var instruction = BBSConfig.Instance.Instructions!.Values.SingleOrDefault(inst => inst.Name == Name);
+        Instruction? instruction = null;
+        try
+        {
+            instruction = BBSConfig.Instance.Instructions!.Values.SingleOrDefault(inst => inst.Name == Name);
+        }
+        catch (InvalidOperationException exception)
+        {
+            Console.WriteLine("Duplicate instruction {0}!", Name);
+            throw;
+        }
         if (instruction == null)
         {
             if (Name.StartsWith("Unknown"))
@@ -135,7 +144,7 @@ public class BBSInst : BBS
             }
         }
 
-        foreach (var arg in Args) arg.Compile(context);
+        foreach (var arg in Args) arg.Compile(context, bigEndian);
     }
 }
 
@@ -157,9 +166,11 @@ public class BBSIntExpr : BBS
         return $"(INT {Value})";
     }
 
-    public override void Compile(CompilerContext context)
+    public override void Compile(CompilerContext context, bool bigEndian = false)
     {
-        context.Bytecode.AddRange(BitConverter.GetBytes(Value).ToList());
+        var output = BitConverter.GetBytes(Value).ToList();
+        if (bigEndian) output.Reverse();
+        context.Bytecode.AddRange(output);
     }
 }
 
@@ -177,9 +188,11 @@ public class BBSHexExpr : BBS
         return $"(HEX {Value})";
     }
 
-    public override void Compile(CompilerContext context)
+    public override void Compile(CompilerContext context, bool bigEndian = false)
     {
-        context.Bytecode.AddRange(BitConverter.GetBytes((uint)Value).ToList());
+        var output = BitConverter.GetBytes((uint)Value).ToList();
+        if (bigEndian) output.Reverse();
+        context.Bytecode.AddRange(output);
     }
 }
 
@@ -197,9 +210,11 @@ public class BBSBoolExpr : BBS
         return $"(BOOL {Value})";
     }
 
-    public override void Compile(CompilerContext context)
+    public override void Compile(CompilerContext context, bool bigEndian = false)
     {
-        context.Bytecode.AddRange(BitConverter.GetBytes(Value ? 1 : 0).ToList());
+        var output = BitConverter.GetBytes(Value ? 1 : 0).ToList();
+        if (bigEndian) output.Reverse();
+        context.Bytecode.AddRange(output);
     }
 }
 
@@ -218,7 +233,7 @@ public class BBSStrExpr : BBS
         return $"(STR \"{Value}\")";
     }
 
-    public override void Compile(CompilerContext context)
+    public override void Compile(CompilerContext context, bool bigEndian = false)
     {
         if (Value.Length > Length - 1) throw new InvalidDataException($"The string should be shorter than {Length}!");
         context.Bytecode!.AddRange(Encoding.ASCII.GetBytes(Value));
@@ -243,10 +258,12 @@ public class BBSConstExpr : BBSIntExpr
         return $"(CONST {Value})";
     }
 
-    public override void Compile(CompilerContext context)
+    public override void Compile(CompilerContext context, bool bigEndian = false)
     {
         context.Bytecode.AddRange(BitConverter.GetBytes(0).ToList());
-        context.Bytecode.AddRange(BitConverter.GetBytes(Value).ToList());
+        var output = BitConverter.GetBytes(Value).ToList();
+        if (bigEndian) output.Reverse();
+        context.Bytecode.AddRange(output);
     }
 }
 
@@ -262,16 +279,19 @@ public class BBSVarExpr : BBSEnumExpr
         return $"(VAR {Name})";
     }
 
-    public override void Compile(CompilerContext context)
+    public override void Compile(CompilerContext context, bool bigEndian = false)
     {
-        context.Bytecode.AddRange(BitConverter.GetBytes(2).ToList());
-        if (BBSConfig.Instance.Variables!.TryGetValue(Name, out var value))
-            context.Bytecode.AddRange(BitConverter.GetBytes(value).ToList());
-        else if (int.TryParse(Name[4..], out value))
+        var type = BitConverter.GetBytes(2).ToList();
+        if (bigEndian) type.Reverse();
+        context.Bytecode.AddRange(type);
+        if (BBSConfig.Instance.Variables!.TryGetValue(Name, out var value) || int.TryParse(Name[4..], out value))
         {
-            context.Bytecode.AddRange(BitConverter.GetBytes(value).ToList());
+            var output = BitConverter.GetBytes(value).ToList();
+            if (bigEndian) output.Reverse();
+            context.Bytecode.AddRange(output);
         }
-        else throw new KeyNotFoundException($"Variable {Name} not found!");
+        else
+            throw new KeyNotFoundException($"Variable {Name} not found!");
     }
 }
 
@@ -294,13 +314,15 @@ public class BBSEnumExpr : BBS
         return $"(ENUM {Name})";
     }
 
-    public override void Compile(CompilerContext context)
+    public override void Compile(CompilerContext context, bool bigEndian = false)
     {
         foreach (var @enum in BBSConfig.Instance.Enums?.Values!)
         {
             if (!@enum!.TryGetValue(Name, out var value)) continue;
 
-            context.Bytecode.AddRange(BitConverter.GetBytes(value).ToList());
+            var output = BitConverter.GetBytes(value).ToList();
+            if (bigEndian) output.Reverse();
+            context.Bytecode.AddRange(output);
             return;
         }
 

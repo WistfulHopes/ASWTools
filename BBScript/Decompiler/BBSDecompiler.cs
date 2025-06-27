@@ -5,9 +5,9 @@ namespace BBScript.Decompiler;
 
 public static class BBSDecompiler
 {
-    public static void Decompile(BinaryReader reader, StreamWriter writer)
+    public static void Decompile(BinaryReader reader, StreamWriter writer, bool bigEndian = false)
     {
-        var jumpTableSize = reader.ReadInt32();
+        var jumpTableSize = bigEndian ? reader.ReadInt32BE() : bigEndian ? reader.ReadInt32BE() : reader.ReadInt32();
 
         reader.BaseStream.Position = jumpTableSize * 0x24 + 0x4;
 
@@ -15,7 +15,7 @@ public static class BBSDecompiler
 
         while (reader.BaseStream.Position < reader.BaseStream.Length)
         {
-            var id = reader.ReadInt32();
+            var id = bigEndian ? reader.ReadInt32BE() : bigEndian ? reader.ReadInt32BE() : reader.ReadInt32();
 
             if (!BBSConfig.Instance.Instructions!.TryGetValue(id, out Instruction? value))
                 throw new KeyNotFoundException($"Instruction {id} not found!");
@@ -29,7 +29,7 @@ public static class BBSDecompiler
                     {
                         case ArgType.BOOL:
                         {
-                            var val = reader.ReadInt32();
+                            var val = bigEndian ? reader.ReadInt32BE() : reader.ReadInt32();
                             expressions.Add(val > 0 ? "true" : "false");
                             break;
                         }
@@ -37,7 +37,7 @@ public static class BBSDecompiler
                         case ArgType.S16:
                         case ArgType.S32:
                         {
-                            var val = reader.ReadInt32();
+                            var val = bigEndian ? reader.ReadInt32BE() : reader.ReadInt32();
                             expressions.Add(val.ToString());
                             break;
                         }
@@ -45,13 +45,13 @@ public static class BBSDecompiler
                         case ArgType.U16:
                         case ArgType.U32:
                         {
-                            var val = reader.ReadUInt32();
+                            var val = bigEndian ? reader.ReadUInt32BE() : reader.ReadUInt32();
                             expressions.Add($"0x{val:X}");
                             break;
                         }
                         case ArgType.Enum:
                         {
-                            var val = reader.ReadInt32();
+                            var val = bigEndian ? reader.ReadInt32BE() : reader.ReadInt32();
                             if (BBSConfig.Instance.Enums![arg.EnumName!]!.ContainsValue(val))
                             {
                                 expressions.Add(BBSConfig.Instance.Enums![arg.EnumName!]!
@@ -100,8 +100,8 @@ public static class BBSDecompiler
                         }
                         case ArgType.COperand:
                         {
-                            var type = reader.ReadInt32();
-                            var val = reader.ReadInt32();
+                            var type = bigEndian ? reader.ReadInt32BE() : reader.ReadInt32();
+                            var val = bigEndian ? reader.ReadInt32BE() : reader.ReadInt32();
                             if (type == 0)
                             {
                                 expressions.Add($"{val}");

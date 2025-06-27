@@ -12,7 +12,10 @@ abstract class Program
     [Verb("compile", HelpText = "Compiles a source BBScript file to binary.")]
     private class CompilerVerbs
     {
-        [Option('c', "config", HelpText = "Config file.")]
+        [Option('e', "endian", HelpText = "Set endianness. `big`, `little`")]
+        public string? Endian { get; set; }
+
+        [Option('c', "config", Required = true, HelpText = "Config file.")]
         public string? Config { get; set; }
         
         [Option('i', "input", Required = true, HelpText = "Input file.")]
@@ -25,13 +28,16 @@ abstract class Program
     [Verb("decompile", HelpText = "Decompiles a binary BBScript file to text.")]
     private class DecompilerVerbs
     {
-        [Option('c', "config", HelpText = "Config file.")]
+        [Option('e', "endian", HelpText = "Set endianness. `big`, `little`")]
+        public string? Endian { get; set; }
+
+        [Option('c', "config", Required = true, HelpText = "Config file.")]
         public string? Config { get; set; }
         
         [Option('i', "input", Required = true, HelpText = "Input file.")]
         public string? Input { get; set; }
 
-        [Option('o', "output", HelpText = "Output file.")]
+        [Option('o', "output", Required = true, HelpText = "Output file.")]
         public string? Output { get; set; }
     }
 
@@ -65,7 +71,7 @@ abstract class Program
         BBSConfig.Instance.Enums = config.Enums;
         BBSConfig.Instance.Instructions = config.Instructions;
         
-        var output = BBSCompiler.Compile(File.ReadAllText(verbs.Input));
+        var output = BBSCompiler.Compile(File.ReadAllText(verbs.Input), verbs.Endian == "big");
         
         File.WriteAllBytes(verbs.Output!, output);
     }
@@ -95,6 +101,6 @@ abstract class Program
 
         using var reader = new BinaryReader(new FileStream(verbs.Input, FileMode.Open, FileAccess.Read));
         using var writer = new StreamWriter(new FileStream(verbs.Output!, FileMode.Create, FileAccess.Write));
-        BBSDecompiler.Decompile(reader, writer);
+        BBSDecompiler.Decompile(reader, writer, verbs.Endian == "big");
     }
 }

@@ -65,28 +65,32 @@ public static class BBSCompiler
         from insts in _inst.Many()
         select insts.ToArray();
 
-    public static byte[] Compile(string source)
+    public static byte[] Compile(string source, bool bigEndian = false)
     {
         var bbs = ParseOrThrow(source);
 
         var context = new CompilerContext();
         foreach (var inst in bbs)
         {
-            inst.Compile(context);
+            inst.Compile(context, bigEndian);
         }
 
         var output = new List<byte>();
-        output.AddRange(BitConverter.GetBytes(context.JumpEntryTable.Count).ToList());
+        var entryCount = BitConverter.GetBytes(context.JumpEntryTable.Count).ToList();
+        if (bigEndian) entryCount.Reverse();
+        output.AddRange(entryCount);
         foreach (var jumpEntry in context.JumpEntryTable)
         {
             output.AddRange(Encoding.ASCII.GetBytes(jumpEntry.Value));
             for (var i = 0; i < 32 - jumpEntry.Value.Length; i++) output.Add(0);
-            output.AddRange(BitConverter.GetBytes(jumpEntry.Key).ToList());
+            var jumpEntryPos = BitConverter.GetBytes(jumpEntry.Key).ToList();
+            if (bigEndian) jumpEntryPos.Reverse();
+            output.AddRange(jumpEntryPos);
         }
 
         output.AddRange(context.Bytecode);
         return output.ToArray();
     }
 
-    public static BBSInst[] ParseOrThrow(string source) => _bbs.ParseOrThrow(source);
+    private static BBSInst[] ParseOrThrow(string source) => _bbs.ParseOrThrow(source);
 }
