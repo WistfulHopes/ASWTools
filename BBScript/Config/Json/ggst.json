@@ -2677,7 +2677,7 @@
         "3": {
             "Size": 4,
             "Name": "CellEnd",
-            "Indent": "End",
+            "Indent": "CellEnd",
             "Args": []
         },
         "4": {
@@ -2839,7 +2839,7 @@
         "18": {
             "Size": 4,
             "Name": "ReqActionEnd",
-            "Indent": "End",
+            "Indent": "None",
             "Args": []
         },
         "19": {
@@ -18900,7 +18900,7 @@
         },
         "1899": {
             "Size": 16,
-            "Name": "ExGageEveryTimeFlash",
+            "Name": "ExGageFlag",
             "Indent": "None",
             "Args": [
                 {
