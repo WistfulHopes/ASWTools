@@ -8,6 +8,7 @@ public enum IndentType
     ScopeBegin,
     ScopeEnd,
     Cell,
+    CellEnd,
 }
 
 public enum ArgType

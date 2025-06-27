@@ -138,6 +138,9 @@ public static class BBSDecompiler
                 case IndentType.Cell:
                     indentLevel = 1;
                     break;
+                case IndentType.CellEnd:
+                    indentLevel = 1;
+                    break;
                 default:
                     break;
             }
@@ -178,6 +181,9 @@ public static class BBSDecompiler
                     break;
                 case IndentType.ScopeEnd:
                     writer.Write('\n');
+                    break;
+                case IndentType.CellEnd:
+                    indentLevel = 1;
                     break;
             }
         }

@@ -2695,7 +2695,7 @@
         "3": {
             "Size": 4,
             "Name": "CellEnd",
-            "Indent": "End",
+            "Indent": "CellEnd",
             "Args": []
         },
         "4": {
@@ -2718,7 +2718,7 @@
         "6": {
             "Size": 8,
             "Name": "Label",
-            "Indent": "None",
+            "Indent": "Begin",
             "Args": [
                 {
                     "Type": "S16",
@@ -2779,7 +2779,7 @@
         "12": {
             "Size": 4,
             "Name": "ReqActionEnd",
-            "Indent": "End",
+            "Indent": "None",
             "Args": []
         },
         "13": {
@@ -3260,7 +3260,7 @@
         "54": {
             "Size": 8,
             "Name": "IfNotBegin",
-            "Indent": "None",
+            "Indent": "Begin",
             "Args": [
                 {
                     "Type": "COperand",
@@ -3271,19 +3271,19 @@
         "55": {
             "Size": 8,
             "Name": "IfNotEnd",
-            "Indent": "None",
+            "Indent": "End",
             "Args": []
         },
         "56": {
             "Size": 8,
             "Name": "ElseBegin",
-            "Indent": "None",
+            "Indent": "Begin",
             "Args": []
         },
         "57": {
             "Size": 8,
             "Name": "ElseEnd",
-            "Indent": "None",
+            "Indent": "End",
             "Args": []
         },
         "58": {
@@ -6007,7 +6007,7 @@
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "S32",
+                    "Type": "C32BYTE",
                     "Name": "name"
                 }
             ]
@@ -6022,7 +6022,16 @@
             "Size": 4,
             "Name": "LinkCommonPolyLine",
             "Indent": "None",
-            "Args": []
+            "Args": [
+                {
+                    "Type": "C32BYTE",
+                    "Name": "name"
+                },
+                {
+                    "Type": "S32",
+                    "Name": "lineWidth"
+                }
+            ]
         },
         "417": {
             "Size": 12,
@@ -10831,7 +10840,7 @@
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "COperand",
+                    "Type": "S32",
                     "Name": "val"
                 }
             ]
@@ -10842,7 +10851,7 @@
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "COperand",
+                    "Type": "S32",
                     "Name": "val"
                 }
             ]
