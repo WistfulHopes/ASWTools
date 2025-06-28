@@ -60,9 +60,11 @@ public class BBSInst : BBS
         var id = BBSConfig.Instance.Instructions!.Single(x => x.Value == instruction).Key;
         context.Bytecode.AddRange(BitConverter.GetBytes(id).ToList());
 
-        if (Args.Length == 1 && (Args[0] as BBSEnumExpr)?.Name == "") Args = []; 
-        
-        if (Args.Length != instruction.Args!.Count) throw new InvalidDataException();
+        if (Args.Length == 1 && (Args[0] as BBSEnumExpr)?.Name == "") Args = [];
+
+        if (Args.Length != instruction.Args!.Count)
+            throw new InvalidDataException(
+                $"Argument count for function {Name} should be {instruction.Args!.Count}, but it was {Args.Length}");
 
         for (int i = 0; i < Args.Length; i++)
         {
@@ -71,55 +73,55 @@ public class BBSInst : BBS
                 case ArgType.BOOL:
                     if (Args[i] is not BBSBoolExpr)
                         throw new InvalidDataException(
-                            $"Argument {i} should be a boolean, but it was {Args[i].GetType()}");
+                            $"Argument {i} for function {Name} should be a boolean, but it was {Args[i].GetType()}");
                     break;
                 case ArgType.S8:
                 case ArgType.S16:
                 case ArgType.S32:
                     if (Args[i] is not BBSIntExpr)
                         throw new InvalidDataException(
-                            $"Argument {i} should be an integer, but it was {Args[i].GetType()}");
+                            $"Argument {i} for function {Name} should be an integer, but it was {Args[i].GetType()}");
                     break;
                 case ArgType.U8:
                 case ArgType.U16:
                 case ArgType.U32:
                     if (Args[i] is not BBSHexExpr)
                         throw new InvalidDataException(
-                            $"Argument {i} should be a hexadecimal number, but it was {Args[i].GetType()}");
+                            $"Argument {i} for function {Name} should be a hexadecimal number, but it was {Args[i].GetType()}");
                     break;
                 case ArgType.Enum:
                     if (Args[i] is not BBSEnumExpr && Args[i] is not BBSIntExpr)
                         throw new InvalidDataException(
-                            $"Argument {i} should be an enum value or an integer, but it was {Args[i].GetType()}");
+                            $"Argument {i} for function {Name} should be an enum value or an integer, but it was {Args[i].GetType()}");
                     break;
                 case ArgType.C16BYTE:
                     if (Args[i] is not BBSStrExpr)
                         throw new InvalidDataException(
-                            $"Argument {i} should be a string, but it was {Args[i].GetType()}");
+                            $"Argument {i} for function {Name} should be a string, but it was {Args[i].GetType()}");
                     (Args[i] as BBSStrExpr)!.Length = 16;
                     break;
                 case ArgType.C32BYTE:
                     if (Args[i] is not BBSStrExpr)
                         throw new InvalidDataException(
-                            $"Argument {i} should be a string, but it was {Args[i].GetType()}");
+                            $"Argument {i} for function {Name} should be a string, but it was {Args[i].GetType()}");
                     (Args[i] as BBSStrExpr)!.Length = 32;
                     break;
                 case ArgType.C64BYTE:
                     if (Args[i] is not BBSStrExpr)
                         throw new InvalidDataException(
-                            $"Argument {i} should be a string, but it was {Args[i].GetType()}");
+                            $"Argument {i} for function {Name} should be a string, but it was {Args[i].GetType()}");
                     (Args[i] as BBSStrExpr)!.Length = 64;
                     break;
                 case ArgType.C128BYTE:
                     if (Args[i] is not BBSStrExpr)
                         throw new InvalidDataException(
-                            $"Argument {i} should be a string, but it was {Args[i].GetType()}");
+                            $"Argument {i} for function {Name} should be a string, but it was {Args[i].GetType()}");
                     (Args[i] as BBSStrExpr)!.Length = 128;
                     break;
                 case ArgType.C256BYTE:
                     if (Args[i] is not BBSStrExpr)
                         throw new InvalidDataException(
-                            $"Argument {i} should be a string, but it was {Args[i].GetType()}");
+                            $"Argument {i} for function {Name} should be a string, but it was {Args[i].GetType()}");
                     (Args[i] as BBSStrExpr)!.Length = 256;
                     break;
                 case ArgType.COperand:
@@ -127,7 +129,7 @@ public class BBSInst : BBS
                         && Args[i] is not BBSHexExpr
                         && Args[i] is not BBSEnumExpr)
                         throw new InvalidDataException(
-                            $"Argument {i} should be a COperand, but it was {Args[i].GetType()}");
+                            $"Argument {i} for function {Name} should be a COperand, but it was {Args[i].GetType()}");
 
                     if (Args[i] is BBSIntExpr)
                         Args[i] = new BBSConstExpr((BBSIntExpr)Args[i]);

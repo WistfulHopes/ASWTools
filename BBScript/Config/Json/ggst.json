@@ -6888,8 +6888,9 @@
                     "Name": "actname"
                 },
                 {
-                    "Type": "S32",
-                    "Name": "exPoint"
+                    "Type": "Enum",
+                    "EnumName": "POS_TYPE",
+                    "Name": "pos"
                 }
             ]
         },
@@ -6903,8 +6904,9 @@
                     "Name": "actname"
                 },
                 {
-                    "Type": "S32",
-                    "Name": "exPoint"
+                    "Type": "Enum",
+                    "EnumName": "POS_TYPE",
+                    "Name": "pos"
                 }
             ]
         },
@@ -12028,7 +12030,7 @@
             "Args": [
                 {
                     "Type": "Enum",
-                    "EnumName": "GUARD_DAN",
+                    "EnumName": "ATKDAN",
                     "Name": "guard"
                 }
             ]
