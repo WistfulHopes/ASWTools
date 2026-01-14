@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BBScript", "BBScript\BBScri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADVScript", "ADVScript\ADVScript.csproj", "{ADB2C31C-FC32-43CA-94AD-0FEC42E5D19C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATFText", "ATFText\ATFText.csproj", "{374BEC35-92D4-435F-B904-A606313829D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{ADB2C31C-FC32-43CA-94AD-0FEC42E5D19C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADB2C31C-FC32-43CA-94AD-0FEC42E5D19C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADB2C31C-FC32-43CA-94AD-0FEC42E5D19C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{374BEC35-92D4-435F-B904-A606313829D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{374BEC35-92D4-435F-B904-A606313829D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{374BEC35-92D4-435F-B904-A606313829D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{374BEC35-92D4-435F-B904-A606313829D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

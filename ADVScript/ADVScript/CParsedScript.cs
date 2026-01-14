@@ -57,7 +57,7 @@ public class CParsedScript
         Commands = [];
     }
 
-    public CParsedScript(CScriptData inAdvScript)
+    public CParsedScript(CScriptData inAdvScript, bool bIsDebug = false)
     {
         Type = Encoding.ASCII.GetString(BitConverter.GetBytes(inAdvScript.ScriptHeader.Type), 0 ,3);
         Version = inAdvScript.ScriptHeader.Version;
@@ -99,6 +99,21 @@ public class CParsedScript
                         throw new ArgumentOutOfRangeException();
                 }
                 command.Args.Add(arg);
+            }
+
+            if (bIsDebug)
+            {
+                for (var i = argTypes.Count; i < rawCommand.Arg.Length; i++)
+                {
+                    var arg = new SParsedArg
+                    {
+                        IsInt = true,
+                        IsString = false,
+                        StrValue = "",
+                        Value = rawCommand.Arg[i]
+                    };
+                    command.Args.Add(arg);
+                }
             }
             
             Commands.Add(command);

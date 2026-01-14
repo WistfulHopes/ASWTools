@@ -28,6 +28,9 @@ internal partial class Program
         
         [Option('i', "input", Required = true, HelpText = "Input file.")]
         public string? Input { get; set; }
+        
+        [Option('d', "debug", HelpText = "Debug mode.")]
+        public bool IsDebug { get; set; }
 
         [Option('o', "output", HelpText = "Output file.")]
         public string? Output { get; set; }
@@ -137,7 +140,7 @@ internal partial class Program
 
         var advScript = new CScriptData();
         advScript.Read(File.ReadAllBytes(verbs.Input));
-        var parsedScript = new CParsedScript(advScript);
+        var parsedScript = new CParsedScript(advScript, verbs.IsDebug);
         
         var sw = new StreamWriter(verbs.Output!);
         sw.WriteLine("Type: " + parsedScript.Type);
