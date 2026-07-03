@@ -19,3 +19,9 @@ Updated configurations may be found [here](https://github.com/WistfulHopes/ASWTo
 To decompile scripts, use the command `advscript decompile -c <config_file> -i <input_file> -o <output_file>`. For example, if you were to decompile GGST's ADV_SOL, use `advscript decompile -c ggst.json -i ADV_SOL.advbin -o ADV_SOL.adv`.
 
 To compile scripts, use the command `advscript compile -c <config_file> -i <input_file> -o <output_file>`. For example, if you were to compile GGST's ADV_SOL, use `advscript decompile -c ggst.json -i ADV_SOL.adv -o ADV_SOL.advbin`.
+
+## ATFText
+
+To parse ATF files to text, use the command `ATFText parse -i <input_file> -o <output_file>`
+
+To build ATF files from text, use the command `ATFText build -i <input_file> -o <output_file>`
