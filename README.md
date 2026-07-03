@@ -12,7 +12,7 @@ To decompile scripts, use the command `bbscript decompile -c <config_file> -i <i
 
 To compile scripts, use the command `bbscript compile -c <config_file> -i <input_file> -o <output_file>`. For example, if you were to compile GGST's BBS_CMNEF, use `bbscript decompile -c ggst.json -i BBS_CMNEF.bbs -o BBS_CMNEF.bbsbin`.
 
-Updated configurations may be found [here](https://github.com/WistfulHopes/ASWTools/tree/master/BBScript/Config).
+Updated configurations may be found [here](https://github.com/WistfulHopes/ASWTools/tree/master/BBScript/Config/Json).
 
 ## ADVScript
 
