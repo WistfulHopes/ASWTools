@@ -307,133 +307,7 @@
         "VAR_BlueHitPoint": 301,
         "VAR_IsClone": 302,
         "VAR_SwapBody": 303,
-        "VAR_CostumeID": 304,
-        "VAR_PlayerArmorHit": 305,
-        "VAR_WSBPoint": 306,
-        "VAR_WSBPattern": 307,
-        "VAR_WSBNextHeight": 308,
-        "VAR_WSBMoveDir": 309,
-        "VAR_IsWorldStopperOther": 310,
-        "VAR_Gravity": 311,
-        "VAR_CmnCharaReg0": 312,
-        "VAR_CmnCharaReg1": 313,
-        "VAR_CmnCharaReg2": 314,
-        "VAR_CmnCharaReg3": 315,
-        "VAR_CmnCharaReg4": 316,
-        "VAR_CmnCharaReg5": 317,
-        "VAR_CmnCharaReg6": 318,
-        "VAR_CmnCharaReg7": 319,
-        "VAR_IsFloatDmgHead": 320,
-        "VAR_IsFloatDmgBody": 321,
-        "VAR_StageSplitCount": 322,
-        "VAR_StageOffsetRadius": 323,
-        "VAR_Afro": 324,
-        "VAR_DmgAtkAngle": 325,
-        "VAR_DmgAtkAngleGuardForce": 326,
-        "VAR_IsFuwafuwaDown": 327,
-        "VAR_TensionBalance": 328,
-        "VAR_IsRoundTimerStop": 329,
-        "VAR_FuncArg0": 330,
-        "VAR_FuncArg1": 331,
-        "VAR_FuncArg2": 332,
-        "VAR_FuncArg3": 333,
-        "VAR_PlayerStance": 334,
-        "VAR_CmnCharaReg8": 335,
-        "VAR_CmnCharaReg9": 336,
-        "VAR_CmnCharaReg10": 337,
-        "VAR_CmnCharaReg11": 338,
-        "VAR_CmnCharaReg12": 339,
-        "VAR_CmnCharaReg13": 340,
-        "VAR_CmnCharaReg14": 341,
-        "VAR_CmnCharaReg15": 342,
-        "VAR_CmnCharaActReg0": 343,
-        "VAR_CmnCharaActReg1": 344,
-        "VAR_CmnCharaActReg2": 345,
-        "VAR_CmnCharaActReg3": 346,
-        "VAR_CmnCharaActReg4": 347,
-        "VAR_CmnCharaActReg5": 348,
-        "VAR_CmnCharaActReg6": 349,
-        "VAR_CmnCharaActReg7": 350,
-        "VAR_BlowOffLabel": 351,
-        "VAR_IsRISCCounterHit": 352,
-        "VAR_SpeedZ": 353,
-        "VAR_AngleX": 354,
-        "VAR_AngleY": 355,
-        "VAR_DmgFire": 356,
-        "VAR_DmgElectric": 357,
-        "VAR_DmgIce": 358,
-        "VAR_DamageEffectCount": 359,
-        "VAR_SoundActReg0": 360,
-        "VAR_SoundActReg1": 361,
-        "VAR_SoundActReg2": 362,
-        "VAR_SoundActReg3": 363,
-        "VAR_SoundObjReg0": 364,
-        "VAR_SoundObjReg1": 365,
-        "VAR_SoundObjReg2": 366,
-        "VAR_SoundObjReg3": 367,
-        "VAR_IsEnemyPlayerDown": 368,
-        "VAR_EnemyDmgActCount": 369,
-        "VAR_AtkDamage": 370,
-        "VAR_IsTutorialMode": 371,
-        "VAR_CPUVal0": 372,
-        "VAR_CPUVal1": 373,
-        "VAR_CPUVal2": 374,
-        "VAR_CPUVal3": 375,
-        "VAR_CPUVal4": 376,
-        "VAR_CPUVal5": 377,
-        "VAR_CPUVal6": 378,
-        "VAR_CPUVal7": 379,
-        "VAR_CharacterAddAttackRate": 380,
-        "VAR_CharacterAddDefenceRate": 381,
-        "VAR_TutorialPhase": 382,
-        "VAR_TrialReadyGo": 383,
-        "VAR_EXBoss": 384,
-        "VAR_IsEnemyWSDamageFloat": 385,
-        "VAR_IsDeadWSBEstimateDmg": 386,
-        "VAR_CmnCharaReg16": 387,
-        "VAR_CmnCharaReg17": 388,
-        "VAR_CmnCharaReg18": 389,
-        "VAR_CmnCharaReg19": 390,
-        "VAR_CmnCharaReg20": 391,
-        "VAR_CmnCharaReg21": 392,
-        "VAR_CmnCharaReg22": 393,
-        "VAR_CmnCharaReg23": 394,
-        "VAR_RoundPassedTime": 395,
-        "VAR_IsEnemySlow": 396,
-        "VAR_BoxIndex": 397,
-        "VAR_CmbMkrActionSeal": 398,
-        "VAR_FuncReturnVal": 399,
-        "VAR_AutoInputDirection": 400,
-        "VAR_AirTurnCheck": 401,
-        "VAR_DmgElectricDark": 402,
-        "VAR_CmnCharaReg24": 403,
-        "VAR_CmnCharaReg25": 404,
-        "VAR_CmnCharaReg26": 405,
-        "VAR_CmnCharaReg27": 406,
-        "VAR_CmnCharaReg28": 407,
-        "VAR_CmnCharaReg29": 408,
-        "VAR_CmnCharaReg30": 409,
-        "VAR_CmnCharaReg31": 410,
-        "VAR_AngleYWithLink": 411,
-        "VAR_IsOriginalASK": 412,
-        "VAR_IsEnemyOriginalASK": 413,
-        "VAR_IsCancelSkill": 414,
-        "VAR_DamageSystemSkill01": 415,
-        "VAR_FrozenDone": 416,
-        "VAR_Is3on3Battle": 417,
-        "VAR_3on3ExecSkill": 418,
-        "VAR_3on3ExecSkillLv": 419,
-        "VAR_3on3SkillGage": 420,
-        "VAR_Is3on3SkillCursorStop": 421,
-        "VAR_IsTutorialMode3on3": 422,
-        "VAR_3on3TutorialPhase": 423,
-        "VAR_Is3on3SkillDoing": 424,
-        "VAR_Is3on3IntrusionDoing": 425,
-        "VAR_Is3on3ChangeEnableSub": 426,
-        "VAR_Is3on3ChangeRequestPlayer": 427,
-        "VAR_ForceWSBFlg": 428,
-        "VAR_3on3ExecSkillIsRoleBonus": 429,
-        "VAR_DmgElectricBlue": 430
+        "VAR_CostumeID": 304
     },
     "Enums": {
         "ADAT_TYPE": {
@@ -560,123 +434,110 @@
             "CD_PLAYERVAL1_FALSE": 17,
             "CD_PLAYERVAL2_FALSE": 18,
             "CD_PLAYERVAL3_FALSE": 19,
-            "CD_EX_GAGE_0_SPLIT_FILL": 20,
-            "CD_EX_GAGE_1_SPLIT_FILL": 21,
-            "CD_EX_GAGE_2_SPLIT_FILL": 22,
-            "CD_EX_GAGE_3_SPLIT_FILL": 23,
-            "CD_EX_GAGE_4_SPLIT_FILL": 24,
-            "CD_EX_GAGE_5_SPLIT_FILL": 25,
-            "CD_HEIGHT_LIMIT_50": 26,
-            "CD_HEIGHT_LIMIT_100": 27,
-            "CD_HEIGHT_LIMIT_150": 28,
-            "CD_HEIGHT_LIMIT_200": 29,
-            "CD_WALL_TOUCH": 30,
-            "CD_SCREEN_TOUCH": 31,
-            "CD_EX_GAGE_0_IS_ZERO": 32,
-            "CD_EX_GAGE_1_IS_ZERO": 33,
-            "CD_EX_GAGE_2_IS_ZERO": 34,
-            "CD_EX_GAGE_3_IS_ZERO": 35,
-            "CD_EX_GAGE_4_IS_ZERO": 36,
-            "CD_EX_GAGE_5_IS_ZERO": 37,
-            "CD_SCREEN_NEAR_LEFT": 38,
-            "CD_SCREEN_NEAR_RIGHT": 39,
-            "CD_ICHIGEKI": 40,
-            "CD_NOT_DASH_DOING": 41,
-            "CD_EX_GAGE_0_IS_NOT_ZERO": 42,
-            "CD_EX_GAGE_1_IS_NOT_ZERO": 43,
-            "CD_EX_GAGE_2_IS_NOT_ZERO": 44,
-            "CD_EX_GAGE_3_IS_NOT_ZERO": 45,
-            "CD_EX_GAGE_4_IS_NOT_ZERO": 46,
-            "CD_AIR_DASH_HEIGHT_LIMIT": 47,
-            "CD_SKILL_CHECK_BIT_00": 48,
-            "CD_SKILL_CHECK_BIT_01": 49,
-            "CD_SKILL_CHECK_BIT_02": 50,
-            "CD_SKILL_CHECK_BIT_03": 51,
-            "CD_SKILL_CHECK_BIT_04": 52,
-            "CD_SKILL_CHECK_BIT_05": 53,
-            "CD_SKILL_CHECK_BIT_06": 54,
-            "CD_SKILL_CHECK_BIT_07": 55,
-            "CD_SKILL_CHECK_BIT_08": 56,
-            "CD_SKILL_CHECK_BIT_09": 57,
-            "CD_SKILL_CHECK_BIT_10": 58,
-            "CD_SKILL_CHECK_BIT_11": 59,
-            "CD_SKILL_CHECK_BIT_12": 60,
-            "CD_SKILL_CHECK_BIT_13": 61,
-            "CD_SKILL_CHECK_BIT_14": 62,
-            "CD_SKILL_CHECK_BIT_15": 63,
-            "CD_BOSS": 64,
-            "CD_NOT_BOSS": 65,
-            "CD_BATTLE_DOING": 66,
-            "CD_NOT_BARRIER": 67,
-            "CD_DEBUG_SKILL": 68,
-            "CD_ENEMY_AIR": 69,
-            "CD_STORY_SPECIAL_TYPE": 70,
-            "CD_NOT_STORY_SPECIAL_TYPE": 71,
-            "CD_NEAR_SLASH": 72,
-            "CD_FAR_SLASH": 73,
-            "CD_BURST": 74,
-            "CD_TENSION_1": 75,
-            "CD_ICHIGEKI_NORMAL_OR_READY": 76,
-            "CD_ICHIGEKI_READY": 77,
-            "CD_CHOUHATSU": 78,
-            "CD_KEII": 79,
-            "CD_AIR_JUMP_HEIGHT_LIMIT": 80,
-            "CD_DEBUGSKILLEX": 81,
-            "CD_STYLISH_COMBO": 82,
-            "CD_ALWAYS_FALSE": 83,
-            "CD_ENEMY_GUARD": 84,
-            "CD_ENEMY_CROUCH": 85,
-            "CD_BURST_MAX": 86,
-            "CD_ENEMY_DAMAGE": 87,
-            "CD_ENEMY_DAMAGE_COUNTER": 88,
-            "CD_ENEMY_STAND": 89,
-            "CD_PLAYERVAL4_TRUE": 90,
-            "CD_PLAYERVAL5_TRUE": 91,
-            "CD_PLAYERVAL6_TRUE": 92,
-            "CD_PLAYERVAL7_TRUE": 93,
-            "CD_PLAYERVAL4_FALSE": 94,
-            "CD_PLAYERVAL5_FALSE": 95,
-            "CD_PLAYERVAL6_FALSE": 96,
-            "CD_PLAYERVAL7_FALSE": 97,
-            "CD_CPU": 98,
-            "CD_CHAIN_READY": 99,
-            "CD_CHANGE_READY_MEMBER1": 100,
-            "CD_CHANGE_READY_MEMBER2": 101,
-            "CD_CHANGE_READY_SELF": 102,
-            "CD_CHANGE_READY_ANYMEMBER1": 103,
-            "CD_CHANGE_READY_ANYMEMBER2": 104,
-            "CD_MAIN_PLAYER": 105,
-            "CD_SUB_PLAYER": 106,
-            "CD_ULTIMATE_DOING": 107,
-            "CD_TENSION_300": 108,
-            "CD_TENSION_200": 109,
-            "CD_KRN_LIVE": 110,
-            "CD_DOWN": 111,
-            "CD_BODY_CHANGE_FALSE": 112,
-            "CD_BODY_CHANGE_TRUE": 113,
-            "CD_CHANGE_READY_NOMEMBER": 114,
-            "CD_ASSIST_READY_SELF": 115,
-            "CD_ASSIST_READY_ANYMEMBER1": 116,
-            "CD_ASSIST_READY_ANYMEMBER2": 117,
-            "CD_GC_READY_ANYMEMBER1": 118,
-            "CD_GC_READY_ANYMEMBER2": 119,
-            "CD_DONT_USE": 120,
-            "CD_NOT_USE_CLONE": 121,
-            "CD_NOT_USE_STORYMODE": 122,
-            "CD_NOT_USE_CPU_IN_STORYMODE": 123,
-            "CD_HITSTOP": 124,
-            "CD_RED_RC": 125,
-            "CD_NOT_DRAMA_ASSIST": 126,
-            "CD_ENEMYBURST": 127,
-            "CD_NOT_WLDSTP_STOPBG": 128,
-            "CD_BURST_50": 129,
-            "CD_BURST_33": 130,
-            "CD_MEMBER_CHANGE_REQUEST": 131,
-            "CD_MEMBER_CHANGE_APPROVAL": 132,
-            "CD_CHANGE_ENABLE_MAIN": 133,
-            "CD_CHANGE_ENABLE_SUB": 134,
-            "CD_3ON3_SKILL_ENABLE": 135,
-            "CD_3ON3_INTRUSION_ENABLE": 136
+            "CD_EX_GAGE_0_SPLIT_FILL": 50,
+            "CD_EX_GAGE_1_SPLIT_FILL": 51,
+            "CD_EX_GAGE_2_SPLIT_FILL": 52,
+            "CD_EX_GAGE_3_SPLIT_FILL": 53,
+            "CD_EX_GAGE_4_SPLIT_FILL": 54,
+            "CD_EX_GAGE_5_SPLIT_FILL": 55,
+            "CD_HEIGHT_LIMIT_50": 56,
+            "CD_HEIGHT_LIMIT_100": 57,
+            "CD_HEIGHT_LIMIT_150": 58,
+            "CD_HEIGHT_LIMIT_200": 59,
+            "CD_WALL_TOUCH": 60,
+            "CD_SCREEN_TOUCH": 61,
+            "CD_EX_GAGE_0_IS_ZERO": 62,
+            "CD_EX_GAGE_1_IS_ZERO": 63,
+            "CD_EX_GAGE_2_IS_ZERO": 64,
+            "CD_EX_GAGE_3_IS_ZERO": 65,
+            "CD_EX_GAGE_4_IS_ZERO": 66,
+            "CD_EX_GAGE_5_IS_ZERO": 67,
+            "CD_SCREEN_NEAR_LEFT": 68,
+            "CD_SCREEN_NEAR_RIGHT": 69,
+            "CD_ICHIGEKI": 70,
+            "CD_NOT_DASH_DOING": 71,
+            "CD_EX_GAGE_0_IS_NOT_ZERO": 72,
+            "CD_EX_GAGE_1_IS_NOT_ZERO": 73,
+            "CD_EX_GAGE_2_IS_NOT_ZERO": 74,
+            "CD_EX_GAGE_3_IS_NOT_ZERO": 75,
+            "CD_EX_GAGE_4_IS_NOT_ZERO": 76,
+            "CD_AIR_DASH_HEIGHT_LIMIT": 77,
+            "CD_SKILL_CHECK_BIT_00": 78,
+            "CD_SKILL_CHECK_BIT_01": 79,
+            "CD_SKILL_CHECK_BIT_02": 80,
+            "CD_SKILL_CHECK_BIT_03": 81,
+            "CD_SKILL_CHECK_BIT_04": 82,
+            "CD_SKILL_CHECK_BIT_05": 83,
+            "CD_SKILL_CHECK_BIT_06": 84,
+            "CD_SKILL_CHECK_BIT_07": 85,
+            "CD_SKILL_CHECK_BIT_08": 86,
+            "CD_SKILL_CHECK_BIT_09": 87,
+            "CD_SKILL_CHECK_BIT_10": 88,
+            "CD_SKILL_CHECK_BIT_11": 89,
+            "CD_SKILL_CHECK_BIT_12": 90,
+            "CD_SKILL_CHECK_BIT_13": 91,
+            "CD_SKILL_CHECK_BIT_14": 92,
+            "CD_SKILL_CHECK_BIT_15": 93,
+            "CD_BOSS": 94,
+            "CD_NOT_BOSS": 95,
+            "CD_BATTLE_DOING": 96,
+            "CD_NOT_BARRIER": 97,
+            "CD_DEBUG_SKILL": 98,
+            "CD_ENEMY_AIR": 99,
+            "CD_STORY_SPECIAL_TYPE": 100,
+            "CD_NOT_STORY_SPECIAL_TYPE": 101,
+            "CD_NEAR_SLASH": 102,
+            "CD_FAR_SLASH": 103,
+            "CD_BURST": 104,
+            "CD_TENSION_1": 105,
+            "CD_ICHIGEKI_NORMAL_OR_READY": 106,
+            "CD_ICHIGEKI_READY": 107,
+            "CD_CHOUHATSU": 108,
+            "CD_KEII": 109,
+            "CD_AIR_JUMP_HEIGHT_LIMIT": 110,
+            "CD_DEBUGSKILLEX": 111,
+            "CD_STYLISH_COMBO": 112,
+            "CD_ALWAYS_FALSE": 113,
+            "CD_ENEMY_GUARD": 114,
+            "CD_ENEMY_CROUCH": 115,
+            "CD_BURST_MAX": 116,
+            "CD_ENEMY_DAMAGE": 117,
+            "CD_ENEMY_DAMAGE_COUNTER": 118,
+            "CD_ENEMY_STAND": 119,
+            "CD_PLAYERVAL4_TRUE": 120,
+            "CD_PLAYERVAL5_TRUE": 121,
+            "CD_PLAYERVAL6_TRUE": 122,
+            "CD_PLAYERVAL7_TRUE": 123,
+            "CD_PLAYERVAL4_FALSE": 124,
+            "CD_PLAYERVAL5_FALSE": 125,
+            "CD_PLAYERVAL6_FALSE": 126,
+            "CD_PLAYERVAL7_FALSE": 127,
+            "CD_CPU": 128,
+            "CD_CHAIN_READY": 129,
+            "CD_CHANGE_READY_MEMBER1": 130,
+            "CD_CHANGE_READY_MEMBER2": 131,
+            "CD_CHANGE_READY_SELF": 132,
+            "CD_CHANGE_READY_ANYMEMBER1": 133,
+            "CD_CHANGE_READY_ANYMEMBER2": 134,
+            "CD_MAIN_PLAYER": 135,
+            "CD_SUB_PLAYER": 136,
+            "CD_ULTIMATE_DOING": 137,
+            "CD_TENSION_300": 138,
+            "CD_TENSION_200": 139,
+            "CD_KRN_LIVE": 140,
+            "CD_DOWN": 141,
+            "CD_BODY_CHANGE_FALSE": 142,
+            "CD_BODY_CHANGE_TRUE": 143,
+            "CD_CHANGE_READY_NOMEMBER": 144,
+            "CD_ASSIST_READY_SELF": 145,
+            "CD_ASSIST_READY_ANYMEMBER1": 146,
+            "CD_ASSIST_READY_ANYMEMBER2": 147,
+            "CD_GC_READY_ANYMEMBER1": 148,
+            "CD_GC_READY_ANYMEMBER2": 149,
+            "CD_DONT_USE": 150,
+            "CD_NOT_USE_CLONE": 151,
+            "CD_NOT_USE_STORYMODE": 152,
+            "CD_NOT_USE_CPU_IN_STORYMODE": 153
         },
         "CENTERTYPE": {
             "CNT_LEFT": 0,
@@ -719,8 +580,7 @@
             "CHT_S": 0,
             "CHT_M": 1,
             "CHT_L": 2,
-            "CHT_RISC": 3,
-            "CHT_UNIVERSE": 3
+            "CHT_RISC": 3
         },
         "CHT_TYPE": {
             "CHT_Default": 0,
@@ -767,11 +627,7 @@
             "CO_PREV_ENEMY_MAIN_PLAYER": 36,
             "CO_MAIN_PLAYER1": 37,
             "CO_MAIN_PLAYER2": 38,
-            "CO_DAMAGE_EFFECT": 39,
-            "CO_ATTACK_SLAVE_CHECKONLY": 40,
-            "CO_FROZEN_MASTER": 41,
-            "CO_GROUND_FROZEN_MASTER": 42,
-            "CO_CAMERA_REQUEST_OBJ": 43
+            "CO_DAMAGE_EFFECT": 39
         },
         "CRSETYPE": {
             "CRSETYPE_Lv1": 0,
@@ -1659,16 +1515,7 @@
             "INP_87412": 320,
             "INP_21478": 321,
             "INP_47896": 322,
-            "INP_89632": 323,
-            "INP_I_HOLD": 324,
-            "INP_I_TRG_ON": 325,
-            "INP_I_TRG_OFF": 326,
-            "INP_I_EASY_ON": 327,
-            "INP_I_NOT": 328,
-            "INP_I_EASY_OFF": 329,
-            "INP_I_RSV1": 330,
-            "INP_I_RSV2": 331,
-            "INP_I_RSV3": 332
+            "INP_89632": 323
         },
         "KILL_TYPE": {
             "KT_Normal": 0,
@@ -1862,9 +1709,7 @@
             "ON_ATTACK_HIT_PLAYER_DAMAGE_COUNTER": 100,
             "ON_ATTACK_HIT_PLAYER_PARRY": 101,
             "ON_NAGURU": 102,
-            "ON_BG_CLASH_EVENT": 103,
-            "ON_ATTACK_COLLISION_CHECKONLY": 104,
-            "ON_TO3_SKILL_DISPEL": 105
+            "ON_BG_CLASH_EVENT": 103
         },
         "POS_TYPE": {
             "POS_EX_POINT_0": 0,
@@ -2505,29 +2350,29 @@
             "SCA_AssistAttack": 34,
             "SCA_AssistAttackUltimate": 35,
             "SCA_GCChangeAttack": 36,
-            "SCA_HomingDashAttack": 37,
-            "SCA_DragonRush": 38,
-            "SCA_MikiwameMove": 39,
-            "SCA_ExSpecialSkill": 40,
-            "SCA_ShotReflect": 41,
-            "SCA_ARenSkill": 42,
-            "SCA_LimitBurst": 43,
-            "SCA_SparkingBurst": 44,
-            "SCA_Kiaitame": 45,
-            "SCA_RequestGCChangeAttack": 46,
-            "SCA_FDash2Button": 47,
-            "SCA_BDash2Button": 48,
-            "SCA_FAirDash2Button": 49,
-            "SCA_BAirDash2Button": 50,
-            "SCA_RomanCancelForce": 51,
-            "SCA_RomanCancelHit": 52,
-            "SCA_RomanCancelMove__": 53,
-            "SCA_RomanCancelNeutral": 54,
-            "SCA_RomanCancelKaraburi": 55,
-            "SCA_IchigekiJunbi": 56,
-            "SCA_CounterGuard": 57,
-            "SCA_WSB": 58,
-            "SCA_RomanCanceObject": 59
+            "SCA_SPChangeAttack": 37,
+            "SCA_HomingDashAttack": 38,
+            "SCA_DragonRush": 39,
+            "SCA_MikiwameMove": 40,
+            "SCA_ExSpecialSkill": 41,
+            "SCA_ShotReflect": 42,
+            "SCA_ARenSkill": 43,
+            "SCA_LimitBurst": 44,
+            "SCA_SparkingBurst": 45,
+            "SCA_Kiaitame": 46,
+            "SCA_RequestGCChangeAttack": 47,
+            "SCA_RequestSPChangeAttack": 48,
+            "SCA_FDash2Button": 49,
+            "SCA_BDash2Button": 50,
+            "SCA_FAirDash2Button": 51,
+            "SCA_BAirDash2Button": 52,
+            "SCA_RomanCancelForce": 53,
+            "SCA_RomanCancelHit": 54,
+            "SCA_RomanCancelMove__": 55,
+            "SCA_RomanCancelNeutral": 56,
+            "SCA_RomanCancelKaraburi": 57,
+            "SCA_IchigekiJunbi": 58,
+            "SCA_CounterGuard": 59
         },
         "SKILL_CND_RET": {
             "SCC_FALSE": 0,
@@ -2584,11 +2429,7 @@
             "SSCA_BurstUltimate": 4,
             "SSCA_Kiaitame": 5,
             "SSCA_BknBlocking": 6,
-            "SSCA_NormalThrow": 7,
-            "SSCA_FaultlessPressure": 8,
-            "SSCA_3on3Skill": 9,
-            "SSCA_3on3Intrusion": 10,
-            "SSCA_3on3ChangeReq": 11
+            "SSCA_NormalThrow": 7
         },
         "SKLDG": {
             "SKLDG_DAMAGE_OR_GUARD_NG": 0,
@@ -2658,10 +2499,7 @@
             "ZLINE_MIDDLE": 1,
             "ZLINE_NEAR": 2,
             "ZLINE_NEAREST": 3,
-            "ZLINE_FARTHEST": 4,
-            "ZLINE_ASSIST1": 5,
-            "ZLINE_ASSIST2": 6,
-            "ZLINE_MAX": 7
+            "ZLINE_MAX": 4
         },
         "ZLINE_LEVEL": {
             "ZLL_LVMIN": 0,
@@ -2758,7 +2596,7 @@
         "3": {
             "Size": 4,
             "Name": "CellEnd",
-            "Indent": "CellEnd",
+            "Indent": "End",
             "Args": []
         },
         "4": {
@@ -2920,7 +2758,7 @@
         "18": {
             "Size": 4,
             "Name": "ReqActionEnd",
-            "Indent": "None",
+            "Indent": "CellEnd",
             "Args": []
         },
         "19": {
@@ -3766,12 +3604,11 @@
         },
         "79": {
             "Size": 12,
-            "Name": "FuncReturnVal",
             "Indent": "None",
             "Args": [
                 {
                     "Type": "COperand",
-                    "Name": "opd"
+                    "Name": "val"
                 }
             ]
         },
@@ -3803,7 +3640,7 @@
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "COperand",
+                    "Type": "S32",
                     "Name": "val"
                 }
             ]
@@ -3814,7 +3651,7 @@
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "COperand",
+                    "Type": "S32",
                     "Name": "val"
                 }
             ]
@@ -3848,7 +3685,7 @@
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "COperand",
+                    "Type": "S32",
                     "Name": "val"
                 }
             ]
@@ -3916,7 +3753,7 @@
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "COperand",
+                    "Type": "S32",
                     "Name": "val"
                 }
             ]
@@ -3927,7 +3764,7 @@
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "COperand",
+                    "Type": "S32",
                     "Name": "val"
                 }
             ]
@@ -3938,7 +3775,7 @@
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "COperand",
+                    "Type": "S32",
                     "Name": "val"
                 }
             ]
@@ -3949,7 +3786,7 @@
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "COperand",
+                    "Type": "S32",
                     "Name": "val"
                 }
             ]
@@ -3983,7 +3820,7 @@
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "COperand",
+                    "Type": "S32",
                     "Name": "val"
                 }
             ]
@@ -3994,7 +3831,7 @@
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "COperand",
+                    "Type": "S32",
                     "Name": "val"
                 }
             ]
@@ -4305,7 +4142,7 @@
         },
         "144": {
             "Size": 8,
-            "Name": "IgnoreInertia",
+            "Name": "InertiaIgnore",
             "Indent": "None",
             "Args": [
                 {
@@ -4930,7 +4767,7 @@
             ]
         },
         "196": {
-            "Size": 36,
+            "Size": 24,
             "Name": "Warp",
             "Indent": "None",
             "Args": [
@@ -4945,15 +4782,15 @@
                     "Name": "posType"
                 },
                 {
-                    "Type": "COperand",
+                    "Type": "S32",
                     "Name": "offsetX"
                 },
                 {
-                    "Type": "COperand",
+                    "Type": "S32",
                     "Name": "offsetY"
                 },
                 {
-                    "Type": "COperand",
+                    "Type": "S32",
                     "Name": "time"
                 }
             ]
@@ -4974,15 +4811,15 @@
                     "Name": "posType"
                 },
                 {
-                    "Type": "COperand",
+                    "Type": "S32",
                     "Name": "offsetX"
                 },
                 {
-                    "Type": "COperand",
+                    "Type": "S32",
                     "Name": "offsetY"
                 },
                 {
-                    "Type": "COperand",
+                    "Type": "S32",
                     "Name": "time"
                 }
             ]
@@ -5022,16 +4859,15 @@
         },
         "199": {
             "Size": 12,
-            "Name": "SetAngleBySpeedXYZ",
             "Indent": "None",
             "Args": [
                 {
                     "Type": "S32",
-                    "Name": "offsetAngle"
+                    "Name": "arg0"
                 },
                 {
                     "Type": "S32",
-                    "Name": "offsetAngleY"
+                    "Name": "arg1"
                 }
             ]
         },
@@ -5153,18 +4989,6 @@
         },
         "208": {
             "Size": 8,
-            "Name": "ExTempPerSpeedX",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "S32",
-                    "Name": "val"
-                }
-            ]
-        },
-        "209": {
-            "Size": 8,
-            "Name": "IgnoreSpeedTimeX",
             "Indent": "None",
             "Args": [
                 {
@@ -5197,7 +5021,6 @@
         },
         "212": {
             "Size": 12,
-            "Name": "LimitInertia",
             "Indent": "None",
             "Args": [
                 {
@@ -5612,7 +5435,6 @@
         },
         "274": {
             "Size": 4,
-            "Name": "WorldStopCancel",
             "Indent": "None",
             "Args": []
         },
@@ -5875,44 +5697,17 @@
         },
         "307": {
             "Size": 4,
-            "Name": "ResetGuardBalance",
+            "Name": "DmgGuardReset",
             "Indent": "None",
             "Args": []
         },
         "308": {
             "Size": 8,
-            "Name": "ReAttackInterrupt",
             "Indent": "None",
             "Args": [
                 {
                     "Type": "BOOL",
-                    "Name": "flg"
-                }
-            ]
-        },
-        "309": {
-            "Size": 24,
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "S32",
-                    "Name": "val0"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "val1"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "val2"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "val3"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "val4"
+                    "Name": "val"
                 }
             ]
         },
@@ -6444,18 +6239,17 @@
             "Args": [
                 {
                     "Type": "S32",
-                    "Name": "frame"
+                    "Name": "val"
                 }
             ]
         },
         "381": {
             "Size": 8,
-            "Name": "EnableDarkArea",
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "BOOL",
-                    "Name": "on"
+                    "Type": "S32",
+                    "Name": "val"
                 }
             ]
         },
@@ -7017,7 +6811,7 @@
                 {
                     "Type": "Enum",
                     "EnumName": "POS_TYPE",
-                    "Name": "pos"
+                    "Name": "exPoint"
                 }
             ]
         },
@@ -7033,7 +6827,7 @@
                 {
                     "Type": "Enum",
                     "EnumName": "POS_TYPE",
-                    "Name": "pos"
+                    "Name": "exPoint"
                 }
             ]
         },
@@ -7318,8 +7112,9 @@
                     "Name": "name"
                 },
                 {
-                    "Type": "S32",
-                    "Name": "val"
+                    "Type": "Enum",
+                    "EnumName": "POS_TYPE",
+                    "Name": "pos"
                 }
             ]
         },
@@ -7333,8 +7128,9 @@
                     "Name": "name"
                 },
                 {
-                    "Type": "S32",
-                    "Name": "val"
+                    "Type": "Enum",
+                    "EnumName": "POS_TYPE",
+                    "Name": "pos"
                 }
             ]
         },
@@ -7370,7 +7166,8 @@
                     "Name": "name"
                 },
                 {
-                    "Type": "S32",
+                    "Type": "Enum",
+                    "EnumName": "POS_TYPE",
                     "Name": "exPoint"
                 }
             ]
@@ -7385,7 +7182,8 @@
                     "Name": "name"
                 },
                 {
-                    "Type": "S32",
+                    "Type": "Enum",
+                    "EnumName": "POS_TYPE",
                     "Name": "exPoint"
                 }
             ]
@@ -7400,7 +7198,8 @@
                     "Name": "name"
                 },
                 {
-                    "Type": "S32",
+                    "Type": "Enum",
+                    "EnumName": "POS_TYPE",
                     "Name": "exPoint"
                 }
             ]
@@ -7506,21 +7305,19 @@
         },
         "483": {
             "Size": 72,
-            "Name": "LinkObjectAsanoLight",
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "Enum",
-					"EnumName": "CO_TYPE",
-                    "Name": "objType"
+                    "Type": "S32",
+                    "Name": "arg0"
                 },
                 {
                     "Type": "C32BYTE",
-                    "Name": "baseMeshName"
+                    "Name": "arg1"
                 },
                 {
                     "Type": "C32BYTE",
-                    "Name": "targetMeshName"
+                    "Name": "arg2"
                 }
             ]
         },
@@ -7534,7 +7331,8 @@
                     "Name": "name"
                 },
                 {
-                    "Type": "S32",
+                    "Type": "Enum",
+                    "EnumName": "POS_TYPE",
                     "Name": "exPoint"
                 }
             ]
@@ -7549,14 +7347,14 @@
                     "Name": "name"
                 },
                 {
-                    "Type": "S32",
+                    "Type": "Enum",
+                    "EnumName": "POS_TYPE",
                     "Name": "exPoint"
                 }
             ]
         },
         "487": {
             "Size": 4,
-            "Name": "DeleteNoLinkParticle",
             "Indent": "None",
             "Args": []
         },
@@ -7720,12 +7518,11 @@
         },
         "592": {
             "Size": 8,
-            "Name": "SoundOption_MainSideOnly",
             "Indent": "None",
             "Args": [
                 {
                     "Type": "BOOL",
-                    "Name": "on"
+                    "Name": "val"
                 }
             ]
         },
@@ -7736,7 +7533,7 @@
             "Args": [
                 {
                     "Type": "BOOL",
-                    "Name": "on"
+                    "Name": "val"
                 }
             ]
         },
@@ -7746,8 +7543,8 @@
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "S32",
-                    "Name": "channel"
+                    "Type": "BOOL",
+                    "Name": "val"
                 }
             ]
         },
@@ -8644,7 +8441,6 @@
         },
         "648": {
             "Size": 20,
-            "Name": "FixAndGetVoicePattern",
             "Indent": "None",
             "Args": [
                 {
@@ -8906,17 +8702,8 @@
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "Enum",
-                    "EnumName": "POS_TYPE",
-                    "Name": "pos"
-                },
-                {
-                    "Type": "BOOL",
-                    "Name": "useParticle"
-                },
-                {
-                    "Type": "BOOL",
-                    "Name": "useSE"
+                    "Type": "S32",
+                    "Name": "eff"
                 }
             ]
         },
@@ -9062,29 +8849,22 @@
         },
         "679": {
             "Size": 12,
-            "Name": "StaticSoundOption_Volume",
+            "Name": "VoiceVolume",
             "Indent": "None",
             "Args": [
                 {
                     "Type": "COperand",
-                    "Name": "vol"
+                    "Name": "val"
                 }
             ]
         },
-        "680": {
-            "Size": 12,
-            "Name": "StaticSoundOption_AllClear",
-            "Indent": "None",
-            "Args": []
-        },
         "681": {
             "Size": 20,
-            "Name": "SetupVoice_IgnoreStaticSoundOption",
             "Indent": "None",
             "Args": [
                 {
                     "Type": "C16BYTE",
-                    "Name": "voiceNamerg"
+                    "Name": "arg"
                 }
             ]
         },
@@ -9146,7 +8926,7 @@
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "COperand",
+                    "Type": "S32",
                     "Name": "damage"
                 }
             ]
@@ -9226,6 +9006,16 @@
                     "Type": "Enum",
                     "EnumName": "SKILL_CATEGORY",
                     "Name": "category"
+                }
+            ]
+        },
+        "719": {
+            "Size": 8,
+            "Indent": "None",
+            "Args": [
+                {
+                    "Type": "S32",
+                    "Name": ""
                 }
             ]
         },
@@ -9391,60 +9181,45 @@
         },
         "739": {
             "Size": 8,
-            "Name": "AtkReductionZokuseiEffect",
             "Indent": "None",
             "Args": [
                 {
                     "Type": "BOOL",
-                    "Name": "on"
+                    "Name": "val"
                 }
             ]
         },
         "740": {
             "Size": 8,
-            "Name": "AtkEnemyHitMutekiArmor",
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "BOOL",
-                    "Name": "on"
+                    "Type": "S32",
+                    "Name": "val"
                 }
             ]
         },
         "741": {
             "Size": 8,
-            "Name": "AtkEnemyHitMutekiArmorDamageRate",
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "BOOL",
-                    "Name": "on"
+                    "Type": "S32",
+                    "Name": "val"
                 }
             ]
         },
         "742": {
             "Size": 8,
-            "Name": "AtkEnemyHitMutekiArmorHitStop",
             "Indent": "None",
             "Args": [
                 {
                     "Type": "S32",
-                    "Name": "self"
+                    "Name": "val"
                 },
                 {
                     "Type": "S32",
-                    "Name": "enemy"
-                }
-            ]
-        },
-        "743": {
-            "Size": 8,
-            "Name": "AtkEffectElectricBlue",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "BOOL",
-                    "Name": "on"
+                    "Name": "val"
                 }
             ]
         },
@@ -9454,7 +9229,7 @@
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "COperand",
+                    "Type": "S32",
                     "Name": "val"
                 }
             ]
@@ -9471,7 +9246,7 @@
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "COperand",
+                    "Type": "S32",
                     "Name": "val"
                 }
             ]
@@ -9488,7 +9263,7 @@
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "COperand",
+                    "Type": "S32",
                     "Name": "val"
                 }
             ]
@@ -9499,89 +9274,7 @@
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "COperand",
-                    "Name": "val"
-                }
-            ]
-        },
-        "760": {
-            "Size": 28,
-            "Name": "AtkVectorXPerTime",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "COperand",
-                    "Name": "per"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "start"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "end"
-                }
-            ]
-        },
-        "761": {
-            "Size": 28,
-            "Name": "AtkVectorXPerTimeCounterHit",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "COperand",
-                    "Name": "per"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "start"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "end"
-                }
-            ]
-        },
-        "762": {
-            "Size": 8,
-            "Name": "AtkConsiderVectorPerX",
-            "Indent": "None",
-            "Args": [
-                {
                     "Type": "S32",
-                    "Name": "per"
-                }
-            ]
-        },
-        "763": {
-            "Size": 12,
-            "Name": "AtkSameAttackNum",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "COperand",
-                    "Name": "val"
-                }
-            ]
-        },
-        "764": {
-            "Size": 12,
-            "Name": "AtkSameAttackGravity",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "COperand",
-                    "Name": "val"
-                }
-            ]
-        },
-        "765": {
-            "Size": 12,
-            "Name": "AtkPreGuardRangeDot",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "COperand",
                     "Name": "val"
                 }
             ]
@@ -9592,7 +9285,7 @@
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "COperand",
+                    "Type": "S32",
                     "Name": "val"
                 }
             ]
@@ -9609,7 +9302,7 @@
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "COperand",
+                    "Type": "S32",
                     "Name": "val"
                 }
             ]
@@ -9620,104 +9313,13 @@
             "Indent": "None",
             "Args": []
         },
-        "770": {
-            "Size": 28,
-            "Name": "AtkVectorYPerTime",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "COperand",
-                    "Name": "per"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "start"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "end"
-                }
-            ]
-        },
-        "771": {
-            "Size": 28,
-            "Name": "AtkVectorYPerTimeCounterHit",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "COperand",
-                    "Name": "per"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "start"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "end"
-                }
-            ]
-        },
-        "772": {
-            "Size": 8,
-            "Name": "AtkConsiderVectorPerY",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "S32",
-                    "Name": "per"
-                }
-            ]
-        },
-        "773": {
-            "Size": 8,
-            "Name": "AtkNoExtraGravity",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "BOOL",
-                    "Name": "val"
-                }
-            ]
-        },
-        "774": {
-            "Size": 12,
-            "Name": "AtkPreGuardRangeDotY",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "COperand",
-                    "Name": "val"
-                }
-            ]
-        },
-        "775": {
-            "Size": 12,
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "COperand",
-                    "Name": "val"
-                }
-            ]
-        },
-        "776": {
-            "Size": 12,
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "COperand",
-                    "Name": "val"
-                }
-            ]
-        },
         "778": {
             "Size": 12,
             "Name": "AtkGravity",
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "COperand",
+                    "Type": "S32",
                     "Name": "val"
                 }
             ]
@@ -9734,7 +9336,7 @@
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "COperand",
+                    "Type": "S32",
                     "Name": "val"
                 }
             ]
@@ -9752,77 +9354,6 @@
             "Args": [
                 {
                     "Type": "S32",
-                    "Name": "val"
-                }
-            ]
-        },
-        "783": {
-            "Size": 28,
-            "Name": "AtkGravityAddTime",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "COperand",
-                    "Name": "val"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "start"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "end"
-                }
-            ]
-        },
-        "784": {
-            "Size": 28,
-            "Name": "AtkGravityAddTimeCounterHit",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "COperand",
-                    "Name": "val"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "start"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "end"
-                }
-            ]
-        },
-        "785": {
-            "Size": 8,
-            "Name": "AtkVectorXAirGuard",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "S32",
-                    "Name": "val"
-                }
-            ]
-        },
-        "786": {
-            "Size": 8,
-            "Name": "AtkVectorYAirGuard",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "S32",
-                    "Name": "val"
-                }
-            ]
-        },
-        "788": {
-            "Size": 8,
-            "Name": "AtkWorldSideBreak",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "BOOL",
                     "Name": "val"
                 }
             ]
@@ -10366,28 +9897,6 @@
             "Indent": "None",
             "Args": []
         },
-        "874": {
-            "Size": 4,
-            "Name": "AtkWallBoundOnlyDown",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "BOOL",
-                    "Name": "on"
-                }
-            ]
-        },
-        "875": {
-            "Size": 4,
-            "Name": "AtkWallBoundOnlyDownCounterHit",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "BOOL",
-                    "Name": "on"
-                }
-            ]
-        },
         "882": {
             "Size": 8,
             "Name": "AtkLandHitAction",
@@ -10637,38 +10146,27 @@
         },
         "916": {
             "Size": 12,
-            "Name": "AtkFrozen",
+            "Name": "AtkUnknown916",
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "BOOL",
-                    "Name": "on"
+                    "Type": "S32",
+                    "Name": "arg0"
                 },
                 {
-                    "Type": "BOOL",
-                    "Name": "unlimited"
+                    "Type": "S32",
+                    "Name": "arg1"
                 }
             ]
         },
         "917": {
             "Size": 8,
-            "Name": "AtkFrozenTime",
+            "Name": "AtkUnknown917",
             "Indent": "None",
             "Args": [
                 {
                     "Type": "S32",
-                    "Name": "arg"
-                }
-            ]
-        },
-        "918": {
-            "Size": 8,
-            "Name": "AtkFrozenTimeCounterHit",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "S32",
-                    "Name": "arg"
+                    "Name": "arg0"
                 }
             ]
         },
@@ -11058,12 +10556,11 @@
         },
         "958": {
             "Size": 8,
-            "Name": "AtkSystemSkill01",
             "Indent": "None",
             "Args": [
                 {
                     "Type": "BOOL",
-                    "Name": "on"
+                    "Name": "val"
                 }
             ]
         },
@@ -11136,36 +10633,6 @@
         "969": {
             "Size": 8,
             "Name": "AtkRedRomanCancelJizokuCounterHit",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "S32",
-                    "Name": "val"
-                }
-            ]
-        },
-        "970": {
-            "Size": 8,
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "S32",
-                    "Name": "val"
-                }
-            ]
-        },
-        "971": {
-            "Size": 8,
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "S32",
-                    "Name": "val"
-                }
-            ]
-        },
-        "972": {
-            "Size": 8,
             "Indent": "None",
             "Args": [
                 {
@@ -11281,98 +10748,47 @@
                 }
             ]
         },
-        "1006": {
-            "Size": 8,
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "S32",
-                    "Name": "val"
-                }
-            ]
-        },
-        "1007": {
-            "Size": 32,
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "S32",
-                    "Name": "val"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "val"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "val"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "val"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "val"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "val"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "val"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "val"
-                }
-            ]
-        },
         "1014": {
             "Size": 16,
-            "Name": "AtkHitPositionTypeGuard",
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "Enum",
-                    "EnumName": "HIT_POSITION_TYPE",
-                    "Name": "type"
+                    "Type": "S32",
+                    "Name": "arg0"
                 },
                 {
                     "Type": "S32",
-                    "Name": "x"
+                    "Name": "arg1"
                 },
                 {
                     "Type": "S32",
-                    "Name": "y"
+                    "Name": "arg2"
                 }
             ]
         },
         "1015": {
             "Size": 40,
-            "Name": "AppendCollisionEx",
             "Indent": "None",
             "Args": [
                 {
                     "Type": "BOOL",
-                    "Name": "isAttack"
+                    "Name": "arg0"
                 },
                 {
                     "Type": "COperand",
-                    "Name": "x"
+                    "Name": "arg1"
                 },
                 {
                     "Type": "COperand",
-                    "Name": "y"
+                    "Name": "arg2"
                 },
                 {
                     "Type": "COperand",
-                    "Name": "w"
+                    "Name": "arg31"
                 },
                 {
                     "Type": "COperand",
-                    "Name": "h"
+                    "Name": "arg4"
                 }
             ]
         },
@@ -11716,8 +11132,8 @@
             "Args": [
                 {
                     "Type": "Enum",
-                    "EnumName": "POS_TYPE",
-                    "Name": "pos"
+                    "EnumName": "HIT_EFFECT",
+                    "Name": "effect"
                 },
                 {
                     "Type": "C32BYTE",
@@ -11949,7 +11365,7 @@
                 {
                     "Type": "Enum",
                     "EnumName": "HIT_POSITION_TYPE",
-                    "Name": "type"
+                    "Name": "pos"
                 },
                 {
                     "Type": "S32",
@@ -11978,7 +11394,7 @@
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "COperand",
+                    "Type": "S32",
                     "Name": "addVal"
                 },
                 {
@@ -14638,78 +14054,46 @@
             ]
         },
         "1289": {
-            "Size": 12,
-            "Name": "InitBarrierGuardStop",
+            "Size": 8,
+            "Name": "InitTensionBonusWalk",
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "COperand",
+                    "Type": "S32",
                     "Name": "val"
                 }
             ]
         },
         "1290": {
-            "Size": 28,
-            "Name": "InitBarrierGuardTension",
+            "Size": 8,
+            "Name": "InitTensionBonusJump",
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "S16",
-                    "Name": "arg0"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg1"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg2"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg3"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg4"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg5"
+                    "Type": "S32",
+                    "Name": "val"
                 }
             ]
         },
         "1291": {
-            "Size": 12,
-            "Name": "InitBarrierUseTension",
+            "Size": 8,
+            "Name": "InitTensionBonusDash",
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "S16",
-                    "Name": "arg0"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg1"
+                    "Type": "S32",
+                    "Name": "val"
                 }
             ]
         },
         "1292": {
-            "Size": 16,
-            "Name": "InitBarrierAirMoveSetting",
+            "Size": 8,
+            "Name": "InitTensionBonusAirDash",
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "S16",
-                    "Name": "arg0"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg1"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg2"
+                    "Type": "S32",
+                    "Name": "val"
                 }
             ]
         },
@@ -14864,444 +14248,56 @@
             ]
         },
         "1307": {
-            "Size": 20,
-            "Name": "InitTensionBalanceFront",
+            "Size": 8,
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "S16",
-                    "Name": "arg0"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg1"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg2"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg3"
+                    "Type": "S32",
+                    "Name": "val"
                 }
             ]
         },
         "1308": {
-            "Size": 20,
-            "Name": "InitTensionBalanceBack",
+            "Size": 8,
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "S16",
-                    "Name": "arg0"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg1"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg2"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg3"
+                    "Type": "S32",
+                    "Name": "val"
                 }
             ]
         },
         "1309": {
-            "Size": 28,
-            "Name": "InitTensionBalanceAtkHit",
+            "Size": 8,
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "S16",
-                    "Name": "arg0"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg1"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg2"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg3"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg4"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg5"
+                    "Type": "S32",
+                    "Name": "val"
                 }
             ]
         },
         "1310": {
-            "Size": 24,
-            "Name": "InitTensionBalanceGuard",
+            "Size": 8,
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "S16",
-                    "Name": "arg0"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg1"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg2"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg3"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg4"
+                    "Type": "S32",
+                    "Name": "val"
                 }
             ]
         },
         "1311": {
-            "Size": 24,
-            "Name": "InitTensionBalanceJustGuard",
+            "Size": 8,
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "S16",
-                    "Name": "arg0"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg1"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg2"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg3"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg4"
-                }
-            ]
-        },
-        "1312": {
-            "Size": 20,
-            "Name": "InitTBalanceNegativeNoAct",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "S16",
-                    "Name": "arg0"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg1"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg2"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg3"
+                    "Type": "S32",
+                    "Name": "val"
                 }
             ]
         },
         "1313": {
-            "Size": 20,
-            "Name": "InitTBalanceNegativeSideTouch",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "S16",
-                    "Name": "arg0"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg1"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg2"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg3"
-                }
-            ]
-        },
-        "1314": {
-            "Size": 44,
-            "Name": "InitTensionBalanceMagnify",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "S16",
-                    "Name": "arg0"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg1"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg2"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg3"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg4"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg5"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg6"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg7"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg8"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg9"
-                }
-            ]
-        },
-        "1315": {
-            "Size": 44,
-            "Name": "InitNegativeMagnify",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "S16",
-                    "Name": "arg0"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg1"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg2"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg3"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg4"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg5"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg6"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg7"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg8"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg9"
-                }
-            ]
-        },
-        "1316": {
-            "Size": 12,
-            "Name": "InitDistanceThreshold",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "S16",
-                    "Name": "arg0"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg1"
-                }
-            ]
-        },
-        "1317": {
-            "Size": 16,
-            "Name": "InitTBalanceDistanceMagnify",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "S16",
-                    "Name": "arg0"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg1"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg2"
-                }
-            ]
-        },
-        "1318": {
-            "Size": 16,
-            "Name": "InitNegativeDistanceMagnify",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "S16",
-                    "Name": "arg0"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg1"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg2"
-                }
-            ]
-        },
-        "1319": {
-            "Size": 20,
-            "Name": "InitNegativeBack",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "S16",
-                    "Name": "arg0"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg1"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg2"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg3"
-                }
-            ]
-        },
-        "1320": {
-            "Size": 12,
-            "Name": "InitTBalanceNegativeExec",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "S16",
-                    "Name": "arg0"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg1"
-                }
-            ]
-        },
-        "1321": {
-            "Size": 12,
-            "Name": "InitPositiveBonusSetting",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "S16",
-                    "Name": "arg0"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg1"
-                }
-            ]
-        },
-        "1322": {
-            "Size": 20,
-            "Name": "InitNegativePenaltySetting",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "S16",
-                    "Name": "arg0"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg1"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg2"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg3"
-                }
-            ]
-        },
-        "1323": {
-            "Size": 24,
-            "Name": "InitGuardTension",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "S16",
-                    "Name": "arg0"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg1"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg2"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg3"
-                },
-                {
-                    "Type": "S16",
-                    "Name": "arg4"
-                }
-            ]
-        },
-        "1324": {
-            "Size": 24,
-            "Name": "AtkTrialDrawName",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "C32BYTE",
-                    "Name": "name"
-                }
-            ]
-        },
-        "1325": {
             "Size": 24,
             "Name": "SetDamageCell",
             "Indent": "None",
@@ -15317,77 +14313,11 @@
                 }
             ]
         },
-        "1326": {
+        "1314": {
             "Size": 4,
             "Name": "SyncEntry",
             "Indent": "None",
             "Args": []
-        },
-        "1327": {
-            "Size": 60,
-            "Name": "SetExtendCollision",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "C32BYTE",
-                    "Name": "name"
-                },
-                {
-                    "Type": "Enum",
-                    "EnumName": "EXTEND_JON_TYPE",
-                    "Name": "extJonType"
-                },
-                {
-                    "Type": "Enum",
-                    "EnumName": "CT_COLLISION_TYPE",
-                    "Name": "collisionType"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "arg3"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "arg4"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "arg5"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "arg6"
-                }
-            ]
-        },
-        "1328": {
-            "Size": 68,
-            "Name": "SetDamageCellEx",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "C32BYTE",
-                    "Name": "damageCellType"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "name"
-                }
-            ]
-        },
-        "1329": {
-            "Size": 12,
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "S32",
-                    "Name": "val0"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "val1"
-                }
-            ]
         },
         "1333": {
             "Size": 8,
@@ -15616,7 +14546,11 @@
             "Args": [
                 {
                     "Type": "BOOL",
-                    "Name": "val"
+                    "Name": "enableChange"
+                },
+                {
+                    "Type": "BOOL",
+                    "Name": "enableAssist"
                 }
             ]
         },
@@ -16316,8 +15250,12 @@
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "COperand",
-                    "Name": "val"
+                    "Type": "S32",
+                    "Name": "val0"
+                },
+                {
+                    "Type": "S32",
+                    "Name": "val1"
                 }
             ]
         },
@@ -16749,12 +15687,11 @@
         },
         "1590": {
             "Size": 8,
-            "Name": "SkillEstTagMemberChangeRequest",
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "BOOL",
-                    "Name": "on"
+                    "Type": "S32",
+                    "Name": "arg0"
                 }
             ]
         },
@@ -17235,8 +16172,8 @@
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "C32BYTE",
-                    "Name": "actname"
+                    "Type": "S32",
+                    "Name": ""
                 }
             ]
         },
@@ -17246,8 +16183,8 @@
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "C32BYTE",
-                    "Name": "actname"
+                    "Type": "S32",
+                    "Name": ""
                 }
             ]
         },
@@ -17257,8 +16194,8 @@
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "C32BYTE",
-                    "Name": "actname"
+                    "Type": "S32",
+                    "Name": ""
                 }
             ]
         },
@@ -17317,222 +16254,55 @@
                 }
             ]
         },
-        "1685": {
-            "Size": 8,
-            "Name": "AirDashCancel",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "BOOL",
-                    "Name": "val"
-                }
-            ]
-        },
-        "1686": {
-            "Size": 4,
-            "Name": "ResetInputCommand",
-            "Indent": "None",
-            "Args": []
-        },
-        "1687": {
-            "Size": 8,
-            "Name": "SenkoInputNormal",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "S32",
-                    "Name": "buffer"
-                }
-            ]
-        },
-        "1688": {
-            "Size": 8,
-            "Name": "ImperfectComboEnable",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "BOOL",
-                    "Name": "val"
-                }
-            ]
-        },
-        "1689": {
-            "Size": 8,
-            "Name": "AirBackDashCancel",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "BOOL",
-                    "Name": "val"
-                }
-            ]
-        },
-        "1691": {
-            "Size": 8,
-            "Name": "LinkExBlendOnCellBegin",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "S32",
-                    "Name": "val"
-                }
-            ]
-        },
-        "1692": {
-            "Size": 40,
-            "Name": "ExBlend",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "S32",
-                    "Name": "val"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "cellName"
-                }
-            ]
-        },
-        "1693": {
-            "Size": 12,
-            "Name": "MouthPause",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "COperand",
-                    "Name": "val"
-                }
-            ]
-        },
-        "1694": {
-            "Size": 36,
-            "Name": "CellBlendNext",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "COperand",
-                    "Name": "endVal"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "maxFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "intervalFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "accType"
-                }
-            ]
-        },
-        "1695": {
-            "Size": 44,
-            "Name": "CellBlend",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "C32BYTE",
-                    "Name": "cellname"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "val"
-                }
-            ]
-        },
         "1696": {
-            "Size": 20,
+            "Size": 8,
+            "Name": "FaceBlend",
+            "Indent": "None",
+            "Args": [
+                {
+                    "Type": "S32",
+                    "Name": "blend"
+                }
+            ]
+        },
+        "1697": {
+            "Size": 8,
+            "Name": "FaceTypeFromIndex",
+            "Indent": "None",
+            "Args": [
+                {
+                    "Type": "S32",
+                    "Name": "index"
+                }
+            ]
+        },
+        "1698": {
+            "Size": 8,
             "Name": "Face",
             "Indent": "None",
             "Args": [
                 {
                     "Type": "S32",
-                    "Name": "index"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "arg1"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "time"
-                },
-                {
-                    "Type": "Enum",
-                    "EnumName": "EAdvAnimControlType",
-                    "Name": "animCtrlType"
+                    "Name": "type"
                 }
             ]
         },
-        "1697": {
+        "1699": {
             "Size": 4,
             "Name": "FaceReset",
             "Indent": "None",
             "Args": []
         },
-        "1698": {
-            "Size": 52,
-            "Name": "Hair",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "C32BYTE",
-                    "Name": "motionName"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "index"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "arg1"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "time"
-                },
-                {
-                    "Type": "Enum",
-                    "EnumName": "EAdvAnimControlType",
-                    "Name": "animCtrlType"
-                }
-            ]
-        },
-        "1699": {
-            "Size": 52,
-            "Name": "PlayHair",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "C32BYTE",
-                    "Name": "motionName"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "index"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "arg1"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "time"
-                },
-                {
-                    "Type": "Enum",
-                    "EnumName": "EAdvAnimControlType",
-                    "Name": "animCtrlType"
-                }
-            ]
-        },
         "1700": {
-            "Size": 4,
-            "Name": "HairReset",
+            "Size": 8,
+            "Name": "FaceIndex",
             "Indent": "None",
-            "Args": []
+            "Args": [
+                {
+                    "Type": "S32",
+                    "Name": "index"
+                }
+            ]
         },
         "1701": {
             "Size": 4,
@@ -17659,35 +16429,15 @@
             "Indent": "None",
             "Args": []
         },
-        "1714": {
-            "Size": 20,
-            "Name": "FaceBrow",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "S32",
-                    "Name": "index"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "arg1"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "time"
-                },
-                {
-                    "Type": "Enum",
-                    "EnumName": "EAdvAnimControlType",
-                    "Name": "animCtrlType"
-                }
-            ]
-        },
         "1715": {
-            "Size": 20,
-            "Name": "FaceEye",
+            "Size": 52,
+            "Name": "Hair",
             "Indent": "None",
             "Args": [
+                {
+                    "Type": "C32BYTE",
+                    "Name": "motionName"
+                },
                 {
                     "Type": "S32",
                     "Name": "index"
@@ -17708,10 +16458,14 @@
             ]
         },
         "1716": {
-            "Size": 20,
-            "Name": "FaceMouth",
+            "Size": 52,
+            "Name": "PlayHair",
             "Indent": "None",
             "Args": [
+                {
+                    "Type": "C32BYTE",
+                    "Name": "motionName"
+                },
                 {
                     "Type": "S32",
                     "Name": "index"
@@ -17733,55 +16487,9 @@
         },
         "1717": {
             "Size": 4,
-            "Name": "FaceBrowReset",
+            "Name": "HairReset",
             "Indent": "None",
             "Args": []
-        },
-        "1718": {
-            "Size": 4,
-            "Name": "FaceEyeReset",
-            "Indent": "None",
-            "Args": []
-        },
-        "1719": {
-            "Size": 4,
-            "Name": "FaceMouthReset",
-            "Indent": "None",
-            "Args": []
-        },
-        "1720": {
-            "Size": 8,
-            "Name": "LinkBone",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "BOOL",
-                    "Name": "val"
-                }
-            ]
-        },
-        "1721": {
-            "Size": 32,
-            "Name": "ExPos",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "S32",
-                    "Name": "index"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "x"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "y"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "z"
-                }
-            ]
         },
         "1722": {
             "Size": 32,
@@ -17875,51 +16583,49 @@
         },
         "1728": {
             "Size": 44,
-            "Name": "AnimBPParam",
             "Indent": "None",
             "Args": [
                 {
                     "Type": "COperand",
-                    "Name": "slotIndex"
+                    "Name": "arg0"
                 },
                 {
                     "Type": "COperand",
-                    "Name": "targetVal"
+                    "Name": "arg1"
                 },
                 {
                     "Type": "COperand",
-                    "Name": "blendFrame"
+                    "Name": "arg2"
                 },
                 {
                     "Type": "COperand",
-                    "Name": "blendInterval"
+                    "Name": "arg3"
                 },
                 {
                     "Type": "COperand",
-                    "Name": "blendAcc"
+                    "Name": "arg4"
                 }
             ]
         },
         "1729": {
             "Size": 36,
-            "Name": "OutlineScaleEx",
             "Indent": "None",
             "Args": [
                 {
                     "Type": "COperand",
-                    "Name": "scale"
+                    "Name": "arg0"
                 },
                 {
                     "Type": "COperand",
-                    "Name": "frame"
+                    "Name": "arg1"
                 },
                 {
                     "Type": "COperand",
-                    "Name": "interval"
+                    "Name": "arg2"
                 },
                 {
                     "Type": "COperand",
-                    "Name": "acc"
+                    "Name": "arg3"
                 }
             ]
         },
@@ -17940,7 +16646,7 @@
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "COperand",
+                    "Type": "S32",
                     "Name": "val"
                 }
             ]
@@ -17978,7 +16684,7 @@
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "COperand",
+                    "Type": "S32",
                     "Name": "val"
                 }
             ]
@@ -17989,7 +16695,7 @@
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "COperand",
+                    "Type": "S32",
                     "Name": "val"
                 }
             ]
@@ -18226,65 +16932,28 @@
         },
         "1753": {
             "Size": 20,
-            "Name": "HandL",
             "Indent": "None",
             "Args": [
                 {
                     "Type": "S32",
-                    "Name": "poseIndex"
+                    "Name": "arg0"
                 },
                 {
                     "Type": "S32",
-                    "Name": "blendFrame"
+                    "Name": "arg1"
                 },
                 {
                     "Type": "S32",
-                    "Name": "blendInterval"
+                    "Name": "arg2"
                 },
                 {
                     "Type": "S32",
-                    "Name": "blendAcc"
+                    "Name": "arg3"
                 }
             ]
-        },
-        "1754": {
-            "Size": 20,
-            "Name": "HandR",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "S32",
-                    "Name": "poseIndex"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "blendFrame"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "blendInterval"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "blendAcc"
-                }
-            ]
-        },
-        "1755": {
-            "Size": 4,
-            "Name": "HandLReset",
-            "Indent": "None",
-            "Args": []
-        },
-        "1756": {
-            "Size": 4,
-            "Name": "HandRReset",
-            "Indent": "None",
-            "Args": []
         },
         "1761": {
             "Size": 4,
-            "Name": "ResetEasyInputG",
             "Indent": "None",
             "Args": []
         },
@@ -19048,7 +17717,6 @@
         },
         "1868": {
             "Size": 8,
-            "Name": "ExMutekiArmorBreak",
             "Indent": "None",
             "Args": [
                 {
@@ -19059,7 +17727,39 @@
         },
         "1869": {
             "Size": 8,
-            "Name": "ExMutekiShotLevelM1",
+            "Indent": "None",
+            "Args": [
+                {
+                    "Type": "BOOL",
+                    "Name": "val"
+                }
+            ]
+        },
+        "1870": {
+            "Size": 8,
+            "Name": "ExMutekiStrike",
+            "Indent": "None",
+            "Args": [
+                {
+                    "Type": "BOOL",
+                    "Name": "val"
+                }
+            ]
+        },
+        "1871": {
+            "Size": 8,
+            "Name": "ExMutekiStrikeAssist",
+            "Indent": "None",
+            "Args": [
+                {
+                    "Type": "BOOL",
+                    "Name": "val"
+                }
+            ]
+        },
+        "1872": {
+            "Size": 8,
+            "Name": "ExMutekiKidan",
             "Indent": "None",
             "Args": [
                 {
@@ -19877,7 +18577,6 @@
         },
         "1977": {
             "Size": 8,
-            "Name": "HitBackReturnIgnoreAll",
             "Indent": "None",
             "Args": [
                 {
@@ -20382,7 +19081,7 @@
         },
         "2022": {
             "Size": 36,
-            "Name": "BGClashEventDoneFromName",
+            "Name": "AreaLightSet",
             "Indent": "None",
             "Args": [
                 {
@@ -20393,7 +19092,7 @@
         },
         "2023": {
             "Size": 36,
-            "Name": "CheckBGClashEventDone",
+            "Name": "AreaLightTest",
             "Indent": "None",
             "Args": [
                 {
@@ -20404,7 +19103,6 @@
         },
         "2024": {
             "Size": 4,
-            "Name": "BGClashEventDone",
             "Indent": "None",
             "Args": []
         },
@@ -21110,27 +19808,27 @@
                     "Name": "object"
                 },
                 {
-                    "Type": "COperand",
+                    "Type": "S32",
                     "Name": "baseOffsetX"
                 },
                 {
-                    "Type": "COperand",
+                    "Type": "S32",
                     "Name": "baseOffsetY"
                 },
                 {
-                    "Type": "COperand",
+                    "Type": "S32",
                     "Name": "baseOffsetZ"
                 },
                 {
-                    "Type": "COperand",
+                    "Type": "S32",
                     "Name": "baseRotPitch"
                 },
                 {
-                    "Type": "COperand",
+                    "Type": "S32",
                     "Name": "baseRotYaw"
                 },
                 {
-                    "Type": "COperand",
+                    "Type": "S32",
                     "Name": "baseRotRoll"
                 },
                 {
@@ -21138,15 +19836,15 @@
                     "Name": "fov"
                 },
                 {
-                    "Type": "COperand",
+                    "Type": "S32",
                     "Name": "inFrame"
                 },
                 {
-                    "Type": "COperand",
+                    "Type": "S32",
                     "Name": "stayFrame"
                 },
                 {
-                    "Type": "COperand",
+                    "Type": "S32",
                     "Name": "outFrame"
                 },
                 {
@@ -21154,11 +19852,11 @@
                     "Name": "freezeFrame"
                 },
                 {
-                    "Type": "C32BYTE",
+                    "Type": "S32",
                     "Name": "inCurve"
                 },
                 {
-                    "Type": "C32BYTE",
+                    "Type": "S32",
                     "Name": "outCurve"
                 }
             ]
@@ -21179,27 +19877,27 @@
                     "Name": "lookAtObject"
                 },
                 {
-                    "Type": "COperand",
+                    "Type": "S32",
                     "Name": "baseOffsetX"
                 },
                 {
-                    "Type": "COperand",
+                    "Type": "S32",
                     "Name": "baseOffsetZ"
                 },
                 {
-                    "Type": "COperand",
+                    "Type": "S32",
                     "Name": "baseOffsetY"
                 },
                 {
-                    "Type": "COperand",
+                    "Type": "S32",
                     "Name": "lookAtOffsetX"
                 },
                 {
-                    "Type": "COperand",
+                    "Type": "S32",
                     "Name": "lookAtOffsetZ"
                 },
                 {
-                    "Type": "COperand",
+                    "Type": "S32",
                     "Name": "lookAtOffsetY"
                 },
                 {
@@ -21215,15 +19913,15 @@
                     "Name": "fov"
                 },
                 {
-                    "Type": "COperand",
+                    "Type": "S32",
                     "Name": "inFrame"
                 },
                 {
-                    "Type": "COperand",
+                    "Type": "S32",
                     "Name": "stayFrame"
                 },
                 {
-                    "Type": "COperand",
+                    "Type": "S32",
                     "Name": "outFrame"
                 },
                 {
@@ -21231,11 +19929,11 @@
                     "Name": "freezeFrame"
                 },
                 {
-                    "Type": "C32BYTE",
+                    "Type": "S32",
                     "Name": "inCurve"
                 },
                 {
-                    "Type": "C32BYTE",
+                    "Type": "S32",
                     "Name": "outCurve"
                 }
             ]
@@ -21947,7 +20645,8 @@
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "S32",
+                    "Type": "Enum",
+                    "EnumName": "CO_TYPE",
                     "Name": "arg0"
                 },
                 {
@@ -23287,7 +21986,8 @@
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "BOOL",
+                    "Type": "Enum",
+                    "EnumName": "RCU_TYPE",
                     "Name": "val"
                 }
             ]
@@ -23544,23 +22244,21 @@
         },
         "2255": {
             "Size": 8,
-            "Name": "GroundFrozen",
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "S32",
-                    "Name": "range"
+                    "Type": "BOOL",
+                    "Name": "val"
                 }
             ]
         },
         "2256": {
             "Size": 8,
-            "Name": "IgnoreGroundFrozenMove",
             "Indent": "None",
             "Args": [
                 {
                     "Type": "BOOL",
-                    "Name": "on"
+                    "Name": "val"
                 }
             ]
         },
@@ -23792,11 +22490,6 @@
                 {
                     "Type": "BOOL",
                     "Name": "withRot"
-                },
-                {
-                    "Type": "Enum",
-                    "EnumName": "CO_TYPE",
-                    "Name": "owner"
                 }
             ]
         },
@@ -23984,6 +22677,16 @@
         "2295": {
             "Size": 8,
             "Name": "SetHitStop",
+            "Indent": "None",
+            "Args": [
+                {
+                    "Type": "S32",
+                    "Name": "val"
+                }
+            ]
+        },
+        "2297": {
+            "Size": 8,
             "Indent": "None",
             "Args": [
                 {
@@ -24239,7 +22942,7 @@
             "Args": [
                 {
                     "Type": "Enum",
-                    "EnumName": "SCR_BTL_COCKPIT_INFO",
+                    "EnumName": "ATKTGT",
                     "Name": "cockpitInfo"
                 }
             ]
@@ -24599,7 +23302,6 @@
         },
         "2339": {
             "Size": 4,
-            "Name": "MeshSetChangeCurrent",
             "Indent": "None",
             "Args": []
         },
@@ -25074,12 +23776,15 @@
         },
         "2379": {
             "Size": 8,
-            "Name": "NaguruAtkRangeCheck",
             "Indent": "None",
             "Args": [
                 {
-                    "Type": "BOOL",
-                    "Name": "val"
+                    "Type": "S32",
+                    "Name": "arg0"
+                },
+                {
+                    "Type": "S32",
+                    "Name": "arg1"
                 }
             ]
         },
@@ -25472,24 +24177,21 @@
         },
         "2435": {
             "Size": 8,
-            "Name": "IgnoreOil",
             "Indent": "None",
             "Args": [
                 {
                     "Type": "BOOL",
-                    "Name": "on"
+                    "Name": "val"
                 }
             ]
         },
         "2436": {
             "Size": 4,
-            "Name": "ClearHitStopTimeBySousai",
             "Indent": "None",
             "Args": []
         },
         "2437": {
             "Size": 8,
-            "Name": "MutekiDagekiForAegisField",
             "Indent": "None",
             "Args": [
                 {
@@ -25511,53 +24213,50 @@
         },
         "2439": {
             "Size": 40,
-            "Name": "TO3BuffDebuffStatus",
             "Indent": "None",
             "Args": [
                 {
                     "Type": "Enum",
                     "EnumName": "CO_TYPE",
-                    "Name": "coType"
+                    "Name": "object"
                 },
                 {
                     "Type": "COperand",
-                    "Name": "statusType"
+                    "Name": "arg1"
                 },
                 {
                     "Type": "COperand",
-                    "Name": "value1"
+                    "Name": "arg2"
                 },
                 {
                     "Type": "COperand",
-                    "Name": "value2"
+                    "Name": "arg3"
                 },
                 {
                     "Type": "COperand",
-                    "Name": "time"
+                    "Name": "arg4"
                 }
             ]
         },
         "2440": {
             "Size": 8,
-            "Name": "TO3BuffDebuffDispel",
             "Indent": "None",
             "Args": [
                 {
                     "Type": "Enum",
                     "EnumName": "CO_TYPE",
-                    "Name": "coType"
+                    "Name": "object"
                 }
             ]
         },
         "2441": {
             "Size": 4,
-            "Name": "TO3SkillDispel",
             "Indent": "None",
             "Args": []
         },
         "2461": {
             "Size": 84,
-            "Name": "AttachParticle",
+            "Name": "ObjectSocketAttach",
             "Indent": "None",
             "Args": [
                 {
@@ -25567,60 +24266,60 @@
                 },
                 {
                     "Type": "C32BYTE",
-                    "Name": "playerMeshName"
+                    "Name": "mesh"
                 },
                 {
                     "Type": "C32BYTE",
-                    "Name": "socketName"
+                    "Name": "socket"
                 },
                 {
                     "Type": "BOOL",
-                    "Name": "linkPos"
+                    "Name": "arg3"
                 },
                 {
                     "Type": "BOOL",
-                    "Name": "linkRot"
+                    "Name": "arg4"
                 },
                 {
                     "Type": "BOOL",
-                    "Name": "linkScale"
+                    "Name": "arg5"
                 }
             ]
         },
         "2462": {
             "Size": 4,
-            "Name": "DetachParticle",
+            "Name": "ObjectSocketAttachClear",
             "Indent": "None",
             "Args": []
         },
         "2463": {
             "Size": 100,
-            "Name": "SelfLinkBone",
+            "Name": "SocketAttach",
             "Indent": "None",
             "Args": [
                 {
                     "Type": "C32BYTE",
-                    "Name": "linkMeshName"
+                    "Name": "mesh"
                 },
                 {
                     "Type": "C32BYTE",
-                    "Name": "linkBoneName"
+                    "Name": "socket1"
                 },
                 {
                     "Type": "C32BYTE",
-                    "Name": "parentBoneName"
+                    "Name": "socket2"
                 }
             ]
         },
         "2464": {
             "Size": 4,
-            "Name": "ResetSelfLinkBone",
+            "Name": "SocketAttachClear",
             "Indent": "None",
             "Args": []
         },
         "2465": {
             "Size": 36,
-            "Name": "LinkBPEffect",
+            "Name": "LinkBP",
             "Indent": "None",
             "Args": [
                 {
@@ -25631,7 +24330,7 @@
         },
         "2466": {
             "Size": 20,
-            "Name": "BPEffectParam",
+            "Name": "BP_BattleScriptParam",
             "Indent": "None",
             "Args": [
                 {
@@ -26101,11 +24800,118 @@
                 }
             ]
         },
+        "2502": {
+            "Size": 12,
+            "Name": "RoundStartBGTransition",
+            "Indent": "None",
+            "Args": [
+                {
+                    "Type": "S32",
+                    "Name": "arg1"
+                },
+                {
+                    "Type": "S32",
+                    "Name": "arg2"
+                }
+            ]
+        },
+        "2503": {
+            "Size": 8,
+            "Name": "DramaticSetBegin",
+            "Indent": "Begin",
+            "Args": [
+                {
+                    "Type": "S32",
+                    "Name": "arg"
+                }
+            ]
+        },
+        "2504": {
+            "Size": 4,
+            "Name": "DramaticSetEnd",
+            "Indent": "End",
+            "Args": []
+        },
+        "2505": {
+            "Size": 36,
+            "Name": "DramaticActionSelf",
+            "Indent": "None",
+            "Args": [
+                {
+                    "Type": "C32BYTE",
+                    "Name": "name"
+                }
+            ]
+        },
+        "2506": {
+            "Size": 36,
+            "Name": "DramaticActionEnemy",
+            "Indent": "None",
+            "Args": [
+                {
+                    "Type": "C32BYTE",
+                    "Name": "name"
+                }
+            ]
+        },
+        "2507": {
+            "Size": 36,
+            "Name": "DramaticActionRoundStart",
+            "Indent": "None",
+            "Args": [
+                {
+                    "Type": "C32BYTE",
+                    "Name": "name"
+                }
+            ]
+        },
+        "2508": {
+            "Size": 40,
+            "Name": "DramaticCondition",
+            "Indent": "None",
+            "Args": [
+                {
+                    "Type": "S32",
+                    "Name": "arg"
+                },
+                {
+                    "Type": "C32BYTE",
+                    "Name": "name"
+                }
+            ]
+        },
+        "2509": {
+            "Size": 4,
+            "Name": "DramaticSetClear",
+            "Indent": "None",
+            "Args": []
+        },
+        "2510": {
+            "Size": 4,
+            "Name": "DispDramaticFinish",
+            "Indent": "None",
+            "Args": []
+        },
+        "2511": {
+            "Size": 4,
+            "Name": "StartHUDTutorial",
+            "Indent": "None",
+            "Args": []
+        },
         "2512": {
             "Size": 4,
             "Name": "IfBeginCharaID",
             "Indent": "Begin",
-            "Args": []
+            "Args": [
+                {
+                    "Type": "S32",
+                    "Name": "arg"
+                },
+                {
+                    "Type": "C32BYTE",
+                    "Name": "name"
+                }
+            ]
         },
         "2513": {
             "Size": 20,
@@ -26135,6 +24941,39 @@
             "Indent": "None",
             "Args": []
         },
+        "2516": {
+            "Size": 8,
+            "Name": "SetMeteoUltimateSkillOffset",
+            "Indent": "None",
+            "Args": [
+                {
+                    "Type": "S32",
+                    "Name": "skill"
+                }
+            ]
+        },
+        "2517": {
+            "Size": 8,
+            "Name": "RequestBattleLiveMeteoSkill",
+            "Indent": "None",
+            "Args": [
+                {
+                    "Type": "S32",
+                    "Name": "skill"
+                }
+            ]
+        },
+        "2518": {
+            "Size": 8,
+            "Name": "PlayAnimeFaceIndex",
+            "Indent": "None",
+            "Args": [
+                {
+                    "Type": "S32",
+                    "Name": "arg"
+                }
+            ]
+        },
         "2519": {
             "Size": 4,
             "Name": "IgnoreDispOnlyMe",
@@ -26163,1856 +25002,16 @@
             "Indent": "None",
             "Args": []
         },
-        "2522": {
-            "Size": 8,
-            "Name": "BoneControl_IgnoreObjStop",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "BOOL",
-                    "Name": "bIgnore"
-                }
-            ]
-        },
         "2523": {
-            "Size": 64,
-            "Name": "BoneControl_Position",
+            "Size": 12,
             "Indent": "None",
-            "Args": [
-                {
-                    "Type": "C32BYTE",
-                    "Name": "BoneName"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "X"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "Y"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "Z"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "Frames"
-                },
-                {
-                    "Type": "Enum",
-                    "Name": "Interval",
-                    "EnumName": "ACTV_STATE"
-                },
-                {
-                    "Type": "Enum",
-                    "Name": "Interp",
-                    "EnumName": "EBoneControl_Interp"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "Delay"
-                }
-            ]
-        },
-        "2524": {
-            "Size": 64,
-            "Name": "BoneControl_Rotation",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "C32BYTE",
-                    "Name": "BoneName"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "X"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "Y"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "Z"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "Frames"
-                },
-                {
-                    "Type": "Enum",
-                    "Name": "Interval",
-                    "EnumName": "ACTV_STATE"
-                },
-                {
-                    "Type": "Enum",
-                    "Name": "Interp",
-                    "EnumName": "EBoneControl_Interp"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "Delay"
-                }
-            ]
+            "Args": []
         },
         "2525": {
-            "Size": 8,
+            "Size": 4,
             "Name": "IgnoreZLine",
             "Indent": "None",
-            "Args": [
-                {
-                    "Type": "BOOL",
-                    "Name": "bIgnore"
-                }
-            ]
-        },
-        "2526": {
-            "Size": 28,
-            "Name": "CellSlowParam",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "BOOL",
-                    "Name": "bActive"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "interval"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "frame1"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "blend1"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "frame2"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "blend2"
-                }
-            ]
-        },
-        "2527": {
-            "Size": 28,
-            "Name": "CellSlowDefaultParam",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "BOOL",
-                    "Name": "bActive"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "interval"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "frame1"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "blend1"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "frame2"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "blend2"
-                }
-            ]
-        },
-        "2528": {
-            "Size": 4,
-            "Name": "MoveCAmera_Start",
-            "Indent": "Begin",
             "Args": []
-        },
-        "2529": {
-            "Size": 8,
-            "Name": "MoveCamera_BasePosObject",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "Enum",
-                    "Name": "BasePosObjectType",
-                    "EnumName": "CO_TYPE"
-                }
-            ]
-        },
-        "2530": {
-            "Size": 8,
-            "Name": "MoveCamera_TargetPosObject",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "Enum",
-                    "Name": "TargetPosObjectType",
-                    "EnumName": "CO_TYPE"
-                }
-            ]
-        },
-        "2531": {
-            "Size": 100,
-            "Name": "MoveCamera_PosX",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "COperand",
-                    "Name": "PosX"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "InFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "StayFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "OutFrame"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpIn"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpOut"
-                }
-            ]
-        },
-        "2532": {
-            "Size": 100,
-            "Name": "MoveCamera_PosY",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "COperand",
-                    "Name": "PosY"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "InFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "StayFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "OutFrame"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpIn"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpOut"
-                }
-            ]
-        },
-        "2533": {
-            "Size": 100,
-            "Name": "MoveCamera_PosZ",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "COperand",
-                    "Name": "PosZ"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "InFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "StayFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "OutFrame"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpIn"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpOut"
-                }
-            ]
-        },
-        "2534": {
-            "Size": 100,
-            "Name": "MoveCamera_RotPitch",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "COperand",
-                    "Name": "Pitch"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "InFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "StayFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "OutFrame"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpIn"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpOut"
-                }
-            ]
-        },
-        "2535": {
-            "Size": 100,
-            "Name": "MoveCamera_RotYaw",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "COperand",
-                    "Name": "Yaw"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "InFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "StayFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "OutFrame"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpIn"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpOut"
-                }
-            ]
-        },
-        "2536": {
-            "Size": 100,
-            "Name": "MoveCamera_RotRoll",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "COperand",
-                    "Name": "Roll"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "InFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "StayFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "OutFrame"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpIn"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpOut"
-                }
-            ]
-        },
-        "2537": {
-            "Size": 108,
-            "Name": "MoveCamera_BasePosOffsetX",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "COperand",
-                    "Name": "StartOffsetX"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "EndOffsetX"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "InFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "StayFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "OutFrame"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpIn"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpOut"
-                }
-            ]
-        },
-        "2538": {
-            "Size": 108,
-            "Name": "MoveCamera_BasePosOffsetY",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "COperand",
-                    "Name": "StartOffsetY"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "EndOffsetY"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "InFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "StayFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "OutFrame"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpIn"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpOut"
-                }
-            ]
-        },
-        "2539": {
-            "Size": 108,
-            "Name": "MoveCamera_BasePosOffsetZ",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "COperand",
-                    "Name": "StartOffsetZ"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "EndOffsetZ"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "InFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "StayFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "OutFrame"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpIn"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpOut"
-                }
-            ]
-        },
-        "2540": {
-            "Size": 108,
-            "Name": "MoveCamera_TargetPosOffsetX",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "COperand",
-                    "Name": "StartOffsetX"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "EndOffsetX"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "InFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "StayFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "OutFrame"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpIn"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpOut"
-                }
-            ]
-        },
-        "2541": {
-            "Size": 108,
-            "Name": "MoveCamera_TargetPosOffsetY",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "COperand",
-                    "Name": "StartOffsetY"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "EndOffsetY"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "InFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "StayFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "OutFrame"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpIn"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpOut"
-                }
-            ]
-        },
-        "2542": {
-            "Size": 108,
-            "Name": "MoveCamera_TargetPosOffsetZ",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "COperand",
-                    "Name": "StartOffsetZ"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "EndOffsetZ"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "InFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "StayFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "OutFrame"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpIn"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpOut"
-                }
-            ]
-        },
-        "2543": {
-            "Size": 108,
-            "Name": "MoveCamera_TargetDistance",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "COperand",
-                    "Name": "StartDistance"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "EndDistance"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "InFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "StayFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "OutFrame"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpIn"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpOut"
-                }
-            ]
-        },
-        "2544": {
-            "Size": 108,
-            "Name": "MoveCamera_TargetPercent",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "COperand",
-                    "Name": "StartPercent"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "EndPercent"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "InFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "StayFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "OutFrame"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpIn"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpOut"
-                }
-            ]
-        },
-        "2545": {
-            "Size": 100,
-            "Name": "MoveCamera_FOV",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "COperand",
-                    "Name": "FOV"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "InFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "StayFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "OutFrame"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpIn"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpOut"
-                }
-            ]
-        },
-        "2546": {
-            "Size": 108,
-            "Name": "MoveCamera_TargetRotRatePitch",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "COperand",
-                    "Name": "StartRate"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "EndRate"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "InFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "StayFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "OutFrame"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpIn"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpOut"
-                }
-            ]
-        },
-        "2547": {
-            "Size": 108,
-            "Name": "MoveCamera_TargetRotRateYaw",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "COperand",
-                    "Name": "StartRate"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "EndRate"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "InFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "StayFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "OutFrame"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpIn"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpOut"
-                }
-            ]
-        },
-        "2548": {
-            "Size": 108,
-            "Name": "MoveCamera_TargetRotRateRoll",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "COperand",
-                    "Name": "StartRate"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "EndRate"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "InFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "StayFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "OutFrame"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpIn"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpOut"
-                }
-            ]
-        },
-        "2549": {
-            "Size": 116,
-            "Name": "MoveCamera_Pos",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "COperand",
-                    "Name": "PosX"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "PosY"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "PosZ"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "InFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "StayFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "OutFrame"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpIn"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpOut"
-                }
-            ]
-        },
-        "2550": {
-            "Size": 116,
-            "Name": "MoveCamera_Rot",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "COperand",
-                    "Name": "Pitch"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "Yaw"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "Roll"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "InFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "StayFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "OutFrame"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpIn"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpOut"
-                }
-            ]
-        },
-        "2551": {
-            "Size": 116,
-            "Name": "MoveCamera_BasePosOffset",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "COperand",
-                    "Name": "OffsetX"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "OffsetY"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "OffsetZ"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "InFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "StayFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "OutFrame"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpIn"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpOut"
-                }
-            ]
-        },
-        "2552": {
-            "Size": 116,
-            "Name": "MoveCamera_TargetPosOffset",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "COperand",
-                    "Name": "OffsetX"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "OffsetY"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "OffsetZ"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "InFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "StayFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "OutFrame"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpIn"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpOut"
-                }
-            ]
-        },
-        "2553": {
-            "Size": 108,
-            "Name": "MoveCamera_TargetRotRate",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "COperand",
-                    "Name": "StartRate"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "EndRate"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "InFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "StayFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "OutFrame"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpIn"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpOut"
-                }
-            ]
-        },
-        "2554": {
-            "Size": 4,
-            "Name": "MoveCamera_Reset",
-            "Indent": "None",
-            "Args": []
-        },
-        "2555": {
-            "Size": 108,
-            "Name": "MoveCamera_TargetPosRateX",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "COperand",
-                    "Name": "StartRate"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "EndRate"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "InFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "StayFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "OutFrame"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpIn"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpOut"
-                }
-            ]
-        },
-        "2556": {
-            "Size": 108,
-            "Name": "MoveCamera_TargetPosRateY",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "COperand",
-                    "Name": "StartRate"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "EndRate"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "InFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "StayFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "OutFrame"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpIn"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpOut"
-                }
-            ]
-        },
-        "2557": {
-            "Size": 108,
-            "Name": "MoveCamera_TargetPosRateZ",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "COperand",
-                    "Name": "StartRate"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "EndRate"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "InFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "StayFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "OutFrame"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpIn"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpOut"
-                }
-            ]
-        },
-        "2558": {
-            "Size": 108,
-            "Name": "MoveCamera_TargetPosRate",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "COperand",
-                    "Name": "StartRate"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "EndRate"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "InFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "StayFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "OutFrame"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpIn"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpOut"
-                }
-            ]
-        },
-        "2559": {
-            "Size": 64,
-            "Name": "BoneControl_Scale",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "C32BYTE",
-                    "Name": "BoneName"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "X"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "Y"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "Z"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "Frames"
-                },
-                {
-                    "Type": "Enum",
-                    "Name": "Interval",
-                    "EnumName": "ACTV_STATE"
-                },
-                {
-                    "Type": "Enum",
-                    "Name": "Interp",
-                    "EnumName": "EBoneControl_Interp"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "Delay"
-                }
-            ]
-        },
-        "2560": {
-            "Size": 8,
-            "Name": "Cinesco",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "Bool",
-                    "Name": "bDispOn"
-                }
-            ]
-        },
-        "2561": {
-            "Size": 8,
-            "Name": "MoveCamera_TargetCameraOn",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "Enum",
-                    "Name": "Target",
-                    "EnumName": "CO_TYPE"
-                }
-            ]
-        },
-        "2562": {
-            "Size": 4,
-            "Name": "MoveCamera_TargetCameraOff",
-            "Indent": "None",
-            "Args": []
-        },
-        "2563": {
-            "Size": 44,
-            "Name": "MoveCamera_TargetCameraOn_Blend",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "Enum",
-                    "Name": "Target",
-                    "EnumName": "CO_TYPE"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "InFrame"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpIn"
-                }
-            ]
-        },
-        "2564": {
-            "Size": 40,
-            "Name": "MoveCamera_TargetCameraOff_Blend",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "S32",
-                    "Name": "InFrame"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpIn"
-                }
-            ]
-        },
-        "2565": {
-            "Size": 40,
-            "Name": "MoveCamera_Stop",
-            "Indent": "End",
-            "Args": [
-                {
-                    "Type": "S32",
-                    "Name": "OutFrame"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpOut"
-                }
-            ]
-        },
-        "2566": {
-            "Size": 108,
-            "Name": "MoveCamera_TargetRotRoll",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "COperand",
-                    "Name": "Start"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "End"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "InFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "StayFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "OutFrame"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpIn"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpOut"
-                }
-            ]
-        },
-        "2567": {
-            "Size": 52,
-            "Name": "MoveCamera_Anime",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "C32BYTE",
-                    "Name": "Name"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "InFrame"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "OutFrame"
-                },
-                {
-                    "Type": "BOOL",
-                    "Name": "bLockBaseLocation"
-                },
-                {
-                    "Type": "BOOL",
-                    "Name": "bSyncParamAnimeInOut"
-                }
-            ]
-        },
-        "2568": {
-            "Size": 108,
-            "Name": "MoveCamera_AnimePosRate",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "COperand",
-                    "Name": "StartRate"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "EndRate"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "InFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "StayFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "OutFrame"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpIn"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpOut"
-                }
-            ]
-        },
-        "2569": {
-            "Size": 108,
-            "Name": "MoveCamera_AnimeRotRate",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "COperand",
-                    "Name": "StartRate"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "EndRate"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "InFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "StayFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "OutFrame"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpIn"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpOut"
-                }
-            ]
-        },
-        "2570": {
-            "Size": 108,
-            "Name": "MoveCamera_AnimeFOVRate",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "COperand",
-                    "Name": "StartRate"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "EndRate"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "InFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "StayFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "OutFrame"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpIn"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpOut"
-                }
-            ]
-        },
-        "2571": {
-            "Size": 20,
-            "Name": "CenterScreenPosition",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "COperand",
-                    "Name": "OffsetX"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "OffsetY"
-                }
-            ]
-        },
-        "2572": {
-            "Size": 92,
-            "Name": "MoveCamera_Spline",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "C32BYTE",
-                    "Name": "Name"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "StartPos"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "EndPos"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "InFrame"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "Interp"
-                }
-            ]
-        },
-        "2573": {
-            "Size": 108,
-            "Name": "MoveCamera_SplinePosRate",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "COperand",
-                    "Name": "StartRate"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "EndRate"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "InFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "StayFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "OutFrame"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpIn"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpOut"
-                }
-            ]
-        },
-        "2574": {
-            "Size": 108,
-            "Name": "MoveCamera_TrackUp",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "COperand",
-                    "Name": "StartDistance"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "EndDistance"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "InFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "StayFrame"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "OutFrame"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpIn"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpOut"
-                }
-            ]
-        },
-        "2575": {
-            "Size": 76,
-            "Name": "MoveCamera_OrthoCurve",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "C32BYTE",
-                    "Name": "CurveName"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "InFrame"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "InterpIn"
-                }
-            ]
-        },
-        "2576": {
-            "Size": 12,
-            "Name": "SetCmnMaterialDefaultVal",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "Enum",
-                    "EnumName": "MATERIAL_PARAM",
-                    "Name": "param"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "val"
-                }
-            ]
-        },
-        "2577": {
-            "Size": 12,
-            "Name": "PauseCmnMaterialParam",
-            "Indent": "None",
-            "Args": [
-				{
-					"Type": "Enum",
-					"EnumName": "MATERIAL_PARAM",
-					"Name": "param"
-				},
-                {
-                    "Type": "BOOL",
-                    "Name": "bFlag"
-                }
-            ]
-        },
-        "2578": {
-            "Size": 12,
-            "Name": "SetCmnMaterialResetOnActionChange",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "Enum",
-                    "EnumName": "MATERIAL_PARAM",
-                    "Name": "param"
-                },
-                {
-                    "Type": "BOOL",
-                    "Name": "bFlag"
-                }
-            ]
-        },
-        "2579": {
-            "Size": 12,
-            "Name": "SetStatusIcon",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "Enum",
-                    "EnumName": "STATUS_ICON",
-                    "Name": "icon"
-                },
-                {
-                    "Type": "BOOL",
-                    "Name": "bFlag"
-                }
-            ]
-        },
-        "2580": {
-            "Size": 12,
-            "Name": "DispWithoutMove",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "BOOL",
-                    "Name": "bFlag"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "rate"
-                }
-            ]
-        },
-        "2581": {
-            "Size": 132,
-            "Name": "OverwriteLinkBone",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "C32BYTE",
-                    "Name": "linkMeshName"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "linkBoneName"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "parentMeshName"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "parentBoneName"
-                }
-            ]
-        },
-        "2582": {
-            "Size": 4,
-            "Name": "ResetOverwriteLinkBone",
-            "Indent": "None",
-            "Args": []
-        },
-        "2583": {
-            "Size": 100,
-            "Name": "LockMesh",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "C32BYTE",
-                    "Name": "meshName"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "socketMeshName"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "socketName"
-                }
-            ]
-        },
-        "2584": {
-            "Size": 4,
-            "Name": "UnlockMesh",
-            "Indent": "None",
-            "Args": []
-        },
-        "2585": {
-            "Size": 76,
-            "Name": "AttachPawn",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "C32BYTE",
-                    "Name": "playerMeshName"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "socketName"
-                }
-            ]
-        },
-        "2586": {
-            "Size": 4,
-            "Name": "DetachPawnFromSocket",
-            "Indent": "None",
-            "Args": []
-        },
-        "2587": {
-            "Size": 12,
-            "Name": "ParticleSlow",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "S32",
-                    "Name": "frame"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "rate"
-                }
-            ]
-        },
-        "2588": {
-            "Size": 12,
-            "Name": "ColorAreaBlend",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "S32",
-                    "Name": "blend"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "frame"
-                }
-            ]
-        },
-        "2589": {
-            "Size": 44,
-            "Name": "PostProcessEffect",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "C32BYTE",
-                    "Name": "name"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "on"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "frame"
-                }
-            ]
-        },
-        "2590": {
-            "Size": 36,
-            "Name": "SceneLightDir",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "Enum",
-                    "Name": "dir",
-                    "EnumName": "LIGHT_DIR"
-                }
-            ]
-        },
-        "2591": {
-            "Size": 28,
-            "Name": "CellSlowParamFinishStop",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "BOOL",
-                    "Name": "bActive"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "interval"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "frame1"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "blend1"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "frame2"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "blend2"
-                }
-            ]
-        },
-        "2592": {
-            "Size": 12,
-            "Name": "CameraLightDirBlend",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "S32",
-                    "Name": "blend"
-                },
-                {
-                    "Type": "S32",
-                    "Name": "frame"
-                }
-            ]
-        },
-        "2593": {
-            "Size": 12,
-            "Name": "SlowMoveRate",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "COperand",
-                    "Name": "rate"
-                }
-            ]
-        },
-        "2594": {
-            "size": 40,
-            "Name": "SetStatisticsCheckSkill",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "S32",
-                    "Name": "arg"
-                },
-                {
-                    "Type": "C32BYTE",
-                    "Name": "name"
-                }
-            ]
-        },
-        "2595": {
-            "Size": 36,
-            "Name": "StatisticsActionName",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "C32BYTE",
-                    "Name": "name"
-                }
-            ]
         }
     }
 }

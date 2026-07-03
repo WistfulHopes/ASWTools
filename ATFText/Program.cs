@@ -92,7 +92,7 @@ internal partial class Program
             }
             else
             {
-                values[^1] += line;
+                values[^1] += "\n" + line;
             }
         }
 

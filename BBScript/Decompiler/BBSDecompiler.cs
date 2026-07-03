@@ -152,7 +152,7 @@ public static class BBSDecompiler
                 writer.Write('\t');
             }
 
-            if (value.Name != null)
+            if (!string.IsNullOrEmpty(value.Name))
             {
                 writer.Write(value.Name + "(");
             }

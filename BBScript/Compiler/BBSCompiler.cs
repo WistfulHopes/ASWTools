@@ -20,6 +20,12 @@ public static class BBSCompiler
     private static readonly Parser<char, char> _semicolon = Tok(';');
     private static readonly Parser<char, char> _quote = Tok('"');
 
+    private static readonly Parser<char, Unit> _skipWhitespaceAndComments = CommentParser.SkipBlockComment(String("/*"), String("*/"))
+        .Or(CommentParser.SkipLineComment(String("//")))
+        .Or(CommentParser.SkipNestedBlockComment(String("/*"), String("*/")))
+        .Or(Whitespace.IgnoreResult())
+        .SkipMany();
+
     private static readonly Parser<char, BBS> _string =
         Token(c => c != '"')
             .ManyString()
@@ -61,7 +67,7 @@ public static class BBSCompiler
             .Labelled("instruction");
 
     private static readonly Parser<char, BBSInst[]> _bbs =
-        from _ in SkipWhitespaces
+        from _ in _skipWhitespaceAndComments
         from insts in _inst.Many()
         select insts.ToArray();
 
