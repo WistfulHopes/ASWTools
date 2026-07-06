@@ -1225,6 +1225,20 @@
                 }
             ]
         },
+        "20": {
+            "Name": "CellTimeOverWriteIf",
+            "Indent": "None",
+            "Args": [
+                {
+                    "Type": "S32",
+                    "Name": "time"
+                },
+                {
+                    "Type": "COperand",
+                    "Name": "elm"
+                }
+            ]
+        },
         "21": {
             "Name": "ActionRequest",
             "Indent": "None",
@@ -1653,6 +1667,32 @@
                 }
             ]
         },
+        "59": {
+            "Name": "CalcDistance",
+            "Indent": "None",
+            "Args": [
+                {
+                    "Type": "Enum",
+                    "EnumName": "CO_TYPE",
+                    "Name": "objType0"
+                },
+                {
+                    "Type": "Enum",
+                    "EnumName": "POS_TYPE",
+                    "Name": "posType0"
+                },
+                {
+                    "Type": "Enum",
+                    "EnumName": "CO_TYPE",
+                    "Name": "objType1"
+                },
+                {
+                    "Type": "Enum",
+                    "EnumName": "POS_TYPE",
+                    "Name": "posType1"
+                }
+            ]
+        },
         "60": {
             "Name": "CheckCharaNameNoUnlimited",
             "Indent": "None",
@@ -1696,6 +1736,22 @@
                 },
                 {
                     "Type": "S32"
+                },
+                {
+                    "Type": "S32"
+                },
+                {
+                    "Type": "S32"
+                }
+            ]
+        },
+        "62": {
+            "Name": "CheckEnemyNameUnk",
+            "Indent": "None",
+            "Args": [
+                {
+                    "Type": "C16BYTE",
+                    "Name": "name"
                 },
                 {
                     "Type": "S32"
@@ -2842,7 +2898,6 @@
             ]
         },
         "1104": {
-            "Name": "",
             "Indent": "None",
             "Args": [
                 {
@@ -2852,7 +2907,6 @@
             ]
         },
         "1105": {
-            "Name": "",
             "Indent": "None",
             "Args": [
                 {
@@ -3346,7 +3400,6 @@
             "Args": []
         },
         "2064": {
-            "Name": "",
             "Indent": "None",
             "Args": [
                 {
@@ -3356,7 +3409,6 @@
             ]
         },
         "2065": {
-            "Name": "",
             "Indent": "None",
             "Args": [
                 {
@@ -3366,12 +3418,23 @@
             ]
         },
         "2066": {
-            "Name": "",
             "Indent": "None",
             "Args": [
                 {
                     "Type": "S32",
                     "Name": "val"
+                }
+            ]
+        },
+        "2067": {
+            "Name": "AddBarrier",
+            "Indent": "None",
+            "Args": [
+                {
+                    "Type": "S32"
+                },
+                {
+                    "Type": "S32"
                 }
             ]
         },
@@ -4532,6 +4595,50 @@
                 {
                     "Type": "S32",
                     "Name": "line"
+                }
+            ]
+        },
+        "4022": {
+            "Name": "LinkObjectPositionX",
+            "Indent": "None",
+            "Args": [
+                {
+                    "Type": "Enum",
+                    "EnumName": "CO_TYPE",
+                    "Name": "type"
+                }
+            ]
+        },
+        "4023": {
+            "Name": "LinkObjectPositionY",
+            "Indent": "None",
+            "Args": [
+                {
+                    "Type": "Enum",
+                    "EnumName": "CO_TYPE",
+                    "Name": "type"
+                }
+            ]
+        },
+        "4024": {
+            "Name": "LinkObjectPushCollision",
+            "Indent": "None",
+            "Args": [
+                {
+                    "Type": "Enum",
+                    "EnumName": "CO_TYPE",
+                    "Name": "type"
+                }
+            ]
+        },
+        "4025": {
+            "Name": "LinkObjectColor",
+            "Indent": "None",
+            "Args": [
+                {
+                    "Type": "Enum",
+                    "EnumName": "CO_TYPE",
+                    "Name": "type"
                 }
             ]
         },
@@ -10251,6 +10358,15 @@
             "Args": [
                 {
                     "Type": "S32",
+                    "Name": "val"
+                }
+            ]
+        },
+        "22022": {
+            "Indent": "None",
+            "Args": [
+                {
+                    "Type": "BOOL",
                     "Name": "val"
                 }
             ]
