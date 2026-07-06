@@ -40,7 +40,7 @@ public class BBSInst : BBS
         {
             instruction = BBSConfig.Instance.Instructions!.Values.SingleOrDefault(inst => inst.Name == Name);
         }
-        catch (InvalidOperationException exception)
+        catch (InvalidOperationException)
         {
             Console.WriteLine("Duplicate instruction {0}!", Name);
             throw;

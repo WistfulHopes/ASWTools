@@ -1046,7 +1046,6 @@
     },
     "Instructions": {
         "0": {
-            "Size": 36,
             "Name": "ActionBegin",
             "Indent": "ScopeBegin",
             "Args": [
@@ -1057,13 +1056,11 @@
             ]
         },
         "1": {
-            "Size": 4,
             "Name": "ActionEnd",
             "Indent": "ScopeEnd",
             "Args": []
         },
         "2": {
-            "Size": 40,
             "Name": "CellBegin",
             "Indent": "Cell",
             "Args": [
@@ -1078,13 +1075,11 @@
             ]
         },
         "3": {
-            "Size": 4,
             "Name": "CellEnd",
             "Indent": "CellEnd",
             "Args": []
         },
         "4": {
-            "Size": 12,
             "Name": "IfBegin",
             "Indent": "Begin",
             "Args": [
@@ -1095,13 +1090,11 @@
             ]
         },
         "5": {
-            "Size": 4,
             "Name": "IfEnd",
             "Indent": "End",
             "Args": []
         },
         "6": {
-            "Size": 8,
             "Name": "Label",
             "Indent": "Begin",
             "Args": [
@@ -1112,7 +1105,6 @@
             ]
         },
         "7": {
-            "Size": 8,
             "Name": "Goto",
             "Indent": "None",
             "Args": [
@@ -1123,7 +1115,6 @@
             ]
         },
         "8": {
-            "Size": 36,
             "Name": "FuncBegin",
             "Indent": "ScopeBegin",
             "Args": [
@@ -1134,13 +1125,11 @@
             ]
         },
         "9": {
-            "Size": 4,
             "Name": "FuncEnd",
             "Indent": "ScopeEnd",
             "Args": []
         },
         "10": {
-            "Size": 36,
             "Name": "FuncCall",
             "Indent": "None",
             "Args": [
@@ -1151,7 +1140,6 @@
             ]
         },
         "11": {
-            "Size": 8,
             "Name": "ReqGoto",
             "Indent": "None",
             "Args": [
@@ -1162,13 +1150,11 @@
             ]
         },
         "12": {
-            "Size": 4,
             "Name": "ReqActionEnd",
             "Indent": "None",
             "Args": []
         },
         "13": {
-            "Size": 8,
             "Name": "DeleteObject",
             "Indent": "None",
             "Args": [
@@ -1180,13 +1166,11 @@
             ]
         },
         "14": {
-            "Size": 4,
             "Name": "Suicide",
             "Indent": "None",
             "Args": []
         },
         "15": {
-            "Size": 4,
             "Name": "InterruptBegin",
             "Indent": "Begin",
             "Args": [
@@ -1198,13 +1182,11 @@
             ]
         },
         "16": {
-            "Size": 4,
             "Name": "InterruptEnd",
             "Indent": "End",
             "Args": []
         },
         "17": {
-            "Size": 8,
             "Name": "ClearInterrupt",
             "Indent": "None",
             "Args": [
@@ -1216,7 +1198,6 @@
             ]
         },
         "18": {
-            "Size": 16,
             "Name": "GotoIf",
             "Indent": "None",
             "Args": [
@@ -1231,7 +1212,6 @@
             ]
         },
         "19": {
-            "Size": 16,
             "Name": "GotoIfNot",
             "Indent": "None",
             "Args": [
@@ -1246,7 +1226,6 @@
             ]
         },
         "21": {
-            "Size": 36,
             "Name": "ActionRequest",
             "Indent": "None",
             "Args": [
@@ -1257,7 +1236,6 @@
             ]
         },
         "22": {
-            "Size": 36,
             "Name": "ActionRequestNotSame",
             "Indent": "None",
             "Args": [
@@ -1268,7 +1246,6 @@
             ]
         },
         "23": {
-            "Size": 68,
             "Name": "ActionRequestOld2New",
             "Indent": "None",
             "Args": [
@@ -1283,7 +1260,6 @@
             ]
         },
         "24": {
-            "Size": 40,
             "Name": "ActionRequestWithPriority",
             "Indent": "Begin",
             "Args": [
@@ -1298,7 +1274,6 @@
             ]
         },
         "25": {
-            "Size": 40,
             "Name": "InterruptGoto",
             "Indent": "None",
             "Args": [
@@ -1314,7 +1289,6 @@
             ]
         },
         "26": {
-            "Size": 40,
             "Name": "DeleteObjectActionName",
             "Indent": "None",
             "Args": [
@@ -1324,28 +1298,7 @@
                 }
             ]
         },
-        "27": {
-            "Size": 48,
-            "Name": "SearchActionName",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "C32BYTE",
-                    "Name": "actionName"
-                },
-                {
-                    "Type": "Enum",
-                    "Name": "stackID",
-                    "EnumName": "CO_TYPE"
-                },
-                {
-                    "Type": "COperand",
-                    "Name": "elm0"
-                }
-            ]
-        },
         "28": {
-            "Size": 40,
             "Name": "InterruptAction",
             "Indent": "None",
             "Args": [
@@ -1361,7 +1314,6 @@
             ]
         },
         "29": {
-            "Size": 40,
             "Name": "InterruptGoto",
             "Indent": "None",
             "Args": [
@@ -1377,7 +1329,6 @@
             ]
         },
         "30": {
-            "Size": 12,
             "Name": "InterruptParam0",
             "Indent": "None",
             "Args": [
@@ -1393,7 +1344,6 @@
             ]
         },
         "31": {
-            "Size": 12,
             "Name": "InterruptParam1",
             "Indent": "None",
             "Args": [
@@ -1409,7 +1359,6 @@
             ]
         },
         "32": {
-            "Size": 12,
             "Name": "SetPrivateInterrupt",
             "Indent": "None",
             "Args": [
@@ -1420,13 +1369,11 @@
             ]
         },
         "35": {
-            "Size": 4,
             "Name": "ControlObjectEnd",
             "Indent": "End",
             "Args": []
         },
         "36": {
-            "Size": 8,
             "Name": "ControlObject",
             "Indent": "Begin",
             "Args": [
@@ -1438,7 +1385,6 @@
             ]
         },
         "38": {
-            "Size": 12,
             "Name": "StackControlObject",
             "Indent": "None",
             "Args": [
@@ -1455,7 +1401,6 @@
             ]
         },
         "39": {
-            "Size": 16,
             "Name": "Op1",
             "Indent": "None",
             "Args": [
@@ -1471,7 +1416,6 @@
             ]
         },
         "40": {
-            "Size": 24,
             "Name": "Op2",
             "Indent": "None",
             "Args": [
@@ -1491,7 +1435,6 @@
             ]
         },
         "41": {
-            "Size": 20,
             "Name": "OpCopy",
             "Indent": "None",
             "Args": [
@@ -1506,7 +1449,6 @@
             ]
         },
         "42": {
-            "Size": 20,
             "Name": "CheckEnemyName",
             "Indent": "None",
             "Args": [
@@ -1517,7 +1459,6 @@
             ]
         },
         "43": {
-            "Size": 8,
             "Name": "CheckInputEx",
             "Indent": "None",
             "Args": [
@@ -1529,7 +1470,6 @@
             ]
         },
         "44": {
-            "Size": 8,
             "Name": "CheckConditionEx",
             "Indent": "None",
             "Args": [
@@ -1541,7 +1481,6 @@
             ]
         },
         "45": {
-            "Size": 20,
             "Name": "CalcRound",
             "Indent": "None",
             "Args": [
@@ -1560,7 +1499,6 @@
             ]
         },
         "46": {
-            "Size": 8,
             "Name": "CheckActive",
             "Indent": "None",
             "Args": [
@@ -1572,7 +1510,6 @@
             ]
         },
         "47": {
-            "Size": 32,
             "Name": "Op2To",
             "Indent": "None",
             "Args": [
@@ -1596,7 +1533,6 @@
             ]
         },
         "48": {
-            "Size": 28,
             "Name": "OpCopyEx",
             "Indent": "None",
             "Args": [
@@ -1621,7 +1557,6 @@
             ]
         },
         "49": {
-            "Size": 24,
             "Name": "Op2Direct",
             "Indent": "None",
             "Args": [
@@ -1650,7 +1585,6 @@
             ]
         },
         "51": {
-            "Size": 8,
             "Name": "CellStop",
             "Indent": "None",
             "Args": [
@@ -1661,7 +1595,6 @@
             ]
         },
         "52": {
-            "Size": 8,
             "Name": "ObjectPriority",
             "Indent": "None",
             "Args": [
@@ -1672,7 +1605,6 @@
             ]
         },
         "53": {
-            "Size": 8,
             "Name": "WorldOutToEliminate",
             "Indent": "None",
             "Args": [
@@ -1683,7 +1615,6 @@
             ]
         },
         "54": {
-            "Size": 8,
             "Name": "IfNotBegin",
             "Indent": "Begin",
             "Args": [
@@ -1694,25 +1625,21 @@
             ]
         },
         "55": {
-            "Size": 8,
             "Name": "IfNotEnd",
             "Indent": "End",
             "Args": []
         },
         "56": {
-            "Size": 8,
             "Name": "ElseBegin",
             "Indent": "Begin",
             "Args": []
         },
         "57": {
-            "Size": 8,
             "Name": "ElseEnd",
             "Indent": "End",
             "Args": []
         },
         "58": {
-            "Size": 44,
             "Name": "GetTrainingItemVal",
             "Indent": "None",
             "Args": [
@@ -1726,35 +1653,7 @@
                 }
             ]
         },
-        "6590": {
-            "Size": 20,
-            "Name": "CalcDistance",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "Enum",
-                    "Name": "objType0",
-                    "EnumName": "CO_TYPE"
-                },
-                {
-                    "Type": "Enum",
-                    "Name": "posType0",
-                    "EnumName": "POS_TYPE"
-                },
-                {
-                    "Type": "Enum",
-                    "Name": "objType1",
-                    "EnumName": "CO_TYPE"
-                },
-                {
-                    "Type": "Enum",
-                    "Name": "posType1",
-                    "EnumName": "POS_TYPE"
-                }
-            ]
-        },
         "60": {
-            "Size": 8,
             "Name": "CheckCharaNameNoUnlimited",
             "Indent": "None",
             "Args": [
@@ -1765,7 +1664,6 @@
             ]
         },
         "61": {
-            "Size": 8,
             "Name": "Random",
             "Indent": "None",
             "Args": [
@@ -1808,7 +1706,6 @@
             ]
         },
         "63": {
-            "Size": 8,
             "Name": "CheckCharaNameNoCostume",
             "Indent": "None",
             "Args": [
@@ -1819,7 +1716,6 @@
             ]
         },
         "64": {
-            "Size": 8,
             "Indent": "None",
             "Args": [
                 {
@@ -1828,7 +1724,6 @@
             ]
         },
         "65": {
-            "Size": 8,
             "Name": "IsObjectCounterHit",
             "Indent": "None",
             "Args": [
@@ -1840,7 +1735,6 @@
             ]
         },
         "66": {
-            "Size": 8,
             "Indent": "None",
             "Args": [
                 {
@@ -1856,7 +1750,6 @@
             ]
         },
         "67": {
-            "Size": 8,
             "Name": "GuardPointAttributeCheck",
             "Indent": "None",
             "Args": [
@@ -1878,7 +1771,6 @@
             ]
         },
         "68": {
-            "Size": 8,
             "Name": "GuardPointAttributeCheck",
             "Indent": "None",
             "Args": [
@@ -1900,7 +1792,6 @@
             ]
         },
         "1000": {
-            "Size": 8,
             "Name": "SetPosX",
             "Indent": "None",
             "Args": [
@@ -1911,7 +1802,6 @@
             ]
         },
         "1001": {
-            "Size": 8,
             "Name": "SetPosXRaw",
             "Indent": "None",
             "Args": [
@@ -1922,7 +1812,6 @@
             ]
         },
         "1002": {
-            "Size": 8,
             "Name": "AddPosX",
             "Indent": "None",
             "Args": [
@@ -1933,7 +1822,6 @@
             ]
         },
         "1003": {
-            "Size": 8,
             "Name": "AddPosXRaw",
             "Indent": "None",
             "Args": [
@@ -1944,19 +1832,16 @@
             ]
         },
         "1004": {
-            "Size": 4,
             "Name": "PushPosX",
             "Indent": "None",
             "Args": []
         },
         "1005": {
-            "Size": 4,
             "Name": "PopPosX",
             "Indent": "None",
             "Args": []
         },
         "1006": {
-            "Size": 8,
             "Name": "SetPosY",
             "Indent": "None",
             "Args": [
@@ -1967,7 +1852,6 @@
             ]
         },
         "1007": {
-            "Size": 8,
             "Name": "AddPosY",
             "Indent": "None",
             "Args": [
@@ -1978,19 +1862,16 @@
             ]
         },
         "1008": {
-            "Size": 4,
             "Name": "PushPosY",
             "Indent": "None",
             "Args": []
         },
         "1009": {
-            "Size": 4,
             "Name": "PopPosY",
             "Indent": "None",
             "Args": []
         },
         "1010": {
-            "Size": 12,
             "Name": "RandAddPosX",
             "Indent": "None",
             "Args": [
@@ -2005,7 +1886,6 @@
             ]
         },
         "1011": {
-            "Size": 12,
             "Name": "RandAddPosY",
             "Indent": "None",
             "Args": [
@@ -2020,7 +1900,6 @@
             ]
         },
         "1012": {
-            "Size": 12,
             "Name": "RandAddPosXRaw",
             "Indent": "None",
             "Args": [
@@ -2035,7 +1914,6 @@
             ]
         },
         "1013": {
-            "Size": 8,
             "Name": "SetSpeedX",
             "Indent": "None",
             "Args": [
@@ -2046,7 +1924,6 @@
             ]
         },
         "1014": {
-            "Size": 8,
             "Name": "SetSpeedXRaw",
             "Indent": "None",
             "Args": [
@@ -2057,7 +1934,6 @@
             ]
         },
         "1015": {
-            "Size": 8,
             "Name": "AddSpeedX",
             "Indent": "None",
             "Args": [
@@ -2068,7 +1944,6 @@
             ]
         },
         "1016": {
-            "Size": 8,
             "Name": "AddSpeedXRaw",
             "Indent": "None",
             "Args": [
@@ -2079,19 +1954,16 @@
             ]
         },
         "1017": {
-            "Size": 4,
             "Name": "PushSpeedX",
             "Indent": "None",
             "Args": []
         },
         "1018": {
-            "Size": 4,
             "Name": "PopSpeedX",
             "Indent": "None",
             "Args": []
         },
         "1019": {
-            "Size": 8,
             "Name": "PerSpeedX",
             "Indent": "None",
             "Args": [
@@ -2102,7 +1974,6 @@
             ]
         },
         "1020": {
-            "Size": 8,
             "Name": "SetSpeedY",
             "Indent": "None",
             "Args": [
@@ -2113,7 +1984,6 @@
             ]
         },
         "1021": {
-            "Size": 8,
             "Name": "AddSpeedY",
             "Indent": "None",
             "Args": [
@@ -2124,19 +1994,16 @@
             ]
         },
         "1022": {
-            "Size": 4,
             "Name": "PushSpeedY",
             "Indent": "None",
             "Args": []
         },
         "1023": {
-            "Size": 4,
             "Name": "PopSpeedY",
             "Indent": "None",
             "Args": []
         },
         "1024": {
-            "Size": 8,
             "Name": "PerSpeedY",
             "Indent": "None",
             "Args": [
@@ -2147,7 +2014,6 @@
             ]
         },
         "1025": {
-            "Size": 12,
             "Name": "RandAddSpeedX",
             "Indent": "None",
             "Args": [
@@ -2162,7 +2028,6 @@
             ]
         },
         "1026": {
-            "Size": 12,
             "Name": "RandAddSpeedY",
             "Indent": "None",
             "Args": [
@@ -2177,7 +2042,6 @@
             ]
         },
         "1027": {
-            "Size": 12,
             "Name": "RandAddSpeedXRaw",
             "Indent": "None",
             "Args": [
@@ -2192,7 +2056,6 @@
             ]
         },
         "1028": {
-            "Size": 8,
             "Name": "SetAcceleration",
             "Indent": "None",
             "Args": [
@@ -2203,7 +2066,6 @@
             ]
         },
         "1029": {
-            "Size": 8,
             "Name": "SetAccelerationRaw",
             "Indent": "None",
             "Args": [
@@ -2214,7 +2076,6 @@
             ]
         },
         "1030": {
-            "Size": 8,
             "Name": "AddAcceleration",
             "Indent": "None",
             "Args": [
@@ -2225,7 +2086,6 @@
             ]
         },
         "1031": {
-            "Size": 8,
             "Name": "AddAccelerationRaw",
             "Indent": "None",
             "Args": [
@@ -2236,19 +2096,16 @@
             ]
         },
         "1032": {
-            "Size": 4,
             "Name": "PushAcceleration",
             "Indent": "None",
             "Args": []
         },
         "1033": {
-            "Size": 4,
             "Name": "PopAcceleration",
             "Indent": "None",
             "Args": []
         },
         "1034": {
-            "Size": 8,
             "Name": "PerAcceleration",
             "Indent": "None",
             "Args": [
@@ -2259,7 +2116,6 @@
             ]
         },
         "1035": {
-            "Size": 8,
             "Name": "SetGravity",
             "Indent": "None",
             "Args": [
@@ -2270,7 +2126,6 @@
             ]
         },
         "1036": {
-            "Size": 8,
             "Name": "AddGravity",
             "Indent": "None",
             "Args": [
@@ -2281,19 +2136,16 @@
             ]
         },
         "1037": {
-            "Size": 4,
             "Name": "PushGravity",
             "Indent": "None",
             "Args": []
         },
         "1038": {
-            "Size": 4,
             "Name": "PopGravity",
             "Indent": "None",
             "Args": []
         },
         "1039": {
-            "Size": 8,
             "Name": "PerGravity",
             "Indent": "None",
             "Args": [
@@ -2304,7 +2156,6 @@
             ]
         },
         "1040": {
-            "Size": 12,
             "Name": "RandAddAcceleration",
             "Indent": "None",
             "Args": [
@@ -2319,7 +2170,6 @@
             ]
         },
         "1041": {
-            "Size": 12,
             "Name": "RandAddGravity",
             "Indent": "None",
             "Args": [
@@ -2334,7 +2184,6 @@
             ]
         },
         "1042": {
-            "Size": 12,
             "Name": "RandAddAccelerationRaw",
             "Indent": "None",
             "Args": [
@@ -2349,19 +2198,16 @@
             ]
         },
         "1043": {
-            "Size": 4,
             "Name": "ObjectGravity",
             "Indent": "None",
             "Args": []
         },
         "1044": {
-            "Size": 4,
             "Name": "EarthGravity",
             "Indent": "None",
             "Args": []
         },
         "1045": {
-            "Size": 8,
             "Name": "SetInertia",
             "Indent": "None",
             "Args": [
@@ -2372,7 +2218,6 @@
             ]
         },
         "1046": {
-            "Size": 8,
             "Name": "SetInertiaRaw",
             "Indent": "None",
             "Args": [
@@ -2383,7 +2228,6 @@
             ]
         },
         "1047": {
-            "Size": 8,
             "Name": "AddInertia",
             "Indent": "None",
             "Args": [
@@ -2394,7 +2238,6 @@
             ]
         },
         "1048": {
-            "Size": 8,
             "Name": "AddInertiaRaw",
             "Indent": "None",
             "Args": [
@@ -2405,19 +2248,16 @@
             ]
         },
         "1049": {
-            "Size": 4,
             "Name": "PushInertia",
             "Indent": "None",
             "Args": []
         },
         "1050": {
-            "Size": 4,
             "Name": "PopInertia",
             "Indent": "None",
             "Args": []
         },
         "1051": {
-            "Size": 8,
             "Name": "PerInertia",
             "Indent": "None",
             "Args": [
@@ -2428,7 +2268,6 @@
             ]
         },
         "1052": {
-            "Size": 8,
             "Name": "IgnoreInertia",
             "Indent": "None",
             "Args": [
@@ -2439,7 +2278,6 @@
             ]
         },
         "1053": {
-            "Size": 12,
             "Name": "RandAddInertia",
             "Indent": "None",
             "Args": [
@@ -2454,7 +2292,6 @@
             ]
         },
         "1054": {
-            "Size": 12,
             "Name": "RandAddInertiaRaw",
             "Indent": "None",
             "Args": [
@@ -2469,13 +2306,11 @@
             ]
         },
         "1055": {
-            "Size": 4,
             "Name": "DamageGravity",
             "Indent": "None",
             "Args": []
         },
         "1056": {
-            "Size": 8,
             "Name": "SetScaleX",
             "Indent": "None",
             "Args": [
@@ -2486,7 +2321,6 @@
             ]
         },
         "1057": {
-            "Size": 8,
             "Name": "AddScaleX",
             "Indent": "None",
             "Args": [
@@ -2497,7 +2331,6 @@
             ]
         },
         "1058": {
-            "Size": 8,
             "Name": "PerScaleX",
             "Indent": "None",
             "Args": [
@@ -2508,7 +2341,6 @@
             ]
         },
         "1059": {
-            "Size": 8,
             "Name": "SetScaleSpeedX",
             "Indent": "None",
             "Args": [
@@ -2519,7 +2351,6 @@
             ]
         },
         "1060": {
-            "Size": 8,
             "Name": "AddScaleSpeedX",
             "Indent": "None",
             "Args": [
@@ -2530,7 +2361,6 @@
             ]
         },
         "1061": {
-            "Size": 8,
             "Name": "PerScaleSpeedX",
             "Indent": "None",
             "Args": [
@@ -2541,7 +2371,6 @@
             ]
         },
         "1062": {
-            "Size": 12,
             "Name": "RandAddScaleX",
             "Indent": "None",
             "Args": [
@@ -2556,7 +2385,6 @@
             ]
         },
         "1063": {
-            "Size": 12,
             "Name": "RandAddScaleSpeedX",
             "Indent": "None",
             "Args": [
@@ -2571,7 +2399,6 @@
             ]
         },
         "1064": {
-            "Size": 8,
             "Name": "SetScaleY",
             "Indent": "None",
             "Args": [
@@ -2582,7 +2409,6 @@
             ]
         },
         "1065": {
-            "Size": 8,
             "Name": "AddScaleY",
             "Indent": "None",
             "Args": [
@@ -2593,7 +2419,6 @@
             ]
         },
         "1066": {
-            "Size": 8,
             "Name": "PerScaleY",
             "Indent": "None",
             "Args": [
@@ -2604,7 +2429,6 @@
             ]
         },
         "1067": {
-            "Size": 8,
             "Name": "SetScaleSpeedY",
             "Indent": "None",
             "Args": [
@@ -2615,7 +2439,6 @@
             ]
         },
         "1068": {
-            "Size": 8,
             "Name": "AddScaleSpeedY",
             "Indent": "None",
             "Args": [
@@ -2626,7 +2449,6 @@
             ]
         },
         "1069": {
-            "Size": 8,
             "Name": "PerScaleSpeedY",
             "Indent": "None",
             "Args": [
@@ -2637,7 +2459,6 @@
             ]
         },
         "1070": {
-            "Size": 12,
             "Name": "RandAddScaleY",
             "Indent": "None",
             "Args": [
@@ -2652,7 +2473,6 @@
             ]
         },
         "1071": {
-            "Size": 12,
             "Name": "RandAddScaleSpeedY",
             "Indent": "None",
             "Args": [
@@ -2667,7 +2487,6 @@
             ]
         },
         "1072": {
-            "Size": 8,
             "Name": "SetAngle",
             "Indent": "None",
             "Args": [
@@ -2678,7 +2497,6 @@
             ]
         },
         "1073": {
-            "Size": 8,
             "Name": "AddAngle",
             "Indent": "None",
             "Args": [
@@ -2689,7 +2507,6 @@
             ]
         },
         "1074": {
-            "Size": 8,
             "Name": "SetAngleSpeed",
             "Indent": "None",
             "Args": [
@@ -2700,7 +2517,6 @@
             ]
         },
         "1075": {
-            "Size": 8,
             "Name": "AddAngleSpeed",
             "Indent": "None",
             "Args": [
@@ -2711,7 +2527,6 @@
             ]
         },
         "1076": {
-            "Size": 8,
             "Name": "PerAngleSpeed",
             "Indent": "None",
             "Args": [
@@ -2722,7 +2537,6 @@
             ]
         },
         "1077": {
-            "Size": 12,
             "Name": "RandAddAngle",
             "Indent": "None",
             "Args": [
@@ -2737,7 +2551,6 @@
             ]
         },
         "1078": {
-            "Size": 12,
             "Name": "RandAddAngleSpeed",
             "Indent": "None",
             "Args": [
@@ -2752,13 +2565,11 @@
             ]
         },
         "1079": {
-            "Size": 4,
             "Name": "RandAngle",
             "Indent": "None",
             "Args": []
         },
         "1080": {
-            "Size": 8,
             "Name": "SetTransformCenterX",
             "Indent": "None",
             "Args": [
@@ -2769,7 +2580,6 @@
             ]
         },
         "1081": {
-            "Size": 8,
             "Name": "SetTransformCenterY",
             "Indent": "None",
             "Args": [
@@ -2780,7 +2590,6 @@
             ]
         },
         "1082": {
-            "Size": 8,
             "Name": "ResetSpeedAfterDuration",
             "Indent": "None",
             "Args": [
@@ -2791,7 +2600,6 @@
             ]
         },
         "1083": {
-            "Size": 8,
             "Name": "SetBoundRate",
             "Indent": "None",
             "Args": [
@@ -2802,7 +2610,6 @@
             ]
         },
         "1084": {
-            "Size": 8,
             "Name": "ResetSpeed",
             "Indent": "None",
             "Args": [
@@ -2813,7 +2620,6 @@
             ]
         },
         "1085": {
-            "Size": 16,
             "Name": "MoveToCollision",
             "Indent": "None",
             "Args": [
@@ -2833,7 +2639,6 @@
             ]
         },
         "1086": {
-            "Size": 8,
             "Name": "MoveTo",
             "Indent": "None",
             "Args": [
@@ -2845,7 +2650,6 @@
             ]
         },
         "1087": {
-            "Size": 12,
             "Name": "MoveToSrcDst",
             "Indent": "None",
             "Args": [
@@ -2862,7 +2666,6 @@
             ]
         },
         "1088": {
-            "Size": 8,
             "Name": "SetScaleZ",
             "Indent": "None",
             "Args": [
@@ -2873,7 +2676,6 @@
             ]
         },
         "1089": {
-            "Size": 8,
             "Name": "AddScaleZ",
             "Indent": "None",
             "Args": [
@@ -2884,7 +2686,6 @@
             ]
         },
         "1090": {
-            "Size": 8,
             "Name": "PerScaleZ",
             "Indent": "None",
             "Args": [
@@ -2895,7 +2696,6 @@
             ]
         },
         "1091": {
-            "Size": 8,
             "Name": "SetScaleSpeedZ",
             "Indent": "None",
             "Args": [
@@ -2906,7 +2706,6 @@
             ]
         },
         "1092": {
-            "Size": 8,
             "Name": "AddScaleSpeedZ",
             "Indent": "None",
             "Args": [
@@ -2917,7 +2716,6 @@
             ]
         },
         "1093": {
-            "Size": 8,
             "Name": "PerScaleSpeedZ",
             "Indent": "None",
             "Args": [
@@ -2928,7 +2726,6 @@
             ]
         },
         "1094": {
-            "Size": 12,
             "Name": "RandAddScaleZ",
             "Indent": "None",
             "Args": [
@@ -2943,7 +2740,6 @@
             ]
         },
         "1095": {
-            "Size": 12,
             "Name": "RandAddScaleSpeedZ",
             "Indent": "None",
             "Args": [
@@ -2958,7 +2754,6 @@
             ]
         },
         "1096": {
-            "Size": 8,
             "Name": "SetScale",
             "Indent": "None",
             "Args": [
@@ -2969,7 +2764,6 @@
             ]
         },
         "1097": {
-            "Size": 8,
             "Name": "AddScale",
             "Indent": "None",
             "Args": [
@@ -2980,7 +2774,6 @@
             ]
         },
         "1098": {
-            "Size": 8,
             "Name": "PerScale",
             "Indent": "None",
             "Args": [
@@ -2991,7 +2784,6 @@
             ]
         },
         "1099": {
-            "Size": 8,
             "Name": "SetScaleSpeed",
             "Indent": "None",
             "Args": [
@@ -3002,7 +2794,6 @@
             ]
         },
         "1100": {
-            "Size": 8,
             "Name": "AddScaleSpeed",
             "Indent": "None",
             "Args": [
@@ -3013,7 +2804,6 @@
             ]
         },
         "1101": {
-            "Size": 8,
             "Name": "PerScaleSpeed",
             "Indent": "None",
             "Args": [
@@ -3024,7 +2814,6 @@
             ]
         },
         "1102": {
-            "Size": 12,
             "Name": "RandAddScale",
             "Indent": "None",
             "Args": [
@@ -3039,7 +2828,6 @@
             ]
         },
         "1103": {
-            "Size": 12,
             "Name": "RandAddScaleSpeed",
             "Indent": "None",
             "Args": [
@@ -3054,7 +2842,6 @@
             ]
         },
         "1104": {
-            "Size": 8,
             "Name": "",
             "Indent": "None",
             "Args": [
@@ -3065,7 +2852,6 @@
             ]
         },
         "1105": {
-            "Size": 8,
             "Name": "",
             "Indent": "None",
             "Args": [
@@ -3076,7 +2862,6 @@
             ]
         },
         "1108": {
-            "Size": 8,
             "Name": "SetAngleBySpeed",
             "Indent": "None",
             "Args": [
@@ -3087,7 +2872,6 @@
             ]
         },
         "1109": {
-            "Size": 12,
             "Name": "SetSpeedByCPC",
             "Indent": "None",
             "Args": [
@@ -3102,7 +2886,6 @@
             ]
         },
         "1110": {
-            "Size": 12,
             "Name": "SetSpeedByAngle",
             "Indent": "None",
             "Args": [
@@ -3117,7 +2900,6 @@
             ]
         },
         "1111": {
-            "Size": 12,
             "Name": "SetSpeedTowardsObject",
             "Indent": "None",
             "Args": [
@@ -3132,25 +2914,21 @@
             ]
         },
         "2000": {
-            "Size": 4,
             "Name": "ReAttack",
             "Indent": "None",
             "Args": []
         },
         "2001": {
-            "Size": 4,
             "Name": "AttackEnd",
             "Indent": "None",
             "Args": []
         },
         "2002": {
-            "Size": 4,
             "Name": "NoAttackCell",
             "Indent": "None",
             "Args": []
         },
         "2003": {
-            "Size": 8,
             "Name": "NoAttackAction",
             "Indent": "None",
             "Args": [
@@ -3161,7 +2939,6 @@
             ]
         },
         "2004": {
-            "Size": 12,
             "Name": "UseCenterOffset",
             "Indent": "None",
             "Args": [
@@ -3176,55 +2953,46 @@
             ]
         },
         "2005": {
-            "Size": 4,
             "Name": "DirectionReverse",
             "Indent": "None",
             "Args": []
         },
         "2006": {
-            "Size": 4,
             "Name": "DirectionVsTarget",
             "Indent": "None",
             "Args": []
         },
         "2007": {
-            "Size": 4,
             "Name": "DirectionLeft",
             "Indent": "None",
             "Args": []
         },
         "2008": {
-            "Size": 4,
             "Name": "DirectionRight",
             "Indent": "None",
             "Args": []
         },
         "2009": {
-            "Size": 4,
             "Name": "InitializeForNormalShotObject",
             "Indent": "None",
             "Args": []
         },
         "2010": {
-            "Size": 4,
             "Name": "InitializeForSpecialShotObject",
             "Indent": "None",
             "Args": []
         },
         "2011": {
-            "Size": 4,
             "Name": "InitializeForUltimateShotObject",
             "Indent": "None",
             "Args": []
         },
         "2012": {
-            "Size": 4,
             "Name": "InitializeForAstralHeatShotObject",
             "Indent": "None",
             "Args": []
         },
         "2015": {
-            "Size": 8,
             "Name": "PushCollisionWidth",
             "Indent": "None",
             "Args": [
@@ -3235,7 +3003,6 @@
             ]
         },
         "2016": {
-            "Size": 8,
             "Name": "PushCollisionHeight",
             "Indent": "None",
             "Args": [
@@ -3246,7 +3013,6 @@
             ]
         },
         "2017": {
-            "Size": 8,
             "Name": "PushCollision",
             "Indent": "None",
             "Args": [
@@ -3257,7 +3023,6 @@
             ]
         },
         "2018": {
-            "Size": 12,
             "Name": "SetZLine",
             "Indent": "None",
             "Args": [
@@ -3273,7 +3038,6 @@
             ]
         },
         "2019": {
-            "Size": 8,
             "Name": "SetZVal",
             "Indent": "None",
             "Args": [
@@ -3284,7 +3048,6 @@
             ]
         },
         "2020": {
-            "Size": 8,
             "Name": "AddZVal",
             "Indent": "None",
             "Args": [
@@ -3295,7 +3058,6 @@
             ]
         },
         "2021": {
-            "Size": 8,
             "Name": "PushFix",
             "Indent": "None",
             "Args": [
@@ -3306,13 +3068,11 @@
             ]
         },
         "2022": {
-            "Size": 4,
             "Name": "InitializeForLockObject",
             "Indent": "None",
             "Args": []
         },
         "2034": {
-            "Size": 8,
             "Name": "ScreenCollision",
             "Indent": "None",
             "Args": [
@@ -3323,7 +3083,6 @@
             ]
         },
         "2035": {
-            "Size": 8,
             "Name": "ForceShadowOff",
             "Indent": "None",
             "Args": [
@@ -3334,7 +3093,6 @@
             ]
         },
         "2036": {
-            "Size": 16,
             "Name": "UltimateExe",
             "Indent": "None",
             "Args": [
@@ -3354,7 +3112,6 @@
             ]
         },
         "2037": {
-            "Size": 8,
             "Name": "SetActionMark",
             "Indent": "None",
             "Args": [
@@ -3365,7 +3122,6 @@
             ]
         },
         "2038": {
-            "Size": 8,
             "Name": "AddActionMark",
             "Indent": "None",
             "Args": [
@@ -3376,7 +3132,6 @@
             ]
         },
         "2039": {
-            "Size": 8,
             "Name": "PerActionMark",
             "Indent": "None",
             "Args": [
@@ -3387,7 +3142,6 @@
             ]
         },
         "2040": {
-            "Size": 8,
             "Name": "FlagAddActionMark",
             "Indent": "None",
             "Args": [
@@ -3398,7 +3152,6 @@
             ]
         },
         "2041": {
-            "Size": 8,
             "Name": "FlagDelActionMark",
             "Indent": "None",
             "Args": [
@@ -3409,7 +3162,6 @@
             ]
         },
         "2042": {
-            "Size": 8,
             "Name": "SetCommonActionMark",
             "Indent": "None",
             "Args": [
@@ -3420,7 +3172,6 @@
             ]
         },
         "2043": {
-            "Size": 8,
             "Name": "AddCommonActionMark",
             "Indent": "None",
             "Args": [
@@ -3431,7 +3182,6 @@
             ]
         },
         "2044": {
-            "Size": 8,
             "Name": "PerCommonActionMark",
             "Indent": "None",
             "Args": [
@@ -3442,7 +3192,6 @@
             ]
         },
         "2045": {
-            "Size": 8,
             "Name": "FlagAddCommonActionMark",
             "Indent": "None",
             "Args": [
@@ -3453,7 +3202,6 @@
             ]
         },
         "2046": {
-            "Size": 8,
             "Name": "FlagDelCommonActionMark",
             "Indent": "None",
             "Args": [
@@ -3464,7 +3212,6 @@
             ]
         },
         "2047": {
-            "Size": 8,
             "Name": "ForceFloorReflectOff",
             "Indent": "None",
             "Args": [
@@ -3475,7 +3222,6 @@
             ]
         },
         "2048": {
-            "Size": 8,
             "Name": "SetFloorReflectColor",
             "Indent": "None",
             "Args": [
@@ -3486,7 +3232,6 @@
             ]
         },
         "2049": {
-            "Size": 8,
             "Name": "FloorEffectOn",
             "Indent": "None",
             "Args": [
@@ -3497,7 +3242,6 @@
             ]
         },
         "2052": {
-            "Size": 8,
             "Name": "SustainRepulsion",
             "Indent": "None",
             "Args": [
@@ -3508,7 +3252,6 @@
             ]
         },
         "2053": {
-            "Size": 8,
             "Name": "WorldCollision",
             "Indent": "None",
             "Args": [
@@ -3519,7 +3262,6 @@
             ]
         },
         "2054": {
-            "Size": 8,
             "Name": "IgnoreWorldStop",
             "Indent": "None",
             "Args": [
@@ -3530,7 +3272,6 @@
             ]
         },
         "2055": {
-            "Size": 8,
             "Name": "SetActionTimeMax",
             "Indent": "None",
             "Args": [
@@ -3541,7 +3282,6 @@
             ]
         },
         "2056": {
-            "Size": 8,
             "Name": "SetAttackObjectMax",
             "Indent": "None",
             "Args": [
@@ -3552,7 +3292,6 @@
             ]
         },
         "2057": {
-            "Size": 8,
             "Name": "KeepAirDash",
             "Indent": "None",
             "Args": [
@@ -3563,7 +3302,6 @@
             ]
         },
         "2058": {
-            "Size": 8,
             "Name": "AddTension",
             "Indent": "None",
             "Args": [
@@ -3574,7 +3312,6 @@
             ]
         },
         "2059": {
-            "Size": 8,
             "Name": "AddDefence",
             "Indent": "None",
             "Args": [
@@ -3585,13 +3322,11 @@
             ]
         },
         "2060": {
-            "Size": 8,
             "Name": "Recovery",
             "Indent": "None",
             "Args": []
         },
         "2061": {
-            "Size": 8,
             "Indent": "None",
             "Args": [
                 {
@@ -3601,19 +3336,16 @@
             ]
         },
         "2062": {
-            "Size": 8,
             "Name": "OverdriveEnd",
             "Indent": "None",
             "Args": []
         },
         "2063": {
-            "Size": 8,
             "Name": "OverdriveEnd",
             "Indent": "None",
             "Args": []
         },
         "2064": {
-            "Size": 8,
             "Name": "",
             "Indent": "None",
             "Args": [
@@ -3624,7 +3356,6 @@
             ]
         },
         "2065": {
-            "Size": 8,
             "Name": "",
             "Indent": "None",
             "Args": [
@@ -3635,7 +3366,6 @@
             ]
         },
         "2066": {
-            "Size": 8,
             "Name": "",
             "Indent": "None",
             "Args": [
@@ -3645,21 +3375,7 @@
                 }
             ]
         },
-        "2077": {
-            "Size": 8,
-            "Name": "AddBarrier",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "S32"
-                },
-                {
-                    "Type": "S32"
-                }
-            ]
-        },
         "2070": {
-            "Size": 20,
             "Name": "HomingObjectPrivatePoint0",
             "Indent": "None",
             "Args": [
@@ -3683,7 +3399,6 @@
             ]
         },
         "2071": {
-            "Size": 20,
             "Name": "HomingType1",
             "Indent": "None",
             "Args": [
@@ -3709,9 +3424,8 @@
                     "Name": "param2"
                 }
             ]
-        },      
+        },
         "2072": {
-            "Size": 20,
             "Name": "HomingType2",
             "Indent": "None",
             "Args": [
@@ -3737,9 +3451,8 @@
                     "Name": "param2"
                 }
             ]
-        },      
+        },
         "3000": {
-            "Size": 8,
             "Name": "SetPaletteID",
             "Indent": "None",
             "Args": [
@@ -3750,7 +3463,6 @@
             ]
         },
         "3001": {
-            "Size": 8,
             "Name": "SetAlpha",
             "Indent": "None",
             "Args": [
@@ -3761,7 +3473,6 @@
             ]
         },
         "3002": {
-            "Size": 8,
             "Name": "AddAlpha",
             "Indent": "None",
             "Args": [
@@ -3772,7 +3483,6 @@
             ]
         },
         "3003": {
-            "Size": 8,
             "Name": "PerAlpha",
             "Indent": "None",
             "Args": [
@@ -3783,7 +3493,6 @@
             ]
         },
         "3004": {
-            "Size": 8,
             "Name": "SetAlphaSpeed",
             "Indent": "None",
             "Args": [
@@ -3794,7 +3503,6 @@
             ]
         },
         "3005": {
-            "Size": 8,
             "Name": "AddAlphaSpeed",
             "Indent": "None",
             "Args": [
@@ -3805,7 +3513,6 @@
             ]
         },
         "3006": {
-            "Size": 8,
             "Name": "PerAlphaSpeed",
             "Indent": "None",
             "Args": [
@@ -3816,7 +3523,6 @@
             ]
         },
         "3007": {
-            "Size": 8,
             "Name": "SetRed",
             "Indent": "None",
             "Args": [
@@ -3827,7 +3533,6 @@
             ]
         },
         "3008": {
-            "Size": 8,
             "Name": "AddRed",
             "Indent": "None",
             "Args": [
@@ -3838,7 +3543,6 @@
             ]
         },
         "3009": {
-            "Size": 8,
             "Name": "PerRed",
             "Indent": "None",
             "Args": [
@@ -3849,7 +3553,6 @@
             ]
         },
         "3010": {
-            "Size": 8,
             "Name": "SetRedSpeed",
             "Indent": "None",
             "Args": [
@@ -3860,7 +3563,6 @@
             ]
         },
         "3011": {
-            "Size": 8,
             "Name": "AddRedSpeed",
             "Indent": "None",
             "Args": [
@@ -3871,7 +3573,6 @@
             ]
         },
         "3012": {
-            "Size": 8,
             "Name": "PerRedSpeed",
             "Indent": "None",
             "Args": [
@@ -3882,7 +3583,6 @@
             ]
         },
         "3013": {
-            "Size": 8,
             "Name": "SetGreen",
             "Indent": "None",
             "Args": [
@@ -3893,7 +3593,6 @@
             ]
         },
         "3014": {
-            "Size": 8,
             "Name": "AddGreen",
             "Indent": "None",
             "Args": [
@@ -3904,7 +3603,6 @@
             ]
         },
         "3015": {
-            "Size": 8,
             "Name": "PerGreen",
             "Indent": "None",
             "Args": [
@@ -3915,7 +3613,6 @@
             ]
         },
         "3016": {
-            "Size": 8,
             "Name": "SetGreenSpeed",
             "Indent": "None",
             "Args": [
@@ -3926,7 +3623,6 @@
             ]
         },
         "3017": {
-            "Size": 8,
             "Name": "AddGreenSpeed",
             "Indent": "None",
             "Args": [
@@ -3937,7 +3633,6 @@
             ]
         },
         "3018": {
-            "Size": 8,
             "Name": "PerGreenSpeed",
             "Indent": "None",
             "Args": [
@@ -3948,7 +3643,6 @@
             ]
         },
         "3019": {
-            "Size": 8,
             "Name": "SetBlue",
             "Indent": "None",
             "Args": [
@@ -3959,7 +3653,6 @@
             ]
         },
         "3020": {
-            "Size": 8,
             "Name": "AddBlue",
             "Indent": "None",
             "Args": [
@@ -3970,7 +3663,6 @@
             ]
         },
         "3021": {
-            "Size": 8,
             "Name": "PerBlue",
             "Indent": "None",
             "Args": [
@@ -3981,7 +3673,6 @@
             ]
         },
         "3022": {
-            "Size": 8,
             "Name": "SetBlueSpeed",
             "Indent": "None",
             "Args": [
@@ -3992,7 +3683,6 @@
             ]
         },
         "3023": {
-            "Size": 8,
             "Name": "AddBlueSpeed",
             "Indent": "None",
             "Args": [
@@ -4003,7 +3693,6 @@
             ]
         },
         "3024": {
-            "Size": 8,
             "Name": "PerBlueSpeed",
             "Indent": "None",
             "Args": [
@@ -4014,7 +3703,6 @@
             ]
         },
         "3025": {
-            "Size": 12,
             "Name": "SetDestColor",
             "Indent": "None",
             "Args": [
@@ -4029,7 +3717,6 @@
             ]
         },
         "3026": {
-            "Size": 8,
             "Name": "SetColor",
             "Indent": "None",
             "Args": [
@@ -4040,7 +3727,6 @@
             ]
         },
         "3027": {
-            "Size": 20,
             "Name": "SetAfterImageColor",
             "Indent": "None",
             "Args": [
@@ -4051,7 +3737,6 @@
             ]
         },
         "3028": {
-            "Size": 12,
             "Name": "RequestShake",
             "Indent": "None",
             "Args": [
@@ -4066,7 +3751,6 @@
             ]
         },
         "3029": {
-            "Size": 8,
             "Name": "AfterImage",
             "Indent": "None",
             "Args": [
@@ -4077,7 +3761,6 @@
             ]
         },
         "3030": {
-            "Size": 8,
             "Name": "AfterImageType",
             "Indent": "None",
             "Args": [
@@ -4088,37 +3771,31 @@
             ]
         },
         "3031": {
-            "Size": 4,
             "Name": "BlendMode_Off",
             "Indent": "None",
             "Args": []
         },
         "3032": {
-            "Size": 4,
             "Name": "BlendMode_Normal",
             "Indent": "None",
             "Args": []
         },
         "3033": {
-            "Size": 4,
             "Name": "BlendMode_Add",
             "Indent": "None",
             "Args": []
         },
         "3034": {
-            "Size": 4,
             "Name": "BlendMode_HalfAdd",
             "Indent": "None",
             "Args": []
         },
         "3035": {
-            "Size": 4,
             "Name": "BlendMode_Sub",
             "Indent": "None",
             "Args": []
         },
         "3038": {
-            "Size": 8,
             "Name": "NoDisp2D",
             "Indent": "None",
             "Args": [
@@ -4129,7 +3806,6 @@
             ]
         },
         "3040": {
-            "Size": 8,
             "Name": "PalEffTYpe",
             "Indent": "None",
             "Args": [
@@ -4140,7 +3816,6 @@
             ]
         },
         "3041": {
-            "Size": 8,
             "Name": "PalEffParam0",
             "Indent": "None",
             "Args": [
@@ -4151,7 +3826,6 @@
             ]
         },
         "3042": {
-            "Size": 8,
             "Name": "PalEffParam1",
             "Indent": "None",
             "Args": [
@@ -4162,7 +3836,6 @@
             ]
         },
         "3043": {
-            "Size": 8,
             "Name": "PalEffParam2",
             "Indent": "None",
             "Args": [
@@ -4173,7 +3846,6 @@
             ]
         },
         "3044": {
-            "Size": 8,
             "Name": "PalEffParam3",
             "Indent": "None",
             "Args": [
@@ -4184,7 +3856,6 @@
             ]
         },
         "3045": {
-            "Size": 8,
             "Name": "EffFadeParam0",
             "Indent": "None",
             "Args": [
@@ -4195,7 +3866,6 @@
             ]
         },
         "3046": {
-            "Size": 8,
             "Name": "EffFadeParam1",
             "Indent": "None",
             "Args": [
@@ -4206,7 +3876,6 @@
             ]
         },
         "3047": {
-            "Size": 8,
             "Name": "EffFadeParam2",
             "Indent": "None",
             "Args": [
@@ -4217,7 +3886,6 @@
             ]
         },
         "3048": {
-            "Size": 8,
             "Name": "EffFadeParam3",
             "Indent": "None",
             "Args": [
@@ -4228,7 +3896,6 @@
             ]
         },
         "3053": {
-            "Size": 8,
             "Name": "CustomPalette",
             "Indent": "None",
             "Args": [
@@ -4239,7 +3906,6 @@
             ]
         },
         "3054": {
-            "Size": 8,
             "Name": "SetCustomPaletteAlpha",
             "Indent": "None",
             "Args": [
@@ -4254,7 +3920,6 @@
             ]
         },
         "3055": {
-            "Size": 8,
             "Name": "SetBasePaletteAlpha",
             "Indent": "None",
             "Args": [
@@ -4269,7 +3934,6 @@
             ]
         },
         "3056": {
-            "Size": 8,
             "Name": "SetBasePaletteColor",
             "Indent": "None",
             "Args": [
@@ -4284,7 +3948,6 @@
             ]
         },
         "3057": {
-            "Size": 8,
             "Name": "DistortionTexture",
             "Indent": "None",
             "Args": [
@@ -4295,7 +3958,6 @@
             ]
         },
         "3058": {
-            "Size": 8,
             "Name": "SetDistortionLevel",
             "Indent": "None",
             "Args": [
@@ -4306,7 +3968,6 @@
             ]
         },
         "3059": {
-            "Size": 8,
             "Name": "SetDistortionLevelSpeed",
             "Indent": "None",
             "Args": [
@@ -4317,7 +3978,6 @@
             ]
         },
         "3060": {
-            "Size": 40,
             "Name": "SetCompositeImage",
             "Indent": "None",
             "Args": [
@@ -4332,7 +3992,6 @@
             ]
         },
         "3061": {
-            "Size": 12,
             "Name": "SetCompositeBlendMode",
             "Indent": "None",
             "Args": [
@@ -4347,7 +4006,6 @@
             ]
         },
         "3062": {
-            "Size": 12,
             "Name": "SetCompositePosX",
             "Indent": "None",
             "Args": [
@@ -4362,7 +4020,6 @@
             ]
         },
         "3063": {
-            "Size": 12,
             "Name": "SetCompositePosY",
             "Indent": "None",
             "Args": [
@@ -4377,7 +4034,6 @@
             ]
         },
         "3064": {
-            "Size": 12,
             "Name": "SetCompositeSpeedX",
             "Indent": "None",
             "Args": [
@@ -4392,7 +4048,6 @@
             ]
         },
         "3065": {
-            "Size": 12,
             "Name": "SetCompositeSpeedY",
             "Indent": "None",
             "Args": [
@@ -4407,7 +4062,6 @@
             ]
         },
         "3066": {
-            "Size": 12,
             "Name": "SetCompositeScaleX",
             "Indent": "None",
             "Args": [
@@ -4422,7 +4076,6 @@
             ]
         },
         "3067": {
-            "Size": 12,
             "Name": "SetCompositeScaleY",
             "Indent": "None",
             "Args": [
@@ -4437,7 +4090,6 @@
             ]
         },
         "3068": {
-            "Size": 12,
             "Name": "SetCompositeColor",
             "Indent": "None",
             "Args": [
@@ -4464,7 +4116,6 @@
             ]
         },
         "3069": {
-            "Size": 12,
             "Name": "AfterImageBlendMode",
             "Indent": "None",
             "Args": [
@@ -4475,7 +4126,6 @@
             ]
         },
         "3070": {
-            "Size": 12,
             "Name": "AfterImageSpan",
             "Indent": "None",
             "Args": [
@@ -4486,7 +4136,6 @@
             ]
         },
         "3071": {
-            "Size": 12,
             "Name": "AfterImageMaxNum",
             "Indent": "None",
             "Args": [
@@ -4497,7 +4146,6 @@
             ]
         },
         "3072": {
-            "Size": 12,
             "Name": "AfterImageFirstColor",
             "Indent": "None",
             "Args": [
@@ -4520,7 +4168,6 @@
             ]
         },
         "3073": {
-            "Size": 12,
             "Name": "AfterImageLastColor",
             "Indent": "None",
             "Args": [
@@ -4543,7 +4190,6 @@
             ]
         },
         "3074": {
-            "Size": 12,
             "Name": "AfterImageFirstAddColor",
             "Indent": "None",
             "Args": [
@@ -4566,7 +4212,6 @@
             ]
         },
         "3075": {
-            "Size": 12,
             "Name": "AfterImageLastAddColor",
             "Indent": "None",
             "Args": [
@@ -4589,7 +4234,6 @@
             ]
         },
         "3076": {
-            "Size": 12,
             "Name": "AfterImageFirstScale",
             "Indent": "None",
             "Args": [
@@ -4600,7 +4244,6 @@
             ]
         },
         "3077": {
-            "Size": 12,
             "Name": "AfterImageLastScale",
             "Indent": "None",
             "Args": [
@@ -4611,7 +4254,6 @@
             ]
         },
         "3078": {
-            "Size": 12,
             "Name": "AfterImagePulse",
             "Indent": "None",
             "Args": [
@@ -4622,7 +4264,6 @@
             ]
         },
         "3079": {
-            "Size": 12,
             "Indent": "None",
             "Args": [
                 {
@@ -4632,7 +4273,6 @@
             ]
         },
         "4000": {
-            "Size": 40,
             "Name": "CreateObject",
             "Indent": "None",
             "Args": [
@@ -4648,7 +4288,6 @@
             ]
         },
         "4001": {
-            "Size": 40,
             "Name": "CreateParticle",
             "Indent": "None",
             "Args": [
@@ -4664,7 +4303,6 @@
             ]
         },
         "4002": {
-            "Size": 36,
             "Name": "LinkParticle",
             "Indent": "None",
             "Args": [
@@ -4675,7 +4313,6 @@
             ]
         },
         "4003": {
-            "Size": 68,
             "Name": "LinkModel",
             "Indent": "None",
             "Args": [
@@ -4690,7 +4327,6 @@
             ]
         },
         "4004": {
-            "Size": 8,
             "Name": "CreateCommonObject",
             "Indent": "None",
             "Args": [
@@ -4706,7 +4342,6 @@
             ]
         },
         "4006": {
-            "Size": 8,
             "Name": "LinkObjectAngle",
             "Indent": "None",
             "Args": [
@@ -4718,7 +4353,6 @@
             ]
         },
         "4007": {
-            "Size": 8,
             "Name": "LinkObjectPosition",
             "Indent": "None",
             "Args": [
@@ -4730,7 +4364,6 @@
             ]
         },
         "4008": {
-            "Size": 8,
             "Name": "LinkObjectDirection",
             "Indent": "None",
             "Args": [
@@ -4742,7 +4375,6 @@
             ]
         },
         "4009": {
-            "Size": 8,
             "Name": "LinkObjectStop",
             "Indent": "None",
             "Args": [
@@ -4754,7 +4386,6 @@
             ]
         },
         "4010": {
-            "Size": 8,
             "Name": "LinkObjectChangeToEliminate",
             "Indent": "None",
             "Args": [
@@ -4766,7 +4397,6 @@
             ]
         },
         "4011": {
-            "Size": 8,
             "Name": "LinkObjectDamageToEliminate",
             "Indent": "None",
             "Args": [
@@ -4778,7 +4408,6 @@
             ]
         },
         "4012": {
-            "Size": 8,
             "Name": "LinkObjectPositionCenter",
             "Indent": "None",
             "Args": [
@@ -4790,7 +4419,6 @@
             ]
         },
         "4013": {
-            "Size": 8,
             "Name": "LinkObjectScale",
             "Indent": "None",
             "Args": [
@@ -4802,7 +4430,6 @@
             ]
         },
         "4014": {
-            "Size": 8,
             "Name": "LinkFloreDecal",
             "Indent": "None",
             "Args": [
@@ -4813,13 +4440,11 @@
             ]
         },
         "4015": {
-            "Size": 4,
             "Name": "LinkModelPersOff",
             "Indent": "None",
             "Args": []
         },
         "4016": {
-            "Size": 4,
             "Name": "LinkCommonPolyLine",
             "Indent": "None",
             "Args": [
@@ -4834,7 +4459,6 @@
             ]
         },
         "4017": {
-            "Size": 12,
             "Name": "RandAddSpeedSphere",
             "Indent": "None",
             "Args": [
@@ -4849,7 +4473,6 @@
             ]
         },
         "4018": {
-            "Size": 40,
             "Name": "CreateDecal",
             "Indent": "None",
             "Args": [
@@ -4877,31 +4500,28 @@
             ]
         },
         "4019": {
-            "Size": 8,
             "Name": "LinkObjectZ",
             "Indent": "None",
             "Args": [
                 {
                     "Type": "Enum",
-					"EnumName": "CO_TYPE",
+                    "EnumName": "CO_TYPE",
                     "Name": "type"
                 }
             ]
         },
         "4020": {
-            "Size": 8,
             "Name": "LinkObjectCollision",
             "Indent": "None",
             "Args": [
                 {
                     "Type": "Enum",
-					"EnumName": "CO_TYPE",
+                    "EnumName": "CO_TYPE",
                     "Name": "type"
                 }
             ]
         },
         "4021": {
-            "Size": 40,
             "Name": "LinkPolyLine",
             "Indent": "None",
             "Args": [
@@ -4916,7 +4536,6 @@
             ]
         },
         "4045": {
-            "Size": 40,
             "Name": "CreateParticleArg",
             "Indent": "None",
             "Args": [
@@ -4932,7 +4551,6 @@
             ]
         },
         "4046": {
-            "Size": 40,
             "Name": "CreateParticleArgColor",
             "Indent": "None",
             "Args": [
@@ -4951,7 +4569,6 @@
             ]
         },
         "4047": {
-            "Size": 40,
             "Name": "CreateParticleArgColorByPaletteIndex",
             "Indent": "None",
             "Args": [
@@ -4970,7 +4587,6 @@
             ]
         },
         "4048": {
-            "Size": 36,
             "Name": "CreateParticleArgAngle",
             "Indent": "None",
             "Args": [
@@ -4981,7 +4597,6 @@
             ]
         },
         "4049": {
-            "Size": 40,
             "Name": "CreateParticleArgScale",
             "Indent": "None",
             "Args": [
@@ -4992,7 +4607,6 @@
             ]
         },
         "4050": {
-            "Size": 40,
             "Name": "CreateParticleArgPaletteSubID",
             "Indent": "None",
             "Args": [
@@ -5003,7 +4617,6 @@
             ]
         },
         "4051": {
-            "Size": 40,
             "Name": "CreateParticleArgDirection",
             "Indent": "None",
             "Args": [
@@ -5014,13 +4627,11 @@
             ]
         },
         "4052": {
-            "Size": 40,
             "Name": "CreateParticleArgRandAngle",
             "Indent": "None",
             "Args": []
         },
         "4053": {
-            "Size": 40,
             "Name": "CreateParticleArgRandAngleMinMax",
             "Indent": "None",
             "Args": [
@@ -5035,7 +4646,6 @@
             ]
         },
         "4054": {
-            "Size": 40,
             "Name": "CreateParticleArgRenderStage",
             "Indent": "None",
             "Args": [
@@ -5046,7 +4656,6 @@
             ]
         },
         "4055": {
-            "Size": 40,
             "Indent": "None",
             "Args": [
                 {
@@ -5056,7 +4665,6 @@
             ]
         },
         "4061": {
-            "Size": 36,
             "Name": "SetPaletteSubID",
             "Indent": "None",
             "Args": [
@@ -5067,7 +4675,6 @@
             ]
         },
         "5000": {
-            "Size": 8,
             "Name": "SetEnemysCell",
             "Indent": "None",
             "Args": [
@@ -5082,7 +4689,6 @@
             ]
         },
         "5001": {
-            "Size": 16,
             "Name": "SetGripPosition",
             "Indent": "None",
             "Args": [
@@ -5112,7 +4718,6 @@
             ]
         },
         "5003": {
-            "Size": 8,
             "Name": "CellStopByLockWait",
             "Indent": "None",
             "Args": [
@@ -5123,13 +4728,11 @@
             ]
         },
         "5004": {
-            "Size": 4,
             "Name": "LockLinkPositionOff",
             "Indent": "None",
             "Args": []
         },
         "5005": {
-            "Size": 8,
             "Name": "LockEnemyDisp",
             "Indent": "None",
             "Args": [
@@ -5140,7 +4743,6 @@
             ]
         },
         "6001": {
-            "Size": 8,
             "Name": "ScreenPosition",
             "Indent": "None",
             "Args": [
@@ -5151,7 +4753,6 @@
             ]
         },
         "7000": {
-            "Size": 36,
             "Name": "CommonSE",
             "Indent": "None",
             "Args": [
@@ -5162,7 +4763,6 @@
             ]
         },
         "7001": {
-            "Size": 20,
             "Name": "Voice",
             "Indent": "None",
             "Args": [
@@ -5173,7 +4773,6 @@
             ]
         },
         "7002": {
-            "Size": 36,
             "Name": "NarrationSE",
             "Indent": "None",
             "Args": [
@@ -5184,7 +4783,6 @@
             ]
         },
         "7003": {
-            "Size": 36,
             "Name": "PrivateSE",
             "Indent": "None",
             "Args": [
@@ -5195,7 +4793,6 @@
             ]
         },
         "7004": {
-            "Size": 20,
             "Name": "SmartVoice",
             "Indent": "None",
             "Args": [
@@ -5206,7 +4803,6 @@
             ]
         },
         "7006": {
-            "Size": 84,
             "Name": "RandomVoice",
             "Indent": "None",
             "Args": [
@@ -5245,7 +4841,6 @@
             ]
         },
         "7007": {
-            "Size": 84,
             "Name": "SmartRandomVoice",
             "Indent": "None",
             "Args": [
@@ -5284,7 +4879,6 @@
             ]
         },
         "7008": {
-            "Size": 12,
             "Name": "DamageLevelVoice",
             "Indent": "None",
             "Args": [
@@ -5299,7 +4893,6 @@
             ]
         },
         "7009": {
-            "Size": 12,
             "Name": "AttackVoice",
             "Indent": "None",
             "Args": [
@@ -5310,7 +4903,6 @@
             ]
         },
         "7010": {
-            "Size": 4,
             "Name": "InitCommonVoice",
             "Indent": "None",
             "Args": [
@@ -5325,7 +4917,6 @@
             ]
         },
         "7011": {
-            "Size": 4,
             "Name": "CommonVoice",
             "Indent": "None",
             "Args": [
@@ -5336,7 +4927,6 @@
             ]
         },
         "7012": {
-            "Size": 4,
             "Name": "SmartCommonVoice",
             "Indent": "None",
             "Args": [
@@ -5347,7 +4937,6 @@
             ]
         },
         "7013": {
-            "Size": 4,
             "Name": "CommonDamageVoice",
             "Indent": "None",
             "Args": [
@@ -5358,7 +4947,6 @@
             ]
         },
         "7014": {
-            "Size": 4,
             "Name": "LoopSE",
             "Indent": "None",
             "Args": [
@@ -5369,13 +4957,11 @@
             ]
         },
         "7015": {
-            "Size": 4,
             "Name": "LoopSEEnd",
             "Indent": "None",
             "Args": []
         },
         "8000": {
-            "Size": 16,
             "Name": "EffectForLanding",
             "Indent": "None",
             "Args": [
@@ -5395,7 +4981,6 @@
             ]
         },
         "8001": {
-            "Size": 16,
             "Name": "EffectForJumpBegin",
             "Indent": "None",
             "Args": [
@@ -5410,13 +4995,11 @@
             ]
         },
         "8002": {
-            "Size": 16,
             "Name": "EffectForJumpSE",
             "Indent": "None",
             "Args": []
         },
         "8003": {
-            "Size": 16,
             "Name": "EffectForLandDown",
             "Indent": "None",
             "Args": [
@@ -5436,7 +5019,6 @@
             ]
         },
         "8004": {
-            "Size": 16,
             "Name": "EffectForDamageBound",
             "Indent": "None",
             "Args": [
@@ -5456,7 +5038,6 @@
             ]
         },
         "8005": {
-            "Size": 16,
             "Name": "EffectForUkemi",
             "Indent": "None",
             "Args": [
@@ -5476,7 +5057,6 @@
             ]
         },
         "8006": {
-            "Size": 16,
             "Name": "EffectForDashStep",
             "Indent": "None",
             "Args": [
@@ -5496,7 +5076,6 @@
             ]
         },
         "8007": {
-            "Size": 16,
             "Name": "EffectForDashStart",
             "Indent": "None",
             "Args": [
@@ -5516,7 +5095,6 @@
             ]
         },
         "8008": {
-            "Size": 16,
             "Name": "EffectForWallBound",
             "Indent": "None",
             "Args": [
@@ -5536,7 +5114,6 @@
             ]
         },
         "8009": {
-            "Size": 16,
             "Name": "EffectForAirDash",
             "Indent": "None",
             "Args": [
@@ -5547,7 +5124,6 @@
             ]
         },
         "8010": {
-            "Size": 16,
             "Name": "EffectForDashStop",
             "Indent": "None",
             "Args": [
@@ -5567,7 +5143,6 @@
             ]
         },
         "8011": {
-            "Size": 16,
             "Name": "EffectForWalkStep",
             "Indent": "None",
             "Args": [
@@ -5587,13 +5162,11 @@
             ]
         },
         "9000": {
-            "Size": 4,
             "Name": "AtkAllDefault",
             "Indent": "None",
             "Args": []
         },
         "9001": {
-            "Size": 8,
             "Name": "AtkType",
             "Indent": "None",
             "Args": [
@@ -5605,7 +5178,6 @@
             ]
         },
         "9002": {
-            "Size": 8,
             "Name": "AtkLevel",
             "Indent": "None",
             "Args": [
@@ -5616,7 +5188,6 @@
             ]
         },
         "9003": {
-            "Size": 12,
             "Name": "AtkDamage",
             "Indent": "None",
             "Args": [
@@ -5627,13 +5198,11 @@
             ]
         },
         "9004": {
-            "Size": 4,
             "Name": "AtkDamageReset",
             "Indent": "None",
             "Args": []
         },
         "9007": {
-            "Size": 8,
             "Name": "SubVoice",
             "Indent": "None",
             "Args": [
@@ -5648,7 +5217,6 @@
             ]
         },
         "9008": {
-            "Size": 8,
             "Name": "SmartSubVoice",
             "Indent": "None",
             "Args": [
@@ -5663,7 +5231,6 @@
             ]
         },
         "9009": {
-            "Size": 8,
             "Name": "RandomSubVoice",
             "Indent": "None",
             "Args": [
@@ -5706,7 +5273,6 @@
             ]
         },
         "9010": {
-            "Size": 8,
             "Name": "SmartRandomSubVoice",
             "Indent": "None",
             "Args": [
@@ -5749,7 +5315,6 @@
             ]
         },
         "9011": {
-            "Size": 8,
             "Name": "OrderVoice",
             "Indent": "None",
             "Args": [
@@ -5772,7 +5337,6 @@
             ]
         },
         "9012": {
-            "Size": 8,
             "Name": "InitLinkCommonSubVoice",
             "Indent": "None",
             "Args": [
@@ -5795,7 +5359,6 @@
             ]
         },
         "9013": {
-            "Size": 8,
             "Name": "LinkCommonSubVoice",
             "Indent": "None",
             "Args": [
@@ -5810,7 +5373,6 @@
             ]
         },
         "9015": {
-            "Size": 8,
             "Name": "AtkEffectStrike",
             "Indent": "None",
             "Args": [
@@ -5821,7 +5383,6 @@
             ]
         },
         "9016": {
-            "Size": 8,
             "Name": "AtkEffectSlash",
             "Indent": "None",
             "Args": [
@@ -5832,7 +5393,6 @@
             ]
         },
         "9017": {
-            "Size": 8,
             "Name": "AtkEffectFire",
             "Indent": "None",
             "Args": [
@@ -5843,7 +5403,6 @@
             ]
         },
         "9018": {
-            "Size": 8,
             "Name": "AtkEffectElectric",
             "Indent": "None",
             "Args": [
@@ -5854,7 +5413,6 @@
             ]
         },
         "9019": {
-            "Size": 8,
             "Name": "AtkEffectIce",
             "Indent": "None",
             "Args": [
@@ -5865,7 +5423,6 @@
             ]
         },
         "9020": {
-            "Size": 8,
             "Name": "AtkEffectSpecial",
             "Indent": "None",
             "Args": [
@@ -5876,7 +5433,6 @@
             ]
         },
         "9070": {
-            "Size": 12,
             "Name": "AtkVectorX",
             "Indent": "None",
             "Args": [
@@ -5887,13 +5443,11 @@
             ]
         },
         "9071": {
-            "Size": 4,
             "Name": "AtkVectorXReset",
             "Indent": "None",
             "Args": []
         },
         "9072": {
-            "Size": 12,
             "Name": "AtkVectorXCounterHit",
             "Indent": "None",
             "Args": [
@@ -5904,13 +5458,11 @@
             ]
         },
         "9073": {
-            "Size": 4,
             "Name": "AtkVectorXCounterHitReset",
             "Indent": "None",
             "Args": []
         },
         "9082": {
-            "Size": 12,
             "Name": "AtkVectorY",
             "Indent": "None",
             "Args": [
@@ -5921,13 +5473,11 @@
             ]
         },
         "9083": {
-            "Size": 4,
             "Name": "AtkVectorYReset",
             "Indent": "None",
             "Args": []
         },
         "9084": {
-            "Size": 12,
             "Name": "AtkVectorYCounterHit",
             "Indent": "None",
             "Args": [
@@ -5938,13 +5488,11 @@
             ]
         },
         "9085": {
-            "Size": 4,
             "Name": "AtkVectorYCounterHitReset",
             "Indent": "None",
             "Args": []
         },
         "9094": {
-            "Size": 12,
             "Name": "AtkGravity",
             "Indent": "None",
             "Args": [
@@ -5955,13 +5503,11 @@
             ]
         },
         "9095": {
-            "Size": 4,
             "Name": "AtkGravityReset",
             "Indent": "None",
             "Args": []
         },
         "9096": {
-            "Size": 12,
             "Name": "AtkGravityCounterHit",
             "Indent": "None",
             "Args": [
@@ -5972,13 +5518,11 @@
             ]
         },
         "9097": {
-            "Size": 4,
             "Name": "AtkGravityCounterHitReset",
             "Indent": "None",
             "Args": []
         },
         "9106": {
-            "Size": 8,
             "Name": "AtkBoundRateWall",
             "Indent": "None",
             "Args": [
@@ -5989,13 +5533,11 @@
             ]
         },
         "9107": {
-            "Size": 4,
             "Name": "AtkBoundRateWallReset",
             "Indent": "None",
             "Args": []
         },
         "9108": {
-            "Size": 8,
             "Name": "AtkBoundRateWallCounterHit",
             "Indent": "None",
             "Args": [
@@ -6006,13 +5548,11 @@
             ]
         },
         "9109": {
-            "Size": 4,
             "Name": "AtkBoundRateWallCounterHitReset",
             "Indent": "None",
             "Args": []
         },
         "9118": {
-            "Size": 8,
             "Name": "AtkBoundRateLand",
             "Indent": "None",
             "Args": [
@@ -6023,13 +5563,11 @@
             ]
         },
         "9119": {
-            "Size": 4,
             "Name": "AtkBoundRateLandReset",
             "Indent": "None",
             "Args": []
         },
         "9120": {
-            "Size": 8,
             "Name": "AtkBoundRateLandCounterHit",
             "Indent": "None",
             "Args": [
@@ -6040,13 +5578,11 @@
             ]
         },
         "9121": {
-            "Size": 4,
             "Name": "AtkBoundRateLandCounterHitReset",
             "Indent": "None",
             "Args": []
         },
         "9130": {
-            "Size": 8,
             "Name": "AtkStaggerMaxTime",
             "Indent": "None",
             "Args": [
@@ -6057,13 +5593,11 @@
             ]
         },
         "9131": {
-            "Size": 4,
             "Name": "AtkStaggerMaxTimeReset",
             "Indent": "None",
             "Args": []
         },
         "9132": {
-            "Size": 8,
             "Name": "AtkStaggerMaxTimeCounterHit",
             "Indent": "None",
             "Args": [
@@ -6074,13 +5608,11 @@
             ]
         },
         "9133": {
-            "Size": 8,
             "Name": "AtkStaggerMaxTimeCounterHitReset",
             "Indent": "None",
             "Args": []
         },
         "9142": {
-            "Size": 8,
             "Name": "AtkStaggerMinTime",
             "Indent": "None",
             "Args": [
@@ -6091,13 +5623,11 @@
             ]
         },
         "9143": {
-            "Size": 4,
             "Name": "AtkStaggerMinTimeReset",
             "Indent": "None",
             "Args": []
         },
         "9144": {
-            "Size": 8,
             "Name": "AtkStaggerMinTimeCounterHit",
             "Indent": "None",
             "Args": [
@@ -6108,13 +5638,11 @@
             ]
         },
         "9145": {
-            "Size": 8,
             "Name": "AtkStaggerMinTimeCounterHitReset",
             "Indent": "None",
             "Args": []
         },
         "9154": {
-            "Size": 8,
             "Name": "AtkLandStunTime",
             "Indent": "None",
             "Args": [
@@ -6125,13 +5653,11 @@
             ]
         },
         "9155": {
-            "Size": 4,
             "Name": "AtkLandStunTimeReset",
             "Indent": "None",
             "Args": []
         },
         "9156": {
-            "Size": 8,
             "Name": "AtkLandStunTimeCounterHit",
             "Indent": "None",
             "Args": [
@@ -6142,13 +5668,11 @@
             ]
         },
         "9157": {
-            "Size": 4,
             "Name": "AtkLandStunTimeCounterHitReset",
             "Indent": "None",
             "Args": []
         },
         "9166": {
-            "Size": 8,
             "Name": "AtkAirStunTime",
             "Indent": "None",
             "Args": [
@@ -6159,13 +5683,11 @@
             ]
         },
         "9167": {
-            "Size": 4,
             "Name": "AtkAirStunTimeReset",
             "Indent": "None",
             "Args": []
         },
         "9168": {
-            "Size": 8,
             "Name": "AtkAirStunTimeCounterHit",
             "Indent": "None",
             "Args": [
@@ -6176,13 +5698,11 @@
             ]
         },
         "9169": {
-            "Size": 4,
             "Name": "AtkAirStunTimeCounterHitReset",
             "Indent": "None",
             "Args": []
         },
         "9178": {
-            "Size": 8,
             "Name": "AtkWallBoundCount",
             "Indent": "None",
             "Args": [
@@ -6193,13 +5713,11 @@
             ]
         },
         "9179": {
-            "Size": 4,
             "Name": "AtkWallBoundCountReset",
             "Indent": "None",
             "Args": []
         },
         "9180": {
-            "Size": 8,
             "Name": "AtkWallBoundCountCounterHit",
             "Indent": "None",
             "Args": [
@@ -6210,13 +5728,11 @@
             ]
         },
         "9181": {
-            "Size": 4,
             "Name": "AtkWallBoundCountCounterHitReset",
             "Indent": "None",
             "Args": []
         },
         "9190": {
-            "Size": 8,
             "Name": "AtkLandBoundCount",
             "Indent": "None",
             "Args": [
@@ -6227,13 +5743,11 @@
             ]
         },
         "9191": {
-            "Size": 4,
             "Name": "AtkLandBoundCountReset",
             "Indent": "None",
             "Args": []
         },
         "9192": {
-            "Size": 8,
             "Name": "AtkLandBoundCountCounterHit",
             "Indent": "None",
             "Args": [
@@ -6244,13 +5758,11 @@
             ]
         },
         "9193": {
-            "Size": 4,
             "Name": "AtkLandBoundCountCounterHitReset",
             "Indent": "None",
             "Args": []
         },
         "9202": {
-            "Size": 8,
             "Name": "AtkSlideTime",
             "Indent": "None",
             "Args": [
@@ -6261,13 +5773,11 @@
             ]
         },
         "9203": {
-            "Size": 4,
             "Name": "AtkSlideTimeReset",
             "Indent": "None",
             "Args": []
         },
         "9204": {
-            "Size": 8,
             "Name": "AtkSlideTimeCounterHit",
             "Indent": "None",
             "Args": [
@@ -6278,13 +5788,11 @@
             ]
         },
         "9205": {
-            "Size": 4,
             "Name": "AtkSlideTimeCounterHitReset",
             "Indent": "None",
             "Args": []
         },
         "9214": {
-            "Size": 8,
             "Name": "AtkHitBackX",
             "Indent": "None",
             "Args": [
@@ -6295,13 +5803,11 @@
             ]
         },
         "9215": {
-            "Size": 4,
             "Name": "AtkHitBackXReset",
             "Indent": "None",
             "Args": []
         },
         "9216": {
-            "Size": 8,
             "Name": "AtkHitBackXCounterHit",
             "Indent": "None",
             "Args": [
@@ -6312,13 +5818,11 @@
             ]
         },
         "9217": {
-            "Size": 4,
             "Name": "AtkHitBackXCounterHitReset",
             "Indent": "None",
             "Args": []
         },
         "9218": {
-            "Size": 8,
             "Name": "AtkAirHitBack",
             "Indent": "None",
             "Args": [
@@ -6329,7 +5833,6 @@
             ]
         },
         "9219": {
-            "Size": 8,
             "Name": "AtkAirHitBackCounterHit",
             "Indent": "None",
             "Args": [
@@ -6340,7 +5843,6 @@
             ]
         },
         "9238": {
-            "Size": 8,
             "Name": "AtkComboHoseiPoint",
             "Indent": "None",
             "Args": [
@@ -6351,13 +5853,11 @@
             ]
         },
         "9239": {
-            "Size": 4,
             "Name": "AtkComboHoseiPointReset",
             "Indent": "None",
             "Args": []
         },
         "9240": {
-            "Size": 8,
             "Name": "AtkComboHoseiPointCounterHit",
             "Indent": "None",
             "Args": [
@@ -6368,13 +5868,11 @@
             ]
         },
         "9241": {
-            "Size": 4,
             "Name": "AtkComboHoseiPointCounterHitReset",
             "Indent": "None",
             "Args": []
         },
         "9250": {
-            "Size": 8,
             "Name": "AtkFreezeLimit",
             "Indent": "None",
             "Args": [
@@ -6385,13 +5883,11 @@
             ]
         },
         "9251": {
-            "Size": 4,
             "Name": "AtkFreezeLimitReset",
             "Indent": "None",
             "Args": []
         },
         "9252": {
-            "Size": 8,
             "Name": "AtkFreezeLimitCounterHit",
             "Indent": "None",
             "Args": [
@@ -6402,13 +5898,11 @@
             ]
         },
         "9253": {
-            "Size": 4,
             "Name": "AtkFreezeLimitCounterHitReset",
             "Indent": "None",
             "Args": []
         },
         "9262": {
-            "Size": 8,
             "Name": "AtkFreezeTime",
             "Indent": "None",
             "Args": [
@@ -6419,13 +5913,11 @@
             ]
         },
         "9263": {
-            "Size": 4,
             "Name": "AtkFreezeTimeReset",
             "Indent": "None",
             "Args": []
         },
         "9264": {
-            "Size": 8,
             "Name": "AtkFreezeTimeCounterHit",
             "Indent": "None",
             "Args": [
@@ -6436,13 +5928,11 @@
             ]
         },
         "9265": {
-            "Size": 4,
             "Name": "AtkFreezeTimeCounterHitReset",
             "Indent": "None",
             "Args": []
         },
         "9274": {
-            "Size": 8,
             "Name": "AtkComboRateFirst",
             "Indent": "None",
             "Args": [
@@ -6453,13 +5943,11 @@
             ]
         },
         "9275": {
-            "Size": 4,
             "Name": "AtkComboRateFirstReset",
             "Indent": "None",
             "Args": []
         },
         "9276": {
-            "Size": 8,
             "Name": "AtkComboRateFirstCounterHit",
             "Indent": "None",
             "Args": [
@@ -6470,13 +5958,11 @@
             ]
         },
         "9277": {
-            "Size": 4,
             "Name": "AtkComboRateFirstCounterHitReset",
             "Indent": "None",
             "Args": []
         },
         "9286": {
-            "Size": 8,
             "Name": "AtkComboRateMult",
             "Indent": "None",
             "Args": [
@@ -6487,13 +5973,11 @@
             ]
         },
         "9287": {
-            "Size": 4,
             "Name": "AtkComboRateMultReset",
             "Indent": "None",
             "Args": []
         },
         "9288": {
-            "Size": 8,
             "Name": "AtkComboRateMultCounterHit",
             "Indent": "None",
             "Args": [
@@ -6504,13 +5988,11 @@
             ]
         },
         "9289": {
-            "Size": 4,
             "Name": "AtkComboRateMultHitReset",
             "Indent": "None",
             "Args": []
         },
         "9310": {
-            "Size": 8,
             "Name": "AtkSleepStunTime",
             "Indent": "None",
             "Args": [
@@ -6521,13 +6003,11 @@
             ]
         },
         "9311": {
-            "Size": 8,
             "Name": "AtkSleepStunTimeReset",
             "Indent": "None",
             "Args": []
         },
         "9312": {
-            "Size": 8,
             "Name": "AtkSleepStunTimeCounterHit",
             "Indent": "None",
             "Args": [
@@ -6538,13 +6018,11 @@
             ]
         },
         "9313": {
-            "Size": 8,
             "Name": "AtkSleepStunTimeReset",
             "Indent": "None",
             "Args": []
         },
         "9322": {
-            "Size": 8,
             "Name": "AtkLandHitAction",
             "Indent": "None",
             "Args": [
@@ -6556,13 +6034,11 @@
             ]
         },
         "9323": {
-            "Size": 4,
             "Name": "AtkLandHitActionReset",
             "Indent": "None",
             "Args": []
         },
         "9324": {
-            "Size": 8,
             "Name": "AtkLandHitActionCounterHit",
             "Indent": "None",
             "Args": [
@@ -6574,13 +6050,11 @@
             ]
         },
         "9325": {
-            "Size": 4,
             "Name": "AtkLandHitActionCounterHitReset",
             "Indent": "None",
             "Args": []
         },
         "9334": {
-            "Size": 8,
             "Name": "AtkAirHitAction",
             "Indent": "None",
             "Args": [
@@ -6592,13 +6066,11 @@
             ]
         },
         "9335": {
-            "Size": 4,
             "Name": "AtkAirHitActionReset",
             "Indent": "None",
             "Args": []
         },
         "9336": {
-            "Size": 8,
             "Name": "AtkAirHitActionCounterHit",
             "Indent": "None",
             "Args": [
@@ -6610,13 +6082,11 @@
             ]
         },
         "9337": {
-            "Size": 4,
             "Name": "AtkAirHitActionCounterHitReset",
             "Indent": "None",
             "Args": []
         },
         "9346": {
-            "Size": 8,
             "Name": "AtkWallBoundWorldOnly",
             "Indent": "None",
             "Args": [
@@ -6627,13 +6097,11 @@
             ]
         },
         "9347": {
-            "Size": 4,
             "Name": "AtkWallBoundWorldOnlyReset",
             "Indent": "None",
             "Args": []
         },
         "9348": {
-            "Size": 8,
             "Name": "AtkWallBoundWorldOnlyCounterHit",
             "Indent": "None",
             "Args": [
@@ -6644,13 +6112,11 @@
             ]
         },
         "9349": {
-            "Size": 4,
             "Name": "AtkWallBoundWorldOnlyCounterHitReset",
             "Indent": "None",
             "Args": []
         },
         "9358": {
-            "Size": 8,
             "Name": "AtkWallBoundStunTime",
             "Indent": "None",
             "Args": [
@@ -6661,7 +6127,6 @@
             ]
         },
         "9359": {
-            "Size": 8,
             "Name": "AtkWallBoundStunTimeReset",
             "Indent": "None",
             "Args": [
@@ -6672,7 +6137,6 @@
             ]
         },
         "9360": {
-            "Size": 8,
             "Name": "AtkWallBoundStunTimeCounterHit",
             "Indent": "None",
             "Args": [
@@ -6683,7 +6147,6 @@
             ]
         },
         "9361": {
-            "Size": 8,
             "Name": "AtkWallBoundStunTimeCounterHitReset",
             "Indent": "None",
             "Args": [
@@ -6694,7 +6157,6 @@
             ]
         },
         "9362": {
-            "Size": 8,
             "Name": "AtkWallHaritsuki",
             "Indent": "None",
             "Args": [
@@ -6705,7 +6167,6 @@
             ]
         },
         "9363": {
-            "Size": 8,
             "Name": "AtkWallHaritsukiCounterHit",
             "Indent": "None",
             "Args": [
@@ -6716,7 +6177,6 @@
             ]
         },
         "9364": {
-            "Size": 8,
             "Name": "AtkWallHaritsukiTime",
             "Indent": "None",
             "Args": [
@@ -6727,7 +6187,6 @@
             ]
         },
         "9365": {
-            "Size": 8,
             "Name": "AtkWallHaritsukiTimeCounterHit",
             "Indent": "None",
             "Args": [
@@ -6738,7 +6197,6 @@
             ]
         },
         "10000": {
-            "Size": 8,
             "Name": "AtkDamagePer",
             "Indent": "None",
             "Args": [
@@ -6749,7 +6207,6 @@
             ]
         },
         "10001": {
-            "Size": 8,
             "Name": "AtkParamCopy",
             "Indent": "None",
             "Args": [
@@ -6761,7 +6218,6 @@
             ]
         },
         "11000": {
-            "Size": 8,
             "Name": "AtkHitStopTime",
             "Indent": "None",
             "Args": [
@@ -6772,7 +6228,6 @@
             ]
         },
         "11001": {
-            "Size": 16,
             "Name": "AtkHitStopTimeEnemyAddition",
             "Indent": "None",
             "Args": [
@@ -6791,7 +6246,6 @@
             ]
         },
         "11002": {
-            "Size": 8,
             "Name": "AtkLockWaitTime",
             "Indent": "None",
             "Args": [
@@ -6802,7 +6256,6 @@
             ]
         },
         "11023": {
-            "Size": 8,
             "Name": "AtkAttackCollisionForceExpand",
             "Indent": "None",
             "Args": [
@@ -6813,7 +6266,6 @@
             ]
         },
         "11024": {
-            "Size": 8,
             "Name": "AtkIsLock",
             "Indent": "None",
             "Args": [
@@ -6824,7 +6276,6 @@
             ]
         },
         "11025": {
-            "Size": 8,
             "Name": "AtkDoNotHitLoseBalance",
             "Indent": "None",
             "Args": [
@@ -6835,7 +6286,6 @@
             ]
         },
         "11026": {
-            "Size": 8,
             "Name": "AtkBurst",
             "Indent": "None",
             "Args": [
@@ -6846,7 +6296,6 @@
             ]
         },
         "11028": {
-            "Size": 8,
             "Name": "AtkGuardTime",
             "Indent": "None",
             "Args": [
@@ -6857,7 +6306,6 @@
             ]
         },
         "11029": {
-            "Size": 8,
             "Name": "AtkAirGuardTimeAddition",
             "Indent": "None",
             "Args": [
@@ -6868,7 +6316,6 @@
             ]
         },
         "11030": {
-            "Size": 8,
             "Name": "AtkGuardBreakTime",
             "Indent": "None",
             "Args": [
@@ -6879,7 +6326,6 @@
             ]
         },
         "11031": {
-            "Size": 8,
             "Name": "AtkKezuriRate",
             "Indent": "None",
             "Args": [
@@ -6890,7 +6336,6 @@
             ]
         },
         "11032": {
-            "Size": 20,
             "Name": "AtkRange",
             "Indent": "None",
             "Args": [
@@ -6913,7 +6358,6 @@
             ]
         },
         "11033": {
-            "Size": 8,
             "Name": "AtkShotLevel",
             "Indent": "None",
             "Args": [
@@ -6924,7 +6368,6 @@
             ]
         },
         "11034": {
-            "Size": 8,
             "Name": "AtkNikuLevel",
             "Indent": "None",
             "Args": [
@@ -6935,7 +6378,6 @@
             ]
         },
         "11035": {
-            "Size": 8,
             "Name": "AtkLowDamageLevel",
             "Indent": "None",
             "Args": [
@@ -6946,7 +6388,6 @@
             ]
         },
         "11036": {
-            "Size": 8,
             "Name": "AtkMidDamageLevel",
             "Indent": "None",
             "Args": [
@@ -6957,7 +6398,6 @@
             ]
         },
         "11037": {
-            "Size": 8,
             "Name": "AtkAirDamageLevel",
             "Indent": "None",
             "Args": [
@@ -6968,7 +6408,6 @@
             ]
         },
         "11038": {
-            "Size": 8,
             "Name": "AtkLowBreakLevel",
             "Indent": "None",
             "Args": [
@@ -6979,7 +6418,6 @@
             ]
         },
         "11039": {
-            "Size": 8,
             "Name": "AtkMidBreakLevel",
             "Indent": "None",
             "Args": [
@@ -6990,7 +6428,6 @@
             ]
         },
         "11040": {
-            "Size": 8,
             "Name": "AtkAirBreakLevel",
             "Indent": "None",
             "Args": [
@@ -7001,7 +6438,6 @@
             ]
         },
         "11042": {
-            "Size": 8,
             "Name": "AtkCounterHitType",
             "Indent": "None",
             "Args": [
@@ -7013,7 +6449,6 @@
             ]
         },
         "11043": {
-            "Size": 8,
             "Name": "AtkTensionRate",
             "Indent": "None",
             "Args": [
@@ -7024,7 +6459,6 @@
             ]
         },
         "11044": {
-            "Size": 8,
             "Name": "AtkIgnoreBurst",
             "Indent": "None",
             "Args": [
@@ -7035,7 +6469,6 @@
             ]
         },
         "11045": {
-            "Size": 8,
             "Name": "AtkLandHitOnly",
             "Indent": "None",
             "Args": [
@@ -7046,7 +6479,6 @@
             ]
         },
         "11046": {
-            "Size": 8,
             "Name": "AtkAirHitOnly",
             "Indent": "None",
             "Args": [
@@ -7057,7 +6489,6 @@
             ]
         },
         "11047": {
-            "Size": 36,
             "Name": "AtkLockAction",
             "Indent": "None",
             "Args": [
@@ -7068,7 +6499,6 @@
             ]
         },
         "11048": {
-            "Size": 8,
             "Name": "AtkDamageDrainRate",
             "Indent": "None",
             "Args": [
@@ -7079,7 +6509,6 @@
             ]
         },
         "11049": {
-            "Size": 8,
             "Name": "AtkKezuriDrainRate",
             "Indent": "None",
             "Args": [
@@ -7090,7 +6519,6 @@
             ]
         },
         "11050": {
-            "Size": 40,
             "Name": "AtkDamageEffect",
             "Indent": "None",
             "Args": [
@@ -7106,7 +6534,6 @@
             ]
         },
         "11051": {
-            "Size": 40,
             "Name": "AtkGuardEffect",
             "Indent": "None",
             "Args": [
@@ -7122,7 +6549,6 @@
             ]
         },
         "11052": {
-            "Size": 8,
             "Name": "AtkBarrierDamageRate",
             "Indent": "None",
             "Args": [
@@ -7133,7 +6559,6 @@
             ]
         },
         "11053": {
-            "Size": 8,
             "Name": "AtkMagnet",
             "Indent": "None",
             "Args": [
@@ -7144,7 +6569,6 @@
             ]
         },
         "11054": {
-            "Size": 8,
             "Name": "AtkPushRangeX",
             "Indent": "None",
             "Args": [
@@ -7155,7 +6579,6 @@
             ]
         },
         "11055": {
-            "Size": 8,
             "Name": "AtkEffectLimit",
             "Indent": "None",
             "Args": [
@@ -7166,7 +6589,6 @@
             ]
         },
         "11056": {
-            "Size": 8,
             "Name": "AtkDirection",
             "Indent": "None",
             "Args": [
@@ -7178,7 +6600,6 @@
             ]
         },
         "11057": {
-            "Size": 8,
             "Name": "AtkEffectScale",
             "Indent": "None",
             "Args": [
@@ -7189,7 +6610,6 @@
             ]
         },
         "11058": {
-            "Size": 8,
             "Name": "AtkAimType",
             "Indent": "None",
             "Args": [
@@ -7216,7 +6636,6 @@
             ]
         },
         "11059": {
-            "Size": 8,
             "Name": "AtkAimLevel",
             "Indent": "None",
             "Args": [
@@ -7227,7 +6646,6 @@
             ]
         },
         "11060": {
-            "Size": 8,
             "Name": "AtkGuardCrush",
             "Indent": "None",
             "Args": [
@@ -7238,7 +6656,6 @@
             ]
         },
         "11061": {
-            "Size": 8,
             "Name": "AtkNoHitCrouch",
             "Indent": "None",
             "Args": [
@@ -7249,7 +6666,6 @@
             ]
         },
         "11062": {
-            "Size": 8,
             "Name": "AtkIgnoreOutPower",
             "Indent": "None",
             "Args": [
@@ -7260,7 +6676,6 @@
             ]
         },
         "11063": {
-            "Size": 8,
             "Name": "AtkIgnoreCaution",
             "Indent": "None",
             "Args": [
@@ -7271,7 +6686,6 @@
             ]
         },
         "11064": {
-            "Size": 8,
             "Name": "AtkKillType",
             "Indent": "None",
             "Args": [
@@ -7283,7 +6697,6 @@
             ]
         },
         "11065": {
-            "Size": 8,
             "Name": "AtkSleepStunLandHitOnly",
             "Indent": "None",
             "Args": [
@@ -7294,7 +6707,6 @@
             ]
         },
         "11066": {
-            "Size": 8,
             "Name": "AtkPlayerHitOnly",
             "Indent": "None",
             "Args": [
@@ -7305,7 +6717,6 @@
             ]
         },
         "11067": {
-            "Size": 8,
             "Name": "AtkPushCollisionOff",
             "Indent": "None",
             "Args": [
@@ -7316,7 +6727,6 @@
             ]
         },
         "11068": {
-            "Size": 8,
             "Name": "AtkTimeHoseiIgnore",
             "Indent": "None",
             "Args": [
@@ -7327,7 +6737,6 @@
             ]
         },
         "11069": {
-            "Size": 36,
             "Name": "AtkNextHitActionName",
             "Indent": "None",
             "Args": [
@@ -7338,7 +6747,6 @@
             ]
         },
         "11070": {
-            "Size": 8,
             "Name": "AtkNoHitNotKillCombo",
             "Indent": "None",
             "Args": [
@@ -7349,7 +6757,6 @@
             ]
         },
         "11071": {
-            "Size": 8,
             "Name": "AtkFinishBG",
             "Indent": "None",
             "Args": [
@@ -7360,7 +6767,6 @@
             ]
         },
         "11072": {
-            "Size": 16,
             "Name": "AtkHitPositionType",
             "Indent": "None",
             "Args": [
@@ -7380,7 +6786,6 @@
             ]
         },
         "11073": {
-            "Size": 8,
             "Name": "AtkBoundKeepGravity",
             "Indent": "None",
             "Args": [
@@ -7391,7 +6796,6 @@
             ]
         },
         "11074": {
-            "Size": 36,
             "Name": "AtkExHitParam",
             "Indent": "None",
             "Args": [
@@ -7423,7 +6827,6 @@
             ]
         },
         "11075": {
-            "Size": 12,
             "Name": "AtkPoison",
             "Indent": "None",
             "Args": [
@@ -7434,7 +6837,6 @@
             ]
         },
         "11076": {
-            "Size": 8,
             "Name": "AtkLockRejectType",
             "Indent": "None",
             "Args": [
@@ -7445,7 +6847,6 @@
             ]
         },
         "11077": {
-            "Size": 8,
             "Name": "AtkMainHoseiIgnore",
             "Indent": "None",
             "Args": [
@@ -7456,7 +6857,6 @@
             ]
         },
         "11078": {
-            "Size": 8,
             "Name": "AtkHitCountHoseiIgnore",
             "Indent": "None",
             "Args": [
@@ -7467,7 +6867,6 @@
             ]
         },
         "11079": {
-            "Size": 8,
             "Name": "AtkKeepOutPower",
             "Indent": "None",
             "Args": [
@@ -7478,7 +6877,6 @@
             ]
         },
         "11080": {
-            "Size": 8,
             "Name": "AtkShutUp",
             "Indent": "None",
             "Args": [
@@ -7489,7 +6887,6 @@
             ]
         },
         "11081": {
-            "Size": 8,
             "Name": "AtkEtc",
             "Indent": "None",
             "Args": [
@@ -7500,7 +6897,6 @@
             ]
         },
         "11082": {
-            "Size": 8,
             "Name": "AtkNoHitGuard",
             "Indent": "None",
             "Args": [
@@ -7511,7 +6907,6 @@
             ]
         },
         "11083": {
-            "Size": 8,
             "Name": "AtkEnemyCellFix",
             "Indent": "None",
             "Args": [
@@ -7522,7 +6917,6 @@
             ]
         },
         "11084": {
-            "Size": 8,
             "Name": "AtkArmorThrough",
             "Indent": "None",
             "Args": [
@@ -7533,7 +6927,6 @@
             ]
         },
         "11085": {
-            "Size": 8,
             "Name": "AtkNextHitAstralOnly",
             "Indent": "None",
             "Args": [
@@ -7544,7 +6937,6 @@
             ]
         },
         "11086": {
-            "Size": 8,
             "Name": "AtkNoDown",
             "Indent": "None",
             "Args": [
@@ -7555,7 +6947,6 @@
             ]
         },
         "11087": {
-            "Size": 8,
             "Name": "AtkGuardBreak",
             "Indent": "None",
             "Args": [
@@ -7566,7 +6957,6 @@
             ]
         },
         "11088": {
-            "Size": 8,
             "Name": "AtkFatalCounter",
             "Indent": "None",
             "Args": [
@@ -7577,7 +6967,6 @@
             ]
         },
         "11089": {
-            "Size": 8,
             "Name": "AtkSameAttackHosei",
             "Indent": "None",
             "Args": [
@@ -7588,7 +6977,6 @@
             ]
         },
         "11090": {
-            "Size": 8,
             "Name": "AtkBonusHosei",
             "Indent": "None",
             "Args": [
@@ -7599,7 +6987,6 @@
             ]
         },
         "11091": {
-            "Size": 8,
             "Name": "AtkFixDamageRate",
             "Indent": "None",
             "Args": [
@@ -7610,7 +6997,6 @@
             ]
         },
         "11092": {
-            "Size": 8,
             "Name": "AtkHoseiOnece",
             "Indent": "None",
             "Args": [
@@ -7621,7 +7007,6 @@
             ]
         },
         "11093": {
-            "Size": 8,
             "Name": "AtkWallHaritsuki2",
             "Indent": "None",
             "Args": [
@@ -7632,7 +7017,6 @@
             ]
         },
         "11094": {
-            "Size": 8,
             "Name": "AtkForceStand",
             "Indent": "None",
             "Args": [
@@ -7643,7 +7027,6 @@
             ]
         },
         "11095": {
-            "Size": 8,
             "Name": "AtkCounterHitMulti",
             "Indent": "None",
             "Args": [
@@ -7654,7 +7037,6 @@
             ]
         },
         "11096": {
-            "Size": 8,
             "Name": "AtkCurse",
             "Indent": "None",
             "Args": [
@@ -7669,7 +7051,6 @@
             ]
         },
         "11097": {
-            "Size": 8,
             "Name": "AtkDrain",
             "Indent": "None",
             "Args": [
@@ -7684,7 +7065,6 @@
             ]
         },
         "11098": {
-            "Size": 8,
             "Indent": "None",
             "Args": [
                 {
@@ -7698,7 +7078,6 @@
             ]
         },
         "11099": {
-            "Size": 8,
             "Name": "AtkDirectionReverse",
             "Indent": "None",
             "Args": [
@@ -7709,7 +7088,6 @@
             ]
         },
         "11100": {
-            "Size": 8,
             "Name": "AtkComboRateIgnore",
             "Indent": "None",
             "Args": [
@@ -7720,7 +7098,6 @@
             ]
         },
         "11101": {
-            "Size": 8,
             "Name": "AtkDisable2UkemiAir",
             "Indent": "None",
             "Args": [
@@ -7731,7 +7108,6 @@
             ]
         },
         "11102": {
-            "Size": 8,
             "Name": "AtkWallBoundMulti",
             "Indent": "None",
             "Args": [
@@ -7742,7 +7118,6 @@
             ]
         },
         "11103": {
-            "Size": 8,
             "Name": "AtkEnemyAction",
             "Indent": "None",
             "Args": [
@@ -7753,7 +7128,6 @@
             ]
         },
         "11104": {
-            "Size": 8,
             "Name": "AtkHitOnceInCombo",
             "Indent": "None",
             "Args": [
@@ -7764,7 +7138,6 @@
             ]
         },
         "11105": {
-            "Size": 8,
             "Indent": "None",
             "Args": [
                 {
@@ -7774,7 +7147,6 @@
             ]
         },
         "11106": {
-            "Size": 8,
             "Name": "AtkEnemyTensionRate",
             "Indent": "None",
             "Args": [
@@ -7785,7 +7157,6 @@
             ]
         },
         "11107": {
-            "Size": 8,
             "Name": "AtkNoHitNotDamage",
             "Indent": "None",
             "Args": [
@@ -7796,7 +7167,6 @@
             ]
         },
         "11108": {
-            "Size": 8,
             "Name": "AtkCounterHitIfAlreadyCounter",
             "Indent": "None",
             "Args": [
@@ -7807,7 +7177,6 @@
             ]
         },
         "11109": {
-            "Size": 8,
             "Name": "AtkNoHitNotCombo",
             "Indent": "None",
             "Args": [
@@ -7818,7 +7187,6 @@
             ]
         },
         "12000": {
-            "Size": 8,
             "Name": "InitFWalkSpeed",
             "Indent": "None",
             "Args": [
@@ -7829,7 +7197,6 @@
             ]
         },
         "12001": {
-            "Size": 8,
             "Name": "InitBWalkSpeed",
             "Indent": "None",
             "Args": [
@@ -7840,7 +7207,6 @@
             ]
         },
         "12002": {
-            "Size": 8,
             "Name": "InitFDashStartSpeed",
             "Indent": "None",
             "Args": [
@@ -7851,7 +7217,6 @@
             ]
         },
         "12003": {
-            "Size": 8,
             "Name": "InitFDashAccelSpeed",
             "Indent": "None",
             "Args": [
@@ -7862,7 +7227,6 @@
             ]
         },
         "12004": {
-            "Size": 8,
             "Name": "InitFDashMaxSpeed",
             "Indent": "None",
             "Args": [
@@ -7873,7 +7237,6 @@
             ]
         },
         "12005": {
-            "Size": 8,
             "Name": "InitJumpSpeed",
             "Indent": "None",
             "Args": [
@@ -7884,7 +7247,6 @@
             ]
         },
         "12006": {
-            "Size": 8,
             "Name": "InitHighJumpSpeed",
             "Indent": "None",
             "Args": [
@@ -7895,7 +7257,6 @@
             ]
         },
         "12007": {
-            "Size": 8,
             "Name": "InitFJumpXSpeed",
             "Indent": "None",
             "Args": [
@@ -7906,7 +7267,6 @@
             ]
         },
         "12008": {
-            "Size": 8,
             "Name": "InitFHighJumpXSpeed",
             "Indent": "None",
             "Args": [
@@ -7917,7 +7277,6 @@
             ]
         },
         "12009": {
-            "Size": 8,
             "Name": "InitBJumpXSpeed",
             "Indent": "None",
             "Args": [
@@ -7928,7 +7287,6 @@
             ]
         },
         "12010": {
-            "Size": 8,
             "Name": "InitBHighJumpXSpeed",
             "Indent": "None",
             "Args": [
@@ -7939,7 +7297,6 @@
             ]
         },
         "12011": {
-            "Size": 8,
             "Name": "InitWeight",
             "Indent": "None",
             "Args": [
@@ -7950,7 +7307,6 @@
             ]
         },
         "12012": {
-            "Size": 8,
             "Name": "InitAirJumpCountMax",
             "Indent": "None",
             "Args": [
@@ -7961,7 +7317,6 @@
             ]
         },
         "12013": {
-            "Size": 8,
             "Name": "InitAirDashCountMax",
             "Indent": "None",
             "Args": [
@@ -7972,7 +7327,6 @@
             ]
         },
         "12014": {
-            "Size": 8,
             "Name": "InitEnableFDash",
             "Indent": "None",
             "Args": [
@@ -7983,7 +7337,6 @@
             ]
         },
         "12015": {
-            "Size": 8,
             "Name": "InitHitPointMax",
             "Indent": "None",
             "Args": [
@@ -7994,7 +7347,6 @@
             ]
         },
         "12016": {
-            "Size": 8,
             "Name": "InitGuts",
             "Indent": "None",
             "Args": [
@@ -8009,7 +7361,6 @@
             ]
         },
         "12017": {
-            "Size": 8,
             "Name": "InitDefaultComboRate",
             "Indent": "None",
             "Args": [
@@ -8020,7 +7371,6 @@
             ]
         },
         "12018": {
-            "Size": 24,
             "Name": "SetDamageCell",
             "Indent": "None",
             "Args": [
@@ -8036,7 +7386,6 @@
             ]
         },
         "12019": {
-            "Size": 20,
             "Name": "InitCharName",
             "Indent": "None",
             "Args": [
@@ -8047,13 +7396,11 @@
             ]
         },
         "12020": {
-            "Size": 20,
             "Name": "SyncEntry",
             "Indent": "None",
             "Args": []
         },
         "12021": {
-            "Size": 8,
             "Name": "InitPushWidth",
             "Indent": "None",
             "Args": [
@@ -8064,7 +7411,6 @@
             ]
         },
         "12022": {
-            "Size": 8,
             "Name": "InitPushHeight",
             "Indent": "None",
             "Args": [
@@ -8075,7 +7421,6 @@
             ]
         },
         "12023": {
-            "Size": 8,
             "Name": "InitDefaultAttackRate",
             "Indent": "None",
             "Args": [
@@ -8086,7 +7431,6 @@
             ]
         },
         "12024": {
-            "Size": 8,
             "Name": "InitEffectWeight",
             "Indent": "None",
             "Args": [
@@ -8097,7 +7441,6 @@
             ]
         },
         "12025": {
-            "Size": 8,
             "Name": "InitBDashXSpeed",
             "Indent": "None",
             "Args": [
@@ -8108,7 +7451,6 @@
             ]
         },
         "12026": {
-            "Size": 8,
             "Name": "InitBDashYSpeed",
             "Indent": "None",
             "Args": [
@@ -8119,7 +7461,6 @@
             ]
         },
         "12027": {
-            "Size": 8,
             "Name": "InitBDashGravity",
             "Indent": "None",
             "Args": [
@@ -8130,7 +7471,6 @@
             ]
         },
         "12028": {
-            "Size": 8,
             "Name": "InitAirJumpInputDelayTime",
             "Indent": "None",
             "Args": [
@@ -8141,7 +7481,6 @@
             ]
         },
         "12029": {
-            "Size": 8,
             "Name": "InitDefaultZLine",
             "Indent": "None",
             "Args": [
@@ -8152,7 +7491,6 @@
             ]
         },
         "12030": {
-            "Size": 8,
             "Name": "InitTensionRate",
             "Indent": "None",
             "Args": [
@@ -8163,7 +7501,6 @@
             ]
         },
         "12031": {
-            "Size": 8,
             "Name": "InitNegativeAnti",
             "Indent": "None",
             "Args": [
@@ -8174,7 +7511,6 @@
             ]
         },
         "12032": {
-            "Size": 8,
             "Name": "InitGuardCrushDefaultLevelTable",
             "Indent": "None",
             "Args": [
@@ -8205,7 +7541,6 @@
             ]
         },
         "12033": {
-            "Size": 8,
             "Name": "InitGuardCrushDefenceVal",
             "Indent": "None",
             "Args": [
@@ -8216,7 +7551,6 @@
             ]
         },
         "12034": {
-            "Size": 8,
             "Name": "InitAirFDashTime",
             "Indent": "None",
             "Args": [
@@ -8227,7 +7561,6 @@
             ]
         },
         "12035": {
-            "Size": 8,
             "Name": "InitAirBDashTime",
             "Indent": "None",
             "Args": [
@@ -8238,7 +7571,6 @@
             ]
         },
         "12036": {
-            "Size": 8,
             "Name": "InitAirFDashGravity",
             "Indent": "None",
             "Args": [
@@ -8249,7 +7581,6 @@
             ]
         },
         "12037": {
-            "Size": 8,
             "Name": "InitAirBDashGravity",
             "Indent": "None",
             "Args": [
@@ -8260,7 +7591,6 @@
             ]
         },
         "12038": {
-            "Size": 8,
             "Name": "InitAirFDashSpeed",
             "Indent": "None",
             "Args": [
@@ -8271,7 +7601,6 @@
             ]
         },
         "12039": {
-            "Size": 8,
             "Name": "InitAirBDashSpeed",
             "Indent": "None",
             "Args": [
@@ -8282,7 +7611,6 @@
             ]
         },
         "12040": {
-            "Size": 8,
             "Name": "InitAirDashHeightLimit",
             "Indent": "None",
             "Args": [
@@ -8293,7 +7621,6 @@
             ]
         },
         "12041": {
-            "Size": 8,
             "Name": "InitComboRateMultDefaultLevelTable",
             "Indent": "None",
             "Args": [
@@ -8324,7 +7651,6 @@
             ]
         },
         "12042": {
-            "Size": 8,
             "Name": "InitHitCountHoseiBeginCount",
             "Indent": "None",
             "Args": [
@@ -8335,7 +7661,6 @@
             ]
         },
         "12043": {
-            "Size": 8,
             "Name": "InitLandPreJumpActionNormalAttackAvailable",
             "Indent": "None",
             "Args": [
@@ -8346,7 +7671,6 @@
             ]
         },
         "12044": {
-            "Size": 8,
             "Name": "InitGuardPrimers",
             "Indent": "None",
             "Args": [
@@ -8357,7 +7681,6 @@
             ]
         },
         "12045": {
-            "Size": 8,
             "Name": "InitComboDrainCount",
             "Indent": "None",
             "Args": [
@@ -8428,7 +7751,6 @@
             ]
         },
         "12046": {
-            "Size": 8,
             "Name": "InitCollisionExtend",
             "Indent": "None",
             "Args": [
@@ -8439,7 +7761,6 @@
             ]
         },
         "12047": {
-            "Size": 8,
             "Indent": "None",
             "Args": [
                 {
@@ -8449,7 +7770,6 @@
             ]
         },
         "12048": {
-            "Size": 8,
             "Name": "InitDisableFallAction",
             "Indent": "None",
             "Args": [
@@ -8460,7 +7780,6 @@
             ]
         },
         "12049": {
-            "Size": 8,
             "Indent": "None",
             "Args": [
                 {
@@ -8470,7 +7789,6 @@
             ]
         },
         "12050": {
-            "Size": 8,
             "Name": "InitDashSenkoInput",
             "Indent": "None",
             "Args": [
@@ -8481,7 +7799,6 @@
             ]
         },
         "12051": {
-            "Size": 8,
             "Name": "InitStarterRating",
             "Indent": "None",
             "Args": [
@@ -8492,7 +7809,6 @@
             ]
         },
         "12052": {
-            "Size": 8,
             "Name": "InitSameAttackHosei",
             "Indent": "None",
             "Args": [
@@ -8503,7 +7819,6 @@
             ]
         },
         "12053": {
-            "Size": 8,
             "Name": "InitOverdriveTime",
             "Indent": "None",
             "Args": [
@@ -8550,7 +7865,6 @@
             ]
         },
         "12054": {
-            "Size": 8,
             "Indent": "None",
             "Args": [
                 {
@@ -8564,7 +7878,6 @@
             ]
         },
         "12055": {
-            "Size": 8,
             "Name": "InitThrowSkipRequirement",
             "Indent": "None",
             "Args": [
@@ -8575,7 +7888,6 @@
             ]
         },
         "12056": {
-            "Size": 8,
             "Name": "InitDisableNeutral",
             "Indent": "None",
             "Args": [
@@ -8586,7 +7898,6 @@
             ]
         },
         "13000": {
-            "Size": 8,
             "Name": "EnableStanding",
             "Indent": "None",
             "Args": [
@@ -8597,7 +7908,6 @@
             ]
         },
         "13001": {
-            "Size": 8,
             "Name": "EnableCrouching",
             "Indent": "None",
             "Args": [
@@ -8608,7 +7918,6 @@
             ]
         },
         "13002": {
-            "Size": 8,
             "Name": "EnableForwardWalk",
             "Indent": "None",
             "Args": [
@@ -8619,7 +7928,6 @@
             ]
         },
         "13003": {
-            "Size": 8,
             "Name": "EnableForwardDash",
             "Indent": "None",
             "Args": [
@@ -8630,7 +7938,6 @@
             ]
         },
         "13004": {
-            "Size": 8,
             "Name": "EnableForwardCrouchWalk",
             "Indent": "None",
             "Args": [
@@ -8641,7 +7948,6 @@
             ]
         },
         "13005": {
-            "Size": 8,
             "Name": "EnableBackWalk",
             "Indent": "None",
             "Args": [
@@ -8652,7 +7958,6 @@
             ]
         },
         "13006": {
-            "Size": 8,
             "Name": "EnableBackDash",
             "Indent": "None",
             "Args": [
@@ -8663,7 +7968,6 @@
             ]
         },
         "13007": {
-            "Size": 8,
             "Name": "EnableBackCrouchWalk",
             "Indent": "None",
             "Args": [
@@ -8674,7 +7978,6 @@
             ]
         },
         "13008": {
-            "Size": 8,
             "Name": "EnableJump",
             "Indent": "None",
             "Args": [
@@ -8685,7 +7988,6 @@
             ]
         },
         "13009": {
-            "Size": 8,
             "Name": "EnableBarrierCancel",
             "Indent": "None",
             "Args": [
@@ -8696,7 +7998,6 @@
             ]
         },
         "13010": {
-            "Size": 8,
             "Name": "EnableAirJump",
             "Indent": "None",
             "Args": [
@@ -8707,7 +8008,6 @@
             ]
         },
         "13011": {
-            "Size": 8,
             "Name": "EnableAirForwardDash",
             "Indent": "None",
             "Args": [
@@ -8718,7 +8018,6 @@
             ]
         },
         "13012": {
-            "Size": 8,
             "Name": "EnableAirBackDash",
             "Indent": "None",
             "Args": [
@@ -8729,7 +8028,6 @@
             ]
         },
         "13013": {
-            "Size": 8,
             "Name": "EnableLockReject",
             "Indent": "None",
             "Args": [
@@ -8740,7 +8038,6 @@
             ]
         },
         "13014": {
-            "Size": 8,
             "Name": "EnableNormalAttack",
             "Indent": "None",
             "Args": [
@@ -8751,7 +8048,6 @@
             ]
         },
         "13015": {
-            "Size": 8,
             "Name": "EnableSpecialAttack",
             "Indent": "None",
             "Args": [
@@ -8762,7 +8058,6 @@
             ]
         },
         "13016": {
-            "Size": 8,
             "Name": "EnableStandTurn",
             "Indent": "None",
             "Args": [
@@ -8773,7 +8068,6 @@
             ]
         },
         "13017": {
-            "Size": 8,
             "Name": "EnableCrouchTurn",
             "Indent": "None",
             "Args": [
@@ -8784,7 +8078,6 @@
             ]
         },
         "13018": {
-            "Size": 8,
             "Name": "EnableDead",
             "Indent": "None",
             "Args": [
@@ -8795,7 +8088,6 @@
             ]
         },
         "13019": {
-            "Size": 8,
             "Name": "EnableStandGuard",
             "Indent": "None",
             "Args": [
@@ -8805,19 +8097,7 @@
                 }
             ]
         },
-        "13020": {
-            "Size": 8,
-            "Name": "EnableCrouchGuard",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "BOOL",
-                    "Name": "val"
-                }
-            ]
-        },
         "13021": {
-            "Size": 8,
             "Name": "EnableCtrlTurn",
             "Indent": "None",
             "Args": [
@@ -8828,7 +8108,6 @@
             ]
         },
         "13022": {
-            "Size": 8,
             "Name": "EnableAirTurn",
             "Indent": "None",
             "Args": [
@@ -8838,19 +8117,7 @@
                 }
             ]
         },
-        "13023": {
-            "Size": 8,
-            "Name": "EnableAirGuard",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "BOOL",
-                    "Name": "val"
-                }
-            ]
-        },
         "13024": {
-            "Size": 8,
             "Name": "EnableRomanCancel",
             "Indent": "None",
             "Args": [
@@ -8861,7 +8128,6 @@
             ]
         },
         "13026": {
-            "Size": 8,
             "Name": "EnableBarrier",
             "Indent": "None",
             "Args": [
@@ -8872,7 +8138,6 @@
             ]
         },
         "13027": {
-            "Size": 8,
             "Name": "EnableAutoLockReject",
             "Indent": "None",
             "Args": [
@@ -8883,7 +8148,6 @@
             ]
         },
         "13028": {
-            "Size": 8,
             "Name": "EnableDemo",
             "Indent": "None",
             "Args": [
@@ -8894,7 +8158,6 @@
             ]
         },
         "13029": {
-            "Size": 8,
             "Name": "EnablePreGuard",
             "Indent": "None",
             "Args": [
@@ -8905,7 +8168,6 @@
             ]
         },
         "13030": {
-            "Size": 8,
             "Name": "EnableAutoGuard",
             "Indent": "None",
             "Args": [
@@ -8916,7 +8178,6 @@
             ]
         },
         "13031": {
-            "Size": 8,
             "Name": "EnableBurst",
             "Indent": "None",
             "Args": [
@@ -8927,7 +8188,6 @@
             ]
         },
         "13032": {
-            "Size": 8,
             "Name": "Enable2GetUp",
             "Indent": "None",
             "Args": [
@@ -8938,7 +8198,6 @@
             ]
         },
         "13033": {
-            "Size": 8,
             "Name": "Enable2UkemiLand",
             "Indent": "None",
             "Args": [
@@ -8949,7 +8208,6 @@
             ]
         },
         "13034": {
-            "Size": 8,
             "Name": "Enable2UkemiAir",
             "Indent": "None",
             "Args": [
@@ -8960,7 +8218,6 @@
             ]
         },
         "13035": {
-            "Size": 8,
             "Name": "Enable2UkemiStagger",
             "Indent": "None",
             "Args": [
@@ -8970,8 +8227,7 @@
                 }
             ]
         },
-        "130836": {
-            "Size": 8,
+        "13036": {
             "Name": "Enable2UkemiLeap",
             "Indent": "None",
             "Args": [
@@ -8982,7 +8238,6 @@
             ]
         },
         "13037": {
-            "Size": 8,
             "Name": "Enable2UkemiLeapEx",
             "Indent": "None",
             "Args": [
@@ -8993,7 +8248,6 @@
             ]
         },
         "13038": {
-            "Size": 8,
             "Name": "EnableAll",
             "Indent": "None",
             "Args": [
@@ -9004,7 +8258,6 @@
             ]
         },
         "13039": {
-            "Size": 8,
             "Name": "InitShoesType",
             "Indent": "None",
             "Args": [
@@ -9015,7 +8268,6 @@
             ]
         },
         "13040": {
-            "Size": 8,
             "Name": "InitArakuneSkin",
             "Indent": "None",
             "Args": [
@@ -9058,7 +8310,6 @@
             ]
         },
         "13041": {
-            "Size": 8,
             "Name": "StartArakuneFadeOut",
             "Indent": "None",
             "Args": [
@@ -9073,14 +8324,11 @@
             ]
         },
         "13042": {
-            "Size": 8,
             "Name": "EndArakuneFadeOut",
             "Indent": "None",
-            "Args": [
-            ]
+            "Args": []
         },
         "13043": {
-            "Size": 36,
             "Name": "SetShadowOffsetY",
             "Indent": "None",
             "Args": [
@@ -9091,7 +8339,6 @@
             ]
         },
         "13044": {
-            "Size": 36,
             "Name": "ForceBloomMaskOn",
             "Indent": "None",
             "Args": [
@@ -9102,7 +8349,6 @@
             ]
         },
         "13054": {
-            "Size": 8,
             "Name": "BeginCancelLevel",
             "Indent": "None",
             "Args": [
@@ -9113,13 +8359,11 @@
             ]
         },
         "14000": {
-            "Size": 8,
             "Name": "SkillInit",
             "Indent": "None",
             "Args": []
         },
         "14001": {
-            "Size": 36,
             "Name": "SkillBegin",
             "Indent": "Begin",
             "Args": [
@@ -9134,13 +8378,11 @@
             ]
         },
         "14002": {
-            "Size": 4,
             "Name": "SkillEnd",
             "Indent": "End",
             "Args": []
         },
         "14003": {
-            "Size": 8,
             "Name": "SkillAddCondition",
             "Indent": "None",
             "Args": [
@@ -9152,7 +8394,6 @@
             ]
         },
         "14004": {
-            "Size": 8,
             "Name": "SkillNoCancelOnly",
             "Indent": "None",
             "Args": [
@@ -9163,7 +8404,6 @@
             ]
         },
         "14005": {
-            "Size": 8,
             "Name": "SkillChainOnly",
             "Indent": "None",
             "Args": [
@@ -9174,7 +8414,6 @@
             ]
         },
         "14006": {
-            "Size": 8,
             "Name": "SkillGuardCancelOnly",
             "Indent": "None",
             "Args": [
@@ -9185,7 +8424,6 @@
             ]
         },
         "14007": {
-            "Size": 8,
             "Name": "SkillFromBeginCancelLevel",
             "Indent": "None",
             "Args": [
@@ -9196,7 +8434,6 @@
             ]
         },
         "14008": {
-            "Size": 8,
             "Name": "SkillHitStopCancel",
             "Indent": "None",
             "Args": [
@@ -9207,7 +8444,6 @@
             ]
         },
         "14009": {
-            "Size": 8,
             "Name": "SkillType",
             "Indent": "None",
             "Args": [
@@ -9218,7 +8454,6 @@
             ]
         },
         "14010": {
-            "Size": 8,
             "Name": "SkillCommonInitialize",
             "Indent": "None",
             "Args": [
@@ -9229,7 +8464,6 @@
             ]
         },
         "14011": {
-            "Size": 8,
             "Indent": "None",
             "Args": [
                 {
@@ -9238,7 +8472,6 @@
             ]
         },
         "14012": {
-            "Size": 8,
             "Name": "SkillAddInput",
             "Indent": "None",
             "Args": [
@@ -9250,7 +8483,6 @@
             ]
         },
         "14013": {
-            "Size": 36,
             "Name": "SkillRequestAction",
             "Indent": "None",
             "Args": [
@@ -9261,7 +8493,6 @@
             ]
         },
         "14014": {
-            "Size": 8,
             "Name": "SkillRequestActionFlag",
             "Indent": "None",
             "Args": [
@@ -9272,7 +8503,6 @@
             ]
         },
         "14015": {
-            "Size": 12,
             "Name": "SkillEstRange",
             "Indent": "None",
             "Args": [
@@ -9303,7 +8533,6 @@
             ]
         },
         "14017": {
-            "Size": 12,
             "Name": "SkillEstRange",
             "Indent": "None",
             "Args": [
@@ -9326,7 +8555,6 @@
             ]
         },
         "14018": {
-            "Size": 12,
             "Name": "SkillIndependentInput",
             "Indent": "None",
             "Args": [
@@ -9345,7 +8573,6 @@
             ]
         },
         "14019": {
-            "Size": 36,
             "Name": "SkillFunctionCall",
             "Indent": "None",
             "Args": [
@@ -9356,7 +8583,6 @@
             ]
         },
         "14020": {
-            "Size": 8,
             "Name": "SkillNotSame",
             "Indent": "None",
             "Args": [
@@ -9367,7 +8593,6 @@
             ]
         },
         "14021": {
-            "Size": 8,
             "Name": "SkillInputDirectionRight",
             "Indent": "None",
             "Args": [
@@ -9378,7 +8603,6 @@
             ]
         },
         "14022": {
-            "Size": 8,
             "Name": "SkillChainCountMax",
             "Indent": "None",
             "Args": [
@@ -9389,7 +8613,6 @@
             ]
         },
         "14023": {
-            "Size": 8,
             "Name": "SkillEnemyHitPointRate",
             "Indent": "None",
             "Args": [
@@ -9400,7 +8623,6 @@
             ]
         },
         "14024": {
-            "Size": 36,
             "Name": "SkillConditionCheckFuncion",
             "Indent": "None",
             "Args": [
@@ -9411,7 +8633,6 @@
             ]
         },
         "14025": {
-            "Size": 8,
             "Name": "SkillInputDirectionBaseObject",
             "Indent": "None",
             "Args": [
@@ -9423,7 +8644,6 @@
             ]
         },
         "14026": {
-            "Size": 8,
             "Name": "SkillSpecialInput",
             "Indent": "None",
             "Args": [
@@ -9434,7 +8654,6 @@
             ]
         },
         "14027": {
-            "Size": 36,
             "Name": "SkillChainCountGroup",
             "Indent": "None",
             "Args": [
@@ -9445,7 +8664,6 @@
             ]
         },
         "14029": {
-            "Size": 8,
             "Indent": "None",
             "Args": [
                 {
@@ -9454,7 +8672,6 @@
             ]
         },
         "14030": {
-            "Size": 8,
             "Name": "SkillDamageOrGuard",
             "Indent": "None",
             "Args": [
@@ -9466,7 +8683,6 @@
             ]
         },
         "14033": {
-            "Size": 8,
             "Name": "SkillHeightLimit",
             "Indent": "None",
             "Args": [
@@ -9476,19 +8692,7 @@
                 }
             ]
         },
-        "14034": {
-            "Size": 8,
-            "Name": "SkillStylish",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "BOOL",
-                    "Name": "val"
-                }
-            ]
-        },
         "14035": {
-            "Size": 8,
             "Name": "SkillStylishComboSlot",
             "Indent": "None",
             "Args": [
@@ -9502,12 +8706,10 @@
             ]
         },
         "14043": {
-            "Size": 8,
             "Indent": "None",
             "Args": []
         },
         "14044": {
-            "Size": 8,
             "Name": "SkillStylishInitOneButtonSkill",
             "Indent": "None",
             "Args": [
@@ -9524,7 +8726,6 @@
             ]
         },
         "14045": {
-            "Size": 8,
             "Indent": "None",
             "Args": [
                 {
@@ -9536,7 +8737,6 @@
             ]
         },
         "14046": {
-            "Size": 8,
             "Name": "SkillStylishUnk",
             "Indent": "None",
             "Args": [
@@ -9546,13 +8746,11 @@
             ]
         },
         "14047": {
-            "Size": 8,
             "Name": "SkillStylishUnk",
             "Indent": "None",
             "Args": []
         },
         "14048": {
-            "Size": 8,
             "Name": "SkillStylishInitOneButtonSkillNew",
             "Indent": "None",
             "Args": [
@@ -9569,7 +8767,6 @@
             ]
         },
         "14049": {
-            "Size": 8,
             "Name": "SkillBegin_StylishComboSlot",
             "Indent": "None",
             "Args": [
@@ -9590,7 +8787,6 @@
             ]
         },
         "14067": {
-            "Size": 36,
             "Indent": "None",
             "Args": [
                 {
@@ -9599,7 +8795,6 @@
             ]
         },
         "14068": {
-            "Size": 36,
             "Name": "AddFlexChain",
             "Indent": "None",
             "Args": [
@@ -9610,7 +8805,6 @@
             ]
         },
         "14069": {
-            "Size": 36,
             "Name": "AddChain",
             "Indent": "None",
             "Args": [
@@ -9621,7 +8815,6 @@
             ]
         },
         "14070": {
-            "Size": 36,
             "Name": "DeriveInputBegin",
             "Indent": "None",
             "Args": [
@@ -9632,7 +8825,6 @@
             ]
         },
         "14071": {
-            "Size": 36,
             "Name": "DeriveInputEnd",
             "Indent": "None",
             "Args": [
@@ -9643,7 +8835,6 @@
             ]
         },
         "14072": {
-            "Size": 36,
             "Name": "DeriveTimingBegin",
             "Indent": "None",
             "Args": [
@@ -9654,7 +8845,6 @@
             ]
         },
         "14073": {
-            "Size": 36,
             "Name": "DeriveTimingEnd",
             "Indent": "None",
             "Args": [
@@ -9665,7 +8855,6 @@
             ]
         },
         "14074": {
-            "Size": 36,
             "Name": "DeriveClear",
             "Indent": "None",
             "Args": [
@@ -9676,7 +8865,6 @@
             ]
         },
         "14075": {
-            "Size": 8,
             "Name": "SetForceRomanCancelTime",
             "Indent": "None",
             "Args": [
@@ -9687,7 +8875,6 @@
             ]
         },
         "14076": {
-            "Size": 8,
             "Name": "FlexChainCancel",
             "Indent": "None",
             "Args": [
@@ -9698,7 +8885,6 @@
             ]
         },
         "14077": {
-            "Size": 8,
             "Name": "ChainCancel",
             "Indent": "None",
             "Args": [
@@ -9709,7 +8895,6 @@
             ]
         },
         "14078": {
-            "Size": 8,
             "Name": "JumpCancel",
             "Indent": "None",
             "Args": [
@@ -9720,7 +8905,6 @@
             ]
         },
         "14079": {
-            "Size": 8,
             "Name": "SpecialCancel",
             "Indent": "None",
             "Args": [
@@ -9731,7 +8915,6 @@
             ]
         },
         "14080": {
-            "Size": 36,
             "Name": "AddPDChain",
             "Indent": "None",
             "Args": [
@@ -9742,7 +8925,6 @@
             ]
         },
         "14081": {
-            "Size": 8,
             "Name": "JumpCancelPD",
             "Indent": "None",
             "Args": [
@@ -9753,7 +8935,6 @@
             ]
         },
         "14082": {
-            "Size": 8,
             "Name": "SpecialCancelPD",
             "Indent": "None",
             "Args": [
@@ -9764,7 +8945,6 @@
             ]
         },
         "14083": {
-            "Size": 36,
             "Name": "DelFlexChain",
             "Indent": "None",
             "Args": [
@@ -9775,7 +8955,6 @@
             ]
         },
         "14084": {
-            "Size": 36,
             "Name": "DelChain",
             "Indent": "None",
             "Args": [
@@ -9786,7 +8965,6 @@
             ]
         },
         "14085": {
-            "Size": 36,
             "Name": "DelPDChain",
             "Indent": "None",
             "Args": [
@@ -9797,7 +8975,6 @@
             ]
         },
         "14086": {
-            "Size": 36,
             "Name": "LandSpecialAttackCancel",
             "Indent": "None",
             "Args": [
@@ -9808,7 +8985,6 @@
             ]
         },
         "14087": {
-            "Size": 36,
             "Name": "LandSpecialAttackCancelPD",
             "Indent": "None",
             "Args": [
@@ -9819,37 +8995,31 @@
             ]
         },
         "14089": {
-            "Size": 4,
             "Name": "ResetEasyInputA",
             "Indent": "None",
             "Args": []
         },
         "14090": {
-            "Size": 4,
             "Name": "ResetEasyInputB",
             "Indent": "None",
             "Args": []
         },
         "14091": {
-            "Size": 4,
             "Name": "ResetEasyInputC",
             "Indent": "None",
             "Args": []
         },
         "14092": {
-            "Size": 4,
             "Name": "ResetEasyInputD",
             "Indent": "None",
             "Args": []
         },
         "14093": {
-            "Size": 4,
             "Name": "ResetEasyInputE",
             "Indent": "None",
             "Args": []
         },
         "15000": {
-            "Size": 8,
             "Name": "SkillCPU_Available",
             "Indent": "None",
             "Args": [
@@ -9860,7 +9030,6 @@
             ]
         },
         "15001": {
-            "Size": 8,
             "Name": "SkillCPU_AddKey",
             "Indent": "None",
             "Args": [
@@ -9880,7 +9049,6 @@
             ]
         },
         "15003": {
-            "Size": 8,
             "Name": "SkillHUM_Available",
             "Indent": "None",
             "Args": [
@@ -9891,7 +9059,6 @@
             ]
         },
         "15004": {
-            "Size": 36,
             "Name": "SkillRecipe",
             "Indent": "None",
             "Args": [
@@ -9902,7 +9069,6 @@
             ]
         },
         "15005": {
-            "Size": 36,
             "Name": "SkillEstBasePriority",
             "Indent": "None",
             "Args": [
@@ -9913,7 +9079,6 @@
             ]
         },
         "15006": {
-            "Size": 36,
             "Name": "SkillEstComboPriority",
             "Indent": "None",
             "Args": [
@@ -9924,7 +9089,6 @@
             ]
         },
         "15007": {
-            "Size": 36,
             "Name": "SkillEstAtackFrame",
             "Indent": "None",
             "Args": [
@@ -9935,25 +9099,21 @@
             ]
         },
         "15008": {
-            "Size": 36,
             "Name": "SkillEstChudan",
             "Indent": "None",
             "Args": []
         },
         "15009": {
-            "Size": 36,
             "Name": "SkillEstGedan",
             "Indent": "None",
             "Args": []
         },
         "15010": {
-            "Size": 36,
             "Name": "SkillEstThrow",
             "Indent": "None",
             "Args": []
         },
         "15011": {
-            "Size": 36,
             "Name": "SkillEstJumpAvoidePriority",
             "Indent": "None",
             "Args": [
@@ -9964,7 +9124,6 @@
             ]
         },
         "15012": {
-            "Size": 36,
             "Name": "SkillEstEnemyGuardStun",
             "Indent": "None",
             "Args": [
@@ -9975,7 +9134,6 @@
             ]
         },
         "15013": {
-            "Size": 36,
             "Name": "SkillEstEnemyDamageStun",
             "Indent": "None",
             "Args": [
@@ -9986,7 +9144,6 @@
             ]
         },
         "15014": {
-            "Size": 36,
             "Name": "SkillEstEnemyAtack",
             "Indent": "None",
             "Args": [
@@ -9997,7 +9154,6 @@
             ]
         },
         "15015": {
-            "Size": 36,
             "Name": "SkillEstCancelWait",
             "Indent": "None",
             "Args": [
@@ -10012,7 +9168,6 @@
             ]
         },
         "15016": {
-            "Size": 36,
             "Name": "SkillEstHoldWait",
             "Indent": "None",
             "Args": [
@@ -10031,7 +9186,6 @@
             ]
         },
         "15017": {
-            "Size": 36,
             "Name": "SkillEstInterval",
             "Indent": "None",
             "Args": [
@@ -10046,7 +9200,6 @@
             ]
         },
         "15018": {
-            "Size": 36,
             "Name": "CPUEstJumpPriority",
             "Indent": "None",
             "Args": [
@@ -10057,7 +9210,6 @@
             ]
         },
         "15019": {
-            "Size": 36,
             "Name": "CPUEstBackPriority",
             "Indent": "None",
             "Args": [
@@ -10068,7 +9220,6 @@
             ]
         },
         "15020": {
-            "Size": 36,
             "Name": "SkillEstCPULevelRate",
             "Indent": "None",
             "Args": [
@@ -10091,7 +9242,6 @@
             ]
         },
         "15021": {
-            "Size": 36,
             "Name": "SkillEstEnemyAir",
             "Indent": "None",
             "Args": [
@@ -10102,7 +9252,6 @@
             ]
         },
         "15022": {
-            "Size": 36,
             "Name": "SkillEstTensionValueRate",
             "Indent": "None",
             "Args": [
@@ -10125,7 +9274,6 @@
             ]
         },
         "15023": {
-            "Size": 36,
             "Name": "SkillEstTarget",
             "Indent": "None",
             "Args": [
@@ -10136,7 +9284,6 @@
             ]
         },
         "15024": {
-            "Size": 36,
             "Name": "SkillEstExTempPriority",
             "Indent": "None",
             "Args": [
@@ -10153,7 +9300,6 @@
             ]
         },
         "15025": {
-            "Size": 36,
             "Name": "SkillEstExInterval",
             "Indent": "None",
             "Args": [
@@ -10177,7 +9323,6 @@
             ]
         },
         "15026": {
-            "Size": 36,
             "Name": "SkillEstInputDuringFrames",
             "Indent": "None",
             "Args": [
@@ -10193,7 +9338,6 @@
             ]
         },
         "15027": {
-            "Size": 36,
             "Indent": "None",
             "Args": [
                 {
@@ -10202,7 +9346,6 @@
             ]
         },
         "16000": {
-            "Size": 36,
             "Name": "WindRelated",
             "Indent": "None",
             "Args": [
@@ -10218,7 +9361,6 @@
             ]
         },
         "16001": {
-            "Size": 36,
             "Name": "WindRelated1",
             "Indent": "None",
             "Args": [
@@ -10234,73 +9376,61 @@
             ]
         },
         "17000": {
-            "Size": 4,
             "Name": "InitializeForLandNormalAttack",
             "Indent": "None",
             "Args": []
         },
         "17001": {
-            "Size": 4,
             "Name": "InitializeForAirNormalAttack",
             "Indent": "None",
             "Args": []
         },
         "17002": {
-            "Size": 4,
             "Name": "InitializeForLandSpecialAttack",
             "Indent": "None",
             "Args": []
         },
         "17003": {
-            "Size": 4,
             "Name": "InitializeForAirSpecialAttack",
             "Indent": "None",
             "Args": []
         },
         "17004": {
-            "Size": 4,
             "Name": "InitializeForLandUltimateAttack",
             "Indent": "None",
             "Args": []
         },
         "17005": {
-            "Size": 4,
             "Name": "InitializeForAirUltimateAttack",
             "Indent": "None",
             "Args": []
         },
         "17006": {
-            "Size": 4,
             "Name": "InitializeForCrouchNormalAttack",
             "Indent": "None",
             "Args": []
         },
         "17007": {
-            "Size": 4,
             "Name": "InitializeForLandThrow",
             "Indent": "None",
             "Args": []
         },
         "17008": {
-            "Size": 4,
             "Name": "InitializeForAirThrow",
             "Indent": "None",
             "Args": []
         },
         "17009": {
-            "Size": 4,
             "Name": "InitializeForEntryAction",
             "Indent": "None",
             "Args": []
         },
         "17010": {
-            "Size": 4,
             "Name": "InitializeForDeadAngle",
             "Indent": "None",
             "Args": []
         },
         "17011": {
-            "Size": 12,
             "Name": "InitializeForLockGrip",
             "Indent": "None",
             "Args": [
@@ -10323,7 +9453,6 @@
             ]
         },
         "17012": {
-            "Size": 12,
             "Name": "InitializeForLockExe",
             "Indent": "None",
             "Args": [
@@ -10342,73 +9471,61 @@
             ]
         },
         "17013": {
-            "Size": 4,
             "Name": "InitializeForLandNoAttackAction",
             "Indent": "None",
             "Args": []
         },
         "17014": {
-            "Size": 4,
             "Name": "InitializeForCrouchNoAttackAction",
             "Indent": "None",
             "Args": []
         },
         "17015": {
-            "Size": 4,
             "Name": "InitializeForAirNoAttackAction",
             "Indent": "None",
             "Args": []
         },
         "17016": {
-            "Size": 4,
             "Name": "InitializeForAshibarai",
             "Indent": "None",
             "Args": []
         },
         "17017": {
-            "Size": 4,
             "Name": "InitializeForLandAstralHeat",
             "Indent": "None",
             "Args": []
         },
         "17018": {
-            "Size": 4,
             "Name": "InitializeForAirAstralHeat",
             "Indent": "None",
             "Args": []
         },
         "17019": {
-            "Size": 4,
             "Name": "InitializeForFinishAction",
             "Indent": "None",
             "Args": []
         },
         "17020": {
-            "Size": 4,
             "Name": "InitializeForGuardBreak",
             "Indent": "None",
             "Args": []
         },
         "17021": {
-            "Size": 4,
             "Name": "InitializeForStage1BurstDD",
             "Indent": "None",
             "Args": []
         },
         "17022": {
-            "Size": 4,
             "Name": "InitializeForStage2BurstDD",
             "Indent": "None",
             "Args": []
         },
         "18001": {
-            "Size": 36,
             "Name": "ClearCommonActionControl",
             "Indent": "None",
             "Args": []
         },
         "18003": {
-            "Size": 68,
             "Name": "Mouth",
             "Indent": "None",
             "Args": [
@@ -10419,7 +9536,6 @@
             ]
         },
         "18004": {
-            "Size": 4,
             "Name": "SetPrivateVal",
             "Indent": "None",
             "Args": [
@@ -10434,7 +9550,6 @@
             ]
         },
         "18005": {
-            "Size": 4,
             "Name": "AddPrivateVal",
             "Indent": "None",
             "Args": [
@@ -10449,7 +9564,6 @@
             ]
         },
         "18006": {
-            "Size": 4,
             "Name": "PerPrivateVal",
             "Indent": "None",
             "Args": [
@@ -10464,7 +9578,6 @@
             ]
         },
         "18007": {
-            "Size": 8,
             "Name": "RandAddPrivateVal",
             "Indent": "None",
             "Args": [
@@ -10483,13 +9596,11 @@
             ]
         },
         "18008": {
-            "Size": 4,
             "Name": "DemoEnd",
             "Indent": "None",
             "Args": []
         },
         "18009": {
-            "Size": 8,
             "Name": "SetCrouch",
             "Indent": "None",
             "Args": [
@@ -10500,13 +9611,11 @@
             ]
         },
         "18010": {
-            "Size": 4,
             "Name": "WinAction",
             "Indent": "None",
             "Args": []
         },
         "18011": {
-            "Size": 4,
             "Name": "VoiceMouth",
             "Indent": "None",
             "Args": [
@@ -10521,7 +9630,6 @@
             ]
         },
         "19000": {
-            "Size": 8,
             "Name": "SetPosZ",
             "Indent": "None",
             "Args": [
@@ -10532,7 +9640,6 @@
             ]
         },
         "19001": {
-            "Size": 12,
             "Name": "AddPosZ",
             "Indent": "None",
             "Args": [
@@ -10543,19 +9650,16 @@
             ]
         },
         "19002": {
-            "Size": 4,
             "Name": "PushPosZ",
             "Indent": "None",
             "Args": []
         },
         "19003": {
-            "Size": 4,
             "Name": "PopPosZ",
             "Indent": "None",
             "Args": []
         },
         "19004": {
-            "Size": 12,
             "Name": "RandAddPosZ",
             "Indent": "None",
             "Args": [
@@ -10570,7 +9674,6 @@
             ]
         },
         "19005": {
-            "Size": 8,
             "Name": "SetSpeedZ",
             "Indent": "None",
             "Args": [
@@ -10581,7 +9684,6 @@
             ]
         },
         "19006": {
-            "Size": 8,
             "Name": "AddSpeedZ",
             "Indent": "None",
             "Args": [
@@ -10592,19 +9694,16 @@
             ]
         },
         "19007": {
-            "Size": 4,
             "Name": "PushSpeedZ",
             "Indent": "None",
             "Args": []
         },
         "19008": {
-            "Size": 4,
             "Name": "PopSpeedZ",
             "Indent": "None",
             "Args": []
         },
         "19009": {
-            "Size": 8,
             "Name": "PerSpeedZ",
             "Indent": "None",
             "Args": [
@@ -10615,7 +9714,6 @@
             ]
         },
         "19010": {
-            "Size": 12,
             "Name": "RandAddSpeedZ",
             "Indent": "None",
             "Args": [
@@ -10630,7 +9728,6 @@
             ]
         },
         "19011": {
-            "Size": 8,
             "Name": "SetAccelerationZ",
             "Indent": "None",
             "Args": [
@@ -10641,7 +9738,6 @@
             ]
         },
         "19012": {
-            "Size": 8,
             "Name": "AddAccelerationZ",
             "Indent": "None",
             "Args": [
@@ -10652,19 +9748,16 @@
             ]
         },
         "19013": {
-            "Size": 4,
             "Name": "PushAccelerationZ",
             "Indent": "None",
             "Args": []
         },
         "19014": {
-            "Size": 4,
             "Name": "PopAccelerationZ",
             "Indent": "None",
             "Args": []
         },
         "19015": {
-            "Size": 8,
             "Name": "PerAccelerationZ",
             "Indent": "None",
             "Args": [
@@ -10675,7 +9768,6 @@
             ]
         },
         "19016": {
-            "Size": 12,
             "Name": "RandAddAccelerationZ",
             "Indent": "None",
             "Args": [
@@ -10690,7 +9782,6 @@
             ]
         },
         "20000": {
-            "Size": 8,
             "Name": "CameraLookAtMe",
             "Indent": "None",
             "Args": [
@@ -10701,7 +9792,6 @@
             ]
         },
         "20001": {
-            "Size": 8,
             "Name": "CameraFast",
             "Indent": "None",
             "Args": [
@@ -10712,7 +9802,6 @@
             ]
         },
         "20002": {
-            "Size": 8,
             "Name": "CameraNoCeiling",
             "Indent": "None",
             "Args": [
@@ -10723,7 +9812,6 @@
             ]
         },
         "20003": {
-            "Size": 8,
             "Name": "CameraNoScreenCollision",
             "Indent": "None",
             "Args": [
@@ -10734,7 +9822,6 @@
             ]
         },
         "20004": {
-            "Size": 8,
             "Name": "CameraControlInfinity",
             "Indent": "None",
             "Args": [
@@ -10745,7 +9832,6 @@
             ]
         },
         "20005": {
-            "Size": 8,
             "Name": "CameraForAstralHeat",
             "Indent": "None",
             "Args": [
@@ -10760,7 +9846,6 @@
             ]
         },
         "20006": {
-            "Size": 8,
             "Name": "CameraWinnerControlStop",
             "Indent": "None",
             "Args": [
@@ -10771,7 +9856,6 @@
             ]
         },
         "20007": {
-            "Size": 8,
             "Name": "CameraLookAtEnemy",
             "Indent": "None",
             "Args": [
@@ -10782,7 +9866,6 @@
             ]
         },
         "20008": {
-            "Size": 8,
             "Name": "CameraBelowFloor",
             "Indent": "None",
             "Args": [
@@ -10793,7 +9876,6 @@
             ]
         },
         "20009": {
-            "Size": 8,
             "Name": "CameraZoom",
             "Indent": "None",
             "Args": [
@@ -10804,7 +9886,6 @@
             ]
         },
         "20010": {
-            "Size": 8,
             "Name": "CameraPos",
             "Indent": "None",
             "Args": [
@@ -10823,7 +9904,6 @@
             ]
         },
         "20011": {
-            "Size": 8,
             "Name": "CameraFollowWorld",
             "Indent": "None",
             "Args": [
@@ -10842,7 +9922,6 @@
             ]
         },
         "21000": {
-            "Size": 8,
             "Name": "AddHitPoint",
             "Indent": "None",
             "Args": [
@@ -10853,7 +9932,6 @@
             ]
         },
         "21001": {
-            "Size": 8,
             "Name": "AddHitPointNotDie",
             "Indent": "None",
             "Args": [
@@ -10864,7 +9942,6 @@
             ]
         },
         "21002": {
-            "Size": 8,
             "Name": "LinkModelResetTime",
             "Indent": "None",
             "Args": [
@@ -10875,7 +9952,6 @@
             ]
         },
         "21003": {
-            "Size": 8,
             "Name": "MagnetLevel",
             "Indent": "None",
             "Args": [
@@ -10890,7 +9966,6 @@
             ]
         },
         "21004": {
-            "Size": 8,
             "Name": "SetColorByPaletteIndex",
             "Indent": "None",
             "Args": [
@@ -10901,7 +9976,6 @@
             ]
         },
         "21005": {
-            "Size": 8,
             "Name": "IgnoreTurnAction",
             "Indent": "None",
             "Args": [
@@ -10912,7 +9986,6 @@
             ]
         },
         "21006": {
-            "Size": 12,
             "Name": "Move2CenterOffset",
             "Indent": "None",
             "Args": [
@@ -10927,7 +10000,6 @@
             ]
         },
         "21007": {
-            "Size": 12,
             "Name": "SendSignal",
             "Indent": "None",
             "Args": [
@@ -10944,7 +10016,6 @@
             ]
         },
         "21008": {
-            "Size": 8,
             "Name": "ColorParent",
             "Indent": "None",
             "Args": [
@@ -10956,7 +10027,6 @@
             ]
         },
         "21009": {
-            "Size": 28,
             "Name": "LinerColor",
             "Indent": "None",
             "Args": [
@@ -10987,7 +10057,6 @@
             ]
         },
         "21010": {
-            "Size": 8,
             "Name": "IgnoreFinishStop",
             "Indent": "None",
             "Args": [
@@ -10998,7 +10067,6 @@
             ]
         },
         "21011": {
-            "Size": 8,
             "Name": "DemoTimer",
             "Indent": "None",
             "Args": [
@@ -11009,7 +10077,6 @@
             ]
         },
         "21012": {
-            "Size": 40,
             "Name": "SendSignalActionName",
             "Indent": "None",
             "Args": [
@@ -11025,7 +10092,6 @@
             ]
         },
         "21013": {
-            "Size": 40,
             "Name": "SendSignalActionNameOldest",
             "Indent": "None",
             "Args": [
@@ -11041,7 +10107,6 @@
             ]
         },
         "21014": {
-            "Size": 40,
             "Indent": "None",
             "Args": [
                 {
@@ -11050,13 +10115,11 @@
             ]
         },
         "22000": {
-            "Size": 4,
             "Name": "ResetAirJumpCount",
             "Indent": "None",
             "Args": []
         },
         "22001": {
-            "Size": 8,
             "Name": "AddAirJumpCount",
             "Indent": "None",
             "Args": [
@@ -11067,13 +10130,11 @@
             ]
         },
         "22002": {
-            "Size": 4,
             "Name": "ResetAirDashCount",
             "Indent": "None",
             "Args": []
         },
         "22003": {
-            "Size": 8,
             "Name": "AddAirDashCount",
             "Indent": "None",
             "Args": [
@@ -11084,7 +10145,6 @@
             ]
         },
         "22004": {
-            "Size": 12,
             "Name": "LandingStiffTime",
             "Indent": "None",
             "Args": [
@@ -11099,7 +10159,6 @@
             ]
         },
         "22005": {
-            "Size": 44,
             "Name": "DebugPrint",
             "Indent": "None",
             "Args": [
@@ -11110,7 +10169,6 @@
             ]
         },
         "22006": {
-            "Size": 8,
             "Name": "MutekiBySGCollision",
             "Indent": "None",
             "Args": [
@@ -11121,7 +10179,6 @@
             ]
         },
         "22007": {
-            "Size": 8,
             "Name": "Muteki",
             "Indent": "None",
             "Args": [
@@ -11132,7 +10189,6 @@
             ]
         },
         "22008": {
-            "Size": 8,
             "Name": "MutekiTime",
             "Indent": "None",
             "Args": [
@@ -11143,7 +10199,6 @@
             ]
         },
         "22009": {
-            "Size": 8,
             "Name": "MutekiCell",
             "Indent": "None",
             "Args": [
@@ -11154,7 +10209,6 @@
             ]
         },
         "22019": {
-            "Size": 8,
             "Name": "MutekiAim",
             "Indent": "None",
             "Args": [
@@ -11181,7 +10235,6 @@
             ]
         },
         "22020": {
-            "Size": 8,
             "Name": "MutekiType",
             "Indent": "None",
             "Args": [
@@ -11193,7 +10246,6 @@
             ]
         },
         "22021": {
-            "Size": 8,
             "Name": "MutekiLevel",
             "Indent": "None",
             "Args": [
@@ -11203,19 +10255,7 @@
                 }
             ]
         },
-        "2622": {
-            "Size": 8,
-            "Name": "MutekiNiku",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "BOOL",
-                    "Name": "val"
-                }
-            ]
-        },
         "22023": {
-            "Size": 8,
             "Name": "MutekiShot",
             "Indent": "None",
             "Args": [
@@ -11226,7 +10266,6 @@
             ]
         },
         "22024": {
-            "Size": 8,
             "Name": "MutekiHitPoint",
             "Indent": "None",
             "Args": [
@@ -11237,7 +10276,6 @@
             ]
         },
         "22025": {
-            "Size": 8,
             "Name": "MutekiPartsLevel",
             "Indent": "None",
             "Args": [
@@ -11256,7 +10294,6 @@
             ]
         },
         "22026": {
-            "Size": 8,
             "Name": "MutekiBurst",
             "Indent": "None",
             "Args": [
@@ -11267,7 +10304,6 @@
             ]
         },
         "22027": {
-            "Size": 8,
             "Name": "MutekiJodan",
             "Indent": "None",
             "Args": [
@@ -11278,7 +10314,6 @@
             ]
         },
         "22028": {
-            "Size": 8,
             "Name": "MutekiChudan",
             "Indent": "None",
             "Args": [
@@ -11289,7 +10324,6 @@
             ]
         },
         "22029": {
-            "Size": 8,
             "Name": "MutekiGedan",
             "Indent": "None",
             "Args": [
@@ -11300,7 +10334,6 @@
             ]
         },
         "22030": {
-            "Size": 8,
             "Name": "MutekiGuardImpossible",
             "Indent": "None",
             "Args": [
@@ -11311,7 +10344,6 @@
             ]
         },
         "22031": {
-            "Size": 12,
             "Name": "MutekiHitStop",
             "Indent": "None",
             "Args": [
@@ -11326,7 +10358,6 @@
             ]
         },
         "22032": {
-            "Size": 8,
             "Name": "MutekiSGCollisionShippaiIgnore",
             "Indent": "None",
             "Args": [
@@ -11337,7 +10368,6 @@
             ]
         },
         "22033": {
-            "Size": 8,
             "Name": "MutekiNagenuke",
             "Indent": "None",
             "Args": [
@@ -11348,7 +10378,6 @@
             ]
         },
         "22034": {
-            "Size": 8,
             "Name": "MutekiAntiAir",
             "Indent": "None",
             "Args": [
@@ -11359,7 +10388,6 @@
             ]
         },
         "22035": {
-            "Size": 8,
             "Name": "MutekiDamageRate",
             "Indent": "None",
             "Args": [
@@ -11370,7 +10398,6 @@
             ]
         },
         "22036": {
-            "Size": 8,
             "Name": "MutekiEtc",
             "Indent": "None",
             "Args": [
@@ -11381,7 +10408,6 @@
             ]
         },
         "22037": {
-            "Size": 8,
             "Name": "MutekiShotForce",
             "Indent": "None",
             "Args": [
@@ -11392,7 +10418,6 @@
             ]
         },
         "23000": {
-            "Size": 8,
             "Name": "Wind",
             "Indent": "None",
             "Args": [
@@ -11411,7 +10436,6 @@
             ]
         },
         "23001": {
-            "Size": 8,
             "Name": "OutPowerRate",
             "Indent": "None",
             "Args": [
@@ -11426,13 +10450,11 @@
             ]
         },
         "23002": {
-            "Size": 8,
             "Name": "JumpInputLimit",
             "Indent": "None",
             "Args": []
         },
         "23003": {
-            "Size": 8,
             "Name": "ExGage",
             "Indent": "None",
             "Args": [
@@ -11471,7 +10493,6 @@
             ]
         },
         "23004": {
-            "Size": 8,
             "Name": "ExGageZoroToNoDisp",
             "Indent": "None",
             "Args": [
@@ -11486,7 +10507,6 @@
             ]
         },
         "23005": {
-            "Size": 8,
             "Name": "ExGageDigit",
             "Indent": "None",
             "Args": [
@@ -11501,7 +10521,6 @@
             ]
         },
         "23006": {
-            "Size": 8,
             "Name": "ExGageIcon",
             "Indent": "None",
             "Args": [
@@ -11516,7 +10535,6 @@
             ]
         },
         "23007": {
-            "Size": 8,
             "Name": "ExGageIcon",
             "Indent": "None",
             "Args": [
@@ -11531,7 +10549,6 @@
             ]
         },
         "23008": {
-            "Size": 8,
             "Name": "ExGageDisp",
             "Indent": "None",
             "Args": [
@@ -11546,7 +10563,6 @@
             ]
         },
         "23009": {
-            "Size": 8,
             "Name": "ExGageDisp1",
             "Indent": "None",
             "Args": [
@@ -11561,7 +10577,6 @@
             ]
         },
         "23010": {
-            "Size": 8,
             "Name": "ExGageEveryTimeFlash",
             "Indent": "None",
             "Args": [
@@ -11576,7 +10591,6 @@
             ]
         },
         "23011": {
-            "Size": 8,
             "Name": "AddHitCount",
             "Indent": "None",
             "Args": [
@@ -11587,7 +10601,6 @@
             ]
         },
         "23012": {
-            "Size": 8,
             "Name": "SelfWindRate",
             "Indent": "None",
             "Args": [
@@ -11606,7 +10619,6 @@
             ]
         },
         "23013": {
-            "Size": 8,
             "Name": "FloorCollision",
             "Indent": "None",
             "Args": [
@@ -11617,13 +10629,11 @@
             ]
         },
         "23014": {
-            "Size": 4,
             "Name": "ResetOutPower",
             "Indent": "None",
             "Args": []
         },
         "23015": {
-            "Size": 8,
             "Name": "RenderStage",
             "Indent": "None",
             "Args": [
@@ -11635,13 +10645,11 @@
             ]
         },
         "23016": {
-            "Size": 4,
             "Name": "SkeletonPaletteEffectOnNoStopIdling",
             "Indent": "None",
             "Args": []
         },
         "23017": {
-            "Size": 8,
             "Name": "SousaiCancel",
             "Indent": "None",
             "Args": [
@@ -11652,7 +10660,6 @@
             ]
         },
         "23018": {
-            "Size": 8,
             "Name": "DemoEndOnVoiceEnd",
             "Indent": "None",
             "Args": [
@@ -11663,7 +10670,6 @@
             ]
         },
         "23019": {
-            "Size": 8,
             "Name": "PerOutPower",
             "Indent": "None",
             "Args": [
@@ -11674,7 +10680,6 @@
             ]
         },
         "23020": {
-            "Size": 8,
             "Name": "SetHitPointMax",
             "Indent": "None",
             "Args": [
@@ -11685,7 +10690,6 @@
             ]
         },
         "23021": {
-            "Size": 8,
             "Name": "SetHitPoint",
             "Indent": "None",
             "Args": [
@@ -11696,7 +10700,6 @@
             ]
         },
         "23022": {
-            "Size": 8,
             "Name": "NoDamageAction",
             "Indent": "None",
             "Args": [
@@ -11707,13 +10710,11 @@
             ]
         },
         "23023": {
-            "Size": 4,
             "Name": "DirectionPlayer",
             "Indent": "None",
             "Args": []
         },
         "23024": {
-            "Size": 8,
             "Name": "ReqBG",
             "Indent": "None",
             "Args": [
@@ -11724,7 +10725,6 @@
             ]
         },
         "23025": {
-            "Size": 8,
             "Name": "ActionKeepBG",
             "Indent": "None",
             "Args": [
@@ -11735,7 +10735,6 @@
             ]
         },
         "23026": {
-            "Size": 8,
             "Name": "LandingHeight",
             "Indent": "None",
             "Args": [
@@ -11746,13 +10745,11 @@
             ]
         },
         "23027": {
-            "Size": 4,
             "Name": "AttackOff",
             "Indent": "None",
             "Args": []
         },
         "23028": {
-            "Size": 12,
             "Name": "InstantInitializeForShotObj",
             "Indent": "None",
             "Args": [
@@ -11767,7 +10764,6 @@
             ]
         },
         "23029": {
-            "Size": 16,
             "Name": "SendSignalEx",
             "Indent": "None",
             "Args": [
@@ -11787,7 +10783,6 @@
             ]
         },
         "23030": {
-            "Size": 68,
             "Name": "PrivateFunction",
             "Indent": "None",
             "Args": [
@@ -11814,7 +10809,6 @@
             ]
         },
         "23031": {
-            "Size": 8,
             "Name": "DashKeepInputTime",
             "Indent": "None",
             "Args": [
@@ -11825,7 +10819,6 @@
             ]
         },
         "23032": {
-            "Size": 8,
             "Name": "SetPosXByScreenPer",
             "Indent": "None",
             "Args": [
@@ -11836,7 +10829,6 @@
             ]
         },
         "23033": {
-            "Size": 8,
             "Name": "SetPosYByScreenPer",
             "Indent": "None",
             "Args": [
@@ -11847,7 +10839,6 @@
             ]
         },
         "23034": {
-            "Size": 8,
             "Name": "HakumenTamaFeverTime",
             "Indent": "None",
             "Args": [
@@ -11858,7 +10849,6 @@
             ]
         },
         "23035": {
-            "Size": 8,
             "Name": "ActionKeepAngle",
             "Indent": "None",
             "Args": [
@@ -11869,19 +10859,16 @@
             ]
         },
         "23036": {
-            "Size": 4,
             "Name": "CheckDamagedNikuLv",
             "Indent": "None",
             "Args": []
         },
         "23037": {
-            "Size": 4,
             "Name": "CheckDamagedShotLv",
             "Indent": "None",
             "Args": []
         },
         "23038": {
-            "Size": 4,
             "Name": "ExGageMaxColor",
             "Indent": "None",
             "Args": [
@@ -11896,7 +10883,6 @@
             ]
         },
         "23039": {
-            "Size": 4,
             "Name": "ExGageSplitNum",
             "Indent": "None",
             "Args": [
@@ -11911,7 +10897,6 @@
             ]
         },
         "23040": {
-            "Size": 4,
             "Name": "ExGageText",
             "Indent": "None",
             "Args": [
@@ -11926,7 +10911,6 @@
             ]
         },
         "23041": {
-            "Size": 4,
             "Name": "ExGageKeepFlash",
             "Indent": "None",
             "Args": [
@@ -11941,7 +10925,6 @@
             ]
         },
         "23042": {
-            "Size": 8,
             "Name": "AutoHitSignalSendingAlt",
             "Indent": "None",
             "Args": [
@@ -11957,7 +10940,6 @@
             ]
         },
         "23043": {
-            "Size": 8,
             "Name": "MagnetPull",
             "Indent": "None",
             "Args": [
@@ -11973,7 +10955,6 @@
             ]
         },
         "23044": {
-            "Size": 4,
             "Name": "ExGageHideBG",
             "Indent": "None",
             "Args": [
@@ -11988,7 +10969,6 @@
             ]
         },
         "23045": {
-            "Size": 4,
             "Name": "CheckPosXByScreenPer",
             "Indent": "None",
             "Args": [
@@ -11999,7 +10979,6 @@
             ]
         },
         "23046": {
-            "Size": 4,
             "Name": "CheckPosYByScreenPer",
             "Indent": "None",
             "Args": [
@@ -12010,7 +10989,6 @@
             ]
         },
         "23047": {
-            "Size": 4,
             "Name": "ExGagePosX",
             "Indent": "None",
             "Args": [
@@ -12025,7 +11003,6 @@
             ]
         },
         "23048": {
-            "Size": 4,
             "Name": "TrailParam",
             "Indent": "None",
             "Args": [
@@ -12036,7 +11013,6 @@
             ]
         },
         "23049": {
-            "Size": 4,
             "Name": "TrailColor",
             "Indent": "None",
             "Args": [
@@ -12051,7 +11027,6 @@
             ]
         },
         "23050": {
-            "Size": 4,
             "Name": "TrailScale",
             "Indent": "None",
             "Args": [
@@ -12066,7 +11041,6 @@
             ]
         },
         "23051": {
-            "Size": 4,
             "Name": "TrailImage",
             "Indent": "None",
             "Args": [
@@ -12079,7 +11053,6 @@
             ]
         },
         "23052": {
-            "Size": 4,
             "Name": "TrailFade",
             "Indent": "None",
             "Args": [
@@ -12089,30 +11062,7 @@
                 }
             ]
         },
-        "23057": {
-            "Size": 8,
-            "Name": "SetPosXByScreenPerInCamera",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "S32",
-                    "Name": "val"
-                }
-            ]
-        },
-        "23058": {
-            "Size": 8,
-            "Name": "SetPosYByScreenPerInCamera",
-            "Indent": "None",
-            "Args": [
-                {
-                    "Type": "S32",
-                    "Name": "val"
-                }
-            ]
-        },
         "23066": {
-            "Size": 8,
             "Name": "AutoHitSignalSending",
             "Indent": "None",
             "Args": [
@@ -12123,7 +11073,6 @@
             ]
         },
         "23067": {
-            "Size": 36,
             "Name": "LinkParticleArg",
             "Indent": "None",
             "Args": [
@@ -12134,7 +11083,6 @@
             ]
         },
         "23068": {
-            "Size": 8,
             "Name": "SetAngleByDirSign",
             "Indent": "None",
             "Args": [
@@ -12145,7 +11093,6 @@
             ]
         },
         "23069": {
-            "Size": 8,
             "Name": "ForceShadowOn",
             "Indent": "None",
             "Args": [
@@ -12156,7 +11103,6 @@
             ]
         },
         "23070": {
-            "Size": 8,
             "Name": "MoveSeal",
             "Indent": "None",
             "Args": [
@@ -12167,7 +11113,6 @@
             ]
         },
         "23071": {
-            "Size": 8,
             "Name": "GuardSeal",
             "Indent": "None",
             "Args": [
@@ -12178,37 +11123,31 @@
             ]
         },
         "23072": {
-            "Size": 4,
             "Name": "CtrlDirectionReverse",
             "Indent": "None",
             "Args": []
         },
         "23073": {
-            "Size": 4,
             "Name": "CtrlDirectionVsTarget",
             "Indent": "None",
             "Args": []
         },
         "23074": {
-            "Size": 4,
             "Name": "CtrlDirectionLeft",
             "Indent": "None",
             "Args": []
         },
         "23075": {
-            "Size": 4,
             "Name": "CtrlDirectionRight",
             "Indent": "None",
             "Args": []
         },
         "23076": {
-            "Size": 4,
             "Name": "NegativeForBackDash",
             "Indent": "None",
             "Args": []
         },
         "23077": {
-            "Size": 8,
             "Name": "SlowField",
             "Indent": "None",
             "Args": [
@@ -12219,7 +11158,6 @@
             ]
         },
         "23078": {
-            "Size": 8,
             "Name": "AutoHitStopSending",
             "Indent": "None",
             "Args": [
@@ -12230,7 +11168,6 @@
             ]
         },
         "23079": {
-            "Size": 8,
             "Name": "HitBackReturnObject",
             "Indent": "None",
             "Args": [
@@ -12241,7 +11178,6 @@
             ]
         },
         "23080": {
-            "Size": 16,
             "Name": "SetSkillCheckBit",
             "Indent": "None",
             "Args": [
@@ -12256,7 +11192,6 @@
             ]
         },
         "23081": {
-            "Size": 8,
             "Name": "ColorIsAddColor",
             "Indent": "None",
             "Args": [
@@ -12267,7 +11202,6 @@
             ]
         },
         "23082": {
-            "Size": 20,
             "Name": "CheckStageName",
             "Indent": "None",
             "Args": [
@@ -12278,7 +11212,6 @@
             ]
         },
         "23083": {
-            "Size": 8,
             "Name": "ClockStop",
             "Indent": "None",
             "Args": [
@@ -12289,7 +11222,6 @@
             ]
         },
         "23084": {
-            "Size": 8,
             "Name": "CockpitHide",
             "Indent": "None",
             "Args": [
@@ -12300,7 +11232,6 @@
             ]
         },
         "23085": {
-            "Size": 8,
             "Name": "TurnLimitByInitialize",
             "Indent": "None",
             "Args": [
@@ -12311,7 +11242,6 @@
             ]
         },
         "23086": {
-            "Size": 8,
             "Name": "HitBackReturnIgnore",
             "Indent": "None",
             "Args": [
@@ -12322,7 +11252,6 @@
             ]
         },
         "23087": {
-            "Size": 8,
             "Name": "PushCollisionHeightLow",
             "Indent": "None",
             "Args": [
@@ -12333,7 +11262,6 @@
             ]
         },
         "23088": {
-            "Size": 8,
             "Name": "AstralHeatClearing",
             "Indent": "None",
             "Args": [
@@ -12348,7 +11276,6 @@
             ]
         },
         "23089": {
-            "Size": 8,
             "Indent": "None",
             "Args": [
                 {
@@ -12378,11 +11305,10 @@
             ]
         },
         "23090": {
-            "Size": 8,
             "Name": "ObjectAttackOff",
             "Indent": "None",
             "Args": [
-                {                  
+                {
                     "Type": "Enum",
                     "EnumName": "CO_TYPE",
                     "Name": "object"
@@ -12390,11 +11316,10 @@
             ]
         },
         "23091": {
-            "Size": 8,
             "Name": "ObjectMuteki",
             "Indent": "None",
             "Args": [
-                {                  
+                {
                     "Type": "Enum",
                     "EnumName": "CO_TYPE",
                     "Name": "object"
@@ -12402,7 +11327,6 @@
             ]
         },
         "23093": {
-            "Size": 8,
             "Name": "SetHikariAlpha",
             "Indent": "None",
             "Args": [
@@ -12413,7 +11337,6 @@
             ]
         },
         "23094": {
-            "Size": 8,
             "Name": "AddHikariAlpha",
             "Indent": "None",
             "Args": [
@@ -12424,7 +11347,6 @@
             ]
         },
         "23095": {
-            "Size": 8,
             "Name": "PerHikariAlpha",
             "Indent": "None",
             "Args": [
@@ -12435,7 +11357,6 @@
             ]
         },
         "23096": {
-            "Size": 8,
             "Name": "SetHikariAlphaSpeed",
             "Indent": "None",
             "Args": [
@@ -12446,7 +11367,6 @@
             ]
         },
         "23097": {
-            "Size": 8,
             "Name": "AddHikariAlphaSpeed",
             "Indent": "None",
             "Args": [
@@ -12457,7 +11377,6 @@
             ]
         },
         "23098": {
-            "Size": 8,
             "Name": "PerHikariAlphaSpeed",
             "Indent": "None",
             "Args": [
@@ -12468,7 +11387,6 @@
             ]
         },
         "23099": {
-            "Size": 8,
             "Name": "SetHikariRed",
             "Indent": "None",
             "Args": [
@@ -12479,7 +11397,6 @@
             ]
         },
         "23100": {
-            "Size": 8,
             "Name": "AddHikariRed",
             "Indent": "None",
             "Args": [
@@ -12490,7 +11407,6 @@
             ]
         },
         "23101": {
-            "Size": 8,
             "Name": "PerHikariRed",
             "Indent": "None",
             "Args": [
@@ -12501,7 +11417,6 @@
             ]
         },
         "23102": {
-            "Size": 8,
             "Name": "SetHikariRedSpeed",
             "Indent": "None",
             "Args": [
@@ -12512,7 +11427,6 @@
             ]
         },
         "23103": {
-            "Size": 8,
             "Name": "AddHikariRedSpeed",
             "Indent": "None",
             "Args": [
@@ -12523,7 +11437,6 @@
             ]
         },
         "23104": {
-            "Size": 8,
             "Name": "PerHikariRedSpeed",
             "Indent": "None",
             "Args": [
@@ -12534,7 +11447,6 @@
             ]
         },
         "23105": {
-            "Size": 8,
             "Name": "SetHikariGreen",
             "Indent": "None",
             "Args": [
@@ -12545,7 +11457,6 @@
             ]
         },
         "23106": {
-            "Size": 8,
             "Name": "AddHikariGreen",
             "Indent": "None",
             "Args": [
@@ -12556,7 +11467,6 @@
             ]
         },
         "23107": {
-            "Size": 8,
             "Name": "PerHikariGreen",
             "Indent": "None",
             "Args": [
@@ -12567,7 +11477,6 @@
             ]
         },
         "23108": {
-            "Size": 8,
             "Name": "SetHikariGreenSpeed",
             "Indent": "None",
             "Args": [
@@ -12578,7 +11487,6 @@
             ]
         },
         "23109": {
-            "Size": 8,
             "Name": "AddHikariGreenSpeed",
             "Indent": "None",
             "Args": [
@@ -12589,7 +11497,6 @@
             ]
         },
         "23110": {
-            "Size": 8,
             "Name": "PerHikariGreenSpeed",
             "Indent": "None",
             "Args": [
@@ -12600,7 +11507,6 @@
             ]
         },
         "23111": {
-            "Size": 8,
             "Name": "SetHikariBlue",
             "Indent": "None",
             "Args": [
@@ -12611,7 +11517,6 @@
             ]
         },
         "23112": {
-            "Size": 8,
             "Name": "AddHikariBlue",
             "Indent": "None",
             "Args": [
@@ -12622,7 +11527,6 @@
             ]
         },
         "23113": {
-            "Size": 8,
             "Name": "PerHikariBlue",
             "Indent": "None",
             "Args": [
@@ -12633,7 +11537,6 @@
             ]
         },
         "23114": {
-            "Size": 8,
             "Name": "SetHikariBlueSpeed",
             "Indent": "None",
             "Args": [
@@ -12644,7 +11547,6 @@
             ]
         },
         "23115": {
-            "Size": 8,
             "Name": "AddHikariBlueSpeed",
             "Indent": "None",
             "Args": [
@@ -12655,7 +11557,6 @@
             ]
         },
         "23116": {
-            "Size": 8,
             "Name": "PerHikariBlueSpeed",
             "Indent": "None",
             "Args": [
@@ -12666,7 +11567,6 @@
             ]
         },
         "23117": {
-            "Size": 12,
             "Name": "SetHikariDestColor",
             "Indent": "None",
             "Args": [
@@ -12681,7 +11581,6 @@
             ]
         },
         "23118": {
-            "Size": 8,
             "Name": "SetHikariColor",
             "Indent": "None",
             "Args": [
@@ -12692,7 +11591,6 @@
             ]
         },
         "23119": {
-            "Size": 16,
             "Name": "SetHikariDestColorEx",
             "Indent": "None",
             "Args": [
@@ -12711,13 +11609,11 @@
             ]
         },
         "23120": {
-            "Size": 4,
             "Name": "StopHikariDestColor",
             "Indent": "None",
             "Args": []
         },
         "23121": {
-            "Size": 8,
             "Name": "HikariColorIgnoreStop",
             "Indent": "None",
             "Args": [
@@ -12728,7 +11624,6 @@
             ]
         },
         "23122": {
-            "Size": 8,
             "Name": "SetHikariColorByPaletteIndex",
             "Indent": "None",
             "Args": [
@@ -12739,7 +11634,6 @@
             ]
         },
         "23123": {
-            "Size": 12,
             "Name": "SetHikariDestColorReverse",
             "Indent": "None",
             "Args": [
@@ -12754,7 +11648,6 @@
             ]
         },
         "23124": {
-            "Size": 16,
             "Name": "NoJumpField",
             "Indent": "None",
             "Args": [
@@ -12765,7 +11658,6 @@
             ]
         },
         "23130": {
-            "Size": 24,
             "Name": "NegativeColor",
             "Indent": "None",
             "Args": [
@@ -12784,12 +11676,10 @@
             ]
         },
         "23131": {
-            "Size": 16,
             "Indent": "None",
             "Args": []
         },
         "23132": {
-            "Size": 16,
             "Indent": "None",
             "Args": [
                 {
@@ -12799,7 +11689,6 @@
             ]
         },
         "23141": {
-            "Size": 16,
             "Name": "OverwriteAirStunTime",
             "Indent": "None",
             "Args": [
@@ -12810,7 +11699,6 @@
             ]
         },
         "23142": {
-            "Size": 16,
             "Name": "MultiObjAttackStop",
             "Indent": "None",
             "Args": [
@@ -12821,7 +11709,6 @@
             ]
         },
         "23143": {
-            "Size": 12,
             "Name": "MoveToPosTypeToPosType",
             "Indent": "None",
             "Args": [
@@ -12843,7 +11730,6 @@
             ]
         },
         "23144": {
-            "Size": 48,
             "Name": "ExHoming",
             "Indent": "None",
             "Args": [
@@ -12881,7 +11767,6 @@
             ]
         },
         "23145": {
-            "Size": 36,
             "Name": "CheckPreActionName",
             "Indent": "None",
             "Args": [
@@ -12892,7 +11777,6 @@
             ]
         },
         "23146": {
-            "Size": 40,
             "Name": "CheckLastDamageActionName",
             "Indent": "None",
             "Args": [
@@ -12908,13 +11792,11 @@
             ]
         },
         "23147": {
-            "Size": 4,
             "Name": "AstralHeatResource",
             "Indent": "None",
             "Args": []
         },
         "23148": {
-            "Size": 40,
             "Name": "CheckActionName",
             "Indent": "None",
             "Args": [
@@ -12930,7 +11812,6 @@
             ]
         },
         "23149": {
-            "Size": 40,
             "Indent": "None",
             "Args": [
                 {
@@ -12939,7 +11820,6 @@
             ]
         },
         "23150": {
-            "Size": 8,
             "Name": "EtcAura",
             "Indent": "None",
             "Args": [
@@ -12950,7 +11830,6 @@
             ]
         },
         "23151": {
-            "Size": 12,
             "Name": "MoveToPosType",
             "Indent": "None",
             "Args": [
@@ -12967,7 +11846,6 @@
             ]
         },
         "23152": {
-            "Size": 8,
             "Name": "TensionRate",
             "Indent": "None",
             "Args": [
@@ -12978,7 +11856,6 @@
             ]
         },
         "23153": {
-            "Size": 8,
             "Name": "AddNamerakaMoveX",
             "Indent": "None",
             "Args": [
@@ -12989,7 +11866,6 @@
             ]
         },
         "23154": {
-            "Size": 8,
             "Name": "SetNamerakaMoveX",
             "Indent": "None",
             "Args": [
@@ -13000,7 +11876,6 @@
             ]
         },
         "23155": {
-            "Size": 44,
             "Name": "SendSignalName",
             "Indent": "None",
             "Args": [
@@ -13020,7 +11895,6 @@
             ]
         },
         "23156": {
-            "Size": 36,
             "Name": "CheckSignalName",
             "Indent": "None",
             "Args": [
@@ -13031,7 +11905,6 @@
             ]
         },
         "23157": {
-            "Size": 8,
             "Name": "AstralHeatBGMRequest",
             "Indent": "None",
             "Args": [
@@ -13042,7 +11915,6 @@
             ]
         },
         "23158": {
-            "Size": 8,
             "Name": "MakotoDriveGage",
             "Indent": "None",
             "Args": [
@@ -13061,7 +11933,6 @@
             ]
         },
         "23159": {
-            "Size": 36,
             "Name": "TrialTentou",
             "Indent": "None",
             "Args": [
@@ -13072,7 +11943,6 @@
             ]
         },
         "23160": {
-            "Size": 8,
             "Name": "DisableBarrier",
             "Indent": "None",
             "Args": [
@@ -13083,7 +11953,6 @@
             ]
         },
         "23161": {
-            "Size": 8,
             "Name": "DisableFDash",
             "Indent": "None",
             "Args": [
@@ -13094,7 +11963,6 @@
             ]
         },
         "23162": {
-            "Size": 8,
             "Name": "DisableBDash",
             "Indent": "None",
             "Args": [
@@ -13105,7 +11973,6 @@
             ]
         },
         "23163": {
-            "Size": 8,
             "Name": "DisableOverdrive",
             "Indent": "None",
             "Args": [
@@ -13116,7 +11983,6 @@
             ]
         },
         "23164": {
-            "Size": 8,
             "Name": "DisableCrouch",
             "Indent": "None",
             "Args": [
@@ -13127,7 +11993,6 @@
             ]
         },
         "23165": {
-            "Size": 8,
             "Name": "EmptyOverdrive",
             "Indent": "None",
             "Args": [
@@ -13138,7 +12003,6 @@
             ]
         },
         "23166": {
-            "Size": 40,
             "Name": "CheckEnemyActionName",
             "Indent": "None",
             "Args": [
@@ -13149,12 +12013,10 @@
             ]
         },
         "23167": {
-            "Size": 40,
             "Indent": "None",
             "Args": []
         },
         "23168": {
-            "Size": 8,
             "Name": "EnableOnlyWalk",
             "Indent": "None",
             "Args": [
@@ -13165,7 +12027,6 @@
             ]
         },
         "23169": {
-            "Size": 8,
             "Name": "DisableInput",
             "Indent": "None",
             "Args": [
@@ -13176,7 +12037,6 @@
             ]
         },
         "23170": {
-            "Size": 8,
             "Indent": "None",
             "Args": [
                 {
@@ -13185,13 +12045,11 @@
             ]
         },
         "23177": {
-            "Size": 8,
             "Name": "CheckNeutral",
             "Indent": "None",
             "Args": []
         },
         "23178": {
-            "Size": 8,
             "Name": "UseDamageCell",
             "Indent": "None",
             "Args": [
@@ -13202,13 +12060,11 @@
             ]
         },
         "23179": {
-            "Size": 8,
             "Name": "CheckNeutral",
             "Indent": "None",
             "Args": []
         },
         "23180": {
-            "Size": 8,
             "Name": "DispShadow",
             "Indent": "None",
             "Args": [
@@ -13219,7 +12075,6 @@
             ]
         },
         "23181": {
-            "Size": 8,
             "Name": "TensionPenaltyTime",
             "Indent": "None",
             "Args": [
@@ -13230,7 +12085,6 @@
             ]
         },
         "23182": {
-            "Size": 8,
             "Name": "SameAttackHosei",
             "Indent": "None",
             "Args": [
@@ -13241,7 +12095,6 @@
             ]
         },
         "23183": {
-            "Size": 8,
             "Name": "CellOverwrite",
             "Indent": "None",
             "Args": [
@@ -13260,13 +12113,11 @@
             ]
         },
         "30000": {
-            "Size": 8,
             "Name": "LinkCharaModel",
             "Indent": "None",
             "Args": []
         },
         "30001": {
-            "Size": 8,
             "Name": "LinkCharaModelAnimation",
             "Indent": "None",
             "Args": [
@@ -13280,7 +12131,6 @@
             ]
         },
         "30002": {
-            "Size": 8,
             "Name": "LinkCharaModelPos",
             "Indent": "None",
             "Args": [
@@ -13299,7 +12149,6 @@
             ]
         },
         "30003": {
-            "Size": 8,
             "Name": "LinkCharaModelScale",
             "Indent": "None",
             "Args": [
@@ -13310,7 +12159,6 @@
             ]
         },
         "30004": {
-            "Size": 8,
             "Name": "LinkCharaModelAngle",
             "Indent": "None",
             "Args": [
@@ -13321,13 +12169,11 @@
             ]
         },
         "30005": {
-            "Size": 8,
             "Name": "HideLinkCharaModel",
             "Indent": "None",
             "Args": []
         },
         "30006": {
-            "Size": 8,
             "Indent": "None",
             "Args": [
                 {
@@ -13342,7 +12188,6 @@
             ]
         },
         "30007": {
-            "Size": 8,
             "Name": "EnableBloom",
             "Indent": "None",
             "Args": [
@@ -13353,13 +12198,12 @@
             ]
         },
         "30008": {
-            "Size": 8,
             "Indent": "None",
             "Args": [
                 {
                     "Type": "BOOL",
                     "Name": "on"
-                }, 
+                },
                 {
                     "Type": "BOOL",
                     "Name": "on"
@@ -13367,7 +12211,6 @@
             ]
         },
         "30009": {
-            "Size": 8,
             "Name": "ApplyBloomToPaletteColor",
             "Indent": "None",
             "Args": [
@@ -13378,7 +12221,6 @@
             ]
         },
         "30010": {
-            "Size": 8,
             "Indent": "None",
             "Args": [
                 {
@@ -13388,7 +12230,6 @@
             ]
         },
         "30011": {
-            "Size": 8,
             "Name": "LimitBloomToPaletteColor",
             "Indent": "None",
             "Args": [
@@ -13399,7 +12240,6 @@
             ]
         },
         "30012": {
-            "Size": 8,
             "Indent": "None",
             "Args": [
                 {
@@ -13409,25 +12249,21 @@
             ]
         },
         "30013": {
-            "Size": 8,
             "Name": "IzanamiTimestop",
             "Indent": "None",
             "Args": []
         },
         "30014": {
-            "Size": 8,
             "Name": "IzanamiTimestopEnd",
             "Indent": "None",
             "Args": []
         },
         "30015": {
-            "Size": 8,
             "Name": "IzanamiTimestopEnd1",
             "Indent": "None",
             "Args": []
         },
         "30016": {
-            "Size": 8,
             "Name": "BloomFade",
             "Indent": "None",
             "Args": [
@@ -13438,7 +12274,6 @@
             ]
         },
         "30017": {
-            "Size": 8,
             "Name": "BloomPower",
             "Indent": "None",
             "Args": [
@@ -13449,7 +12284,6 @@
             ]
         },
         "30018": {
-            "Size": 8,
             "Indent": "None",
             "Args": []
         }
