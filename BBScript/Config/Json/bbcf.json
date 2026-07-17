@@ -30,6 +30,7 @@
     "VAR_ScriptDebug": 24,
     "VAR_FrontWallDistance": 25,
     "VAR_BackWallDistance": 26,
+    "VAR_MutekiHitCount": 27,
     "VAR_CheckPlayerPrivatePoint0Exist": 28,
     "VAR_EnemyDistance": 29,
     "VAR_PlayerDamage": 30,
@@ -120,19 +121,20 @@
     "VAR_TargetAir": 126,
     "VAR_TargetCrouch": 127,
     "VAR_TargetJump": 128,
-    "VAR_Muteki": 129,
-    "VAR_MutekiHead": 130,
-    "VAR_MutekiBody": 131,
-    "VAR_MutekiLeg": 132,
-    "VAR_MutekiShot": 133,
-    "VAR_MutekiThrow": 134,
+    "VAR_TargetMuteki": 129,
+    "VAR_TargetMutekiHead": 130,
+    "VAR_TargetMutekiBody": 131,
+    "VAR_TargetMutekiLeg": 132,
+    "VAR_TargetMutekiShot": 133,
+    "VAR_TargetMutekiThrow": 134,
     "VAR_ComboCount": 135,
     "VAR_BarrierVal": 136,
-    "VAR_ActiveFlowDamage": 137,
+    "VAR_ActiveFlow": 137,
     "VAR_IsArcadeAct1": 138,
     "VAR_IsArcadeAct2": 139,
     "VAR_IsArcadeAct3": 140,
-    "VAR_CharNum": 141
+    "VAR_CharNum": 141,
+    "VAR_OverDriveMode": 112
   },
   "Enums": {
     "ADAT_TYPE": {
@@ -255,8 +257,13 @@
       "CD_TENSION_FULL": 12378,
       "CD_BOSS": 12395,
       "CD_NOT_BOSS": 12396,
+      "CD_BATTLE_DOING": 12397,
+      "CD_NOT_BARRIER": 12398,
+      "CD_DEBUG_SKILL": 12399,
+      "CD_ENEMY_AIR": 12400,
       "CD_STORY_SPECIAL_TYPE": 12401,
       "CD_NOT_STORY_SPECIAL_TYPE": 12402,
+      "CD_ENEMY_CROUCH": 12403,
       "CD_PRIVATE09": 12404,
       "CD_PRIVATE10": 12405,
       "CD_PRIVATE11": 12406,
@@ -1891,7 +1898,9 @@
       "Indent": "None",
       "Args": [
         {
-          "Type": "S32"
+          "Type": "Enum",
+          "EnumName": "CO_TYPE",
+          "Name": "objType"
         }
       ],
       "Name": "IsObjectCounterHit2"
@@ -3192,11 +3201,12 @@
       "Args": [
         {
           "Type": "S32",
-          "Name": "val0"
+          "Name": "speed"
         },
         {
-          "Type": "S32",
-          "Name": "val1"
+          "Type": "Enum",
+          "Name": "object",
+          "EnumName": "CO_TYPE"
         }
       ]
     },
@@ -3235,12 +3245,12 @@
       "Indent": "None",
       "Args": [
         {
-          "Type": "S32",
-          "Name": "arg0"
+          "Type": "BOOL",
+          "Name": "useX"
         },
         {
-          "Type": "S32",
-          "Name": "arg1"
+          "Type": "BOOL",
+          "Name": "useY"
         }
       ]
     },
@@ -6831,15 +6841,15 @@
       "Args": [
         {
           "Type": "S32",
-          "Name": "arg0"
+          "Name": "onGuard"
         },
         {
           "Type": "S32",
-          "Name": "arg1"
+          "Name": "onHit"
         },
         {
           "Type": "S32",
-          "Name": "arg2"
+          "Name": "onCounterHit"
         }
       ]
     },
@@ -9594,7 +9604,8 @@
       "Indent": "None",
       "Args": [
         {
-          "Type": "S32"
+          "Type": "S32",
+          "Name": "value"
         }
       ]
     },
@@ -10881,12 +10892,14 @@
       "Indent": "None",
       "Args": [
         {
-          "Type": "S32",
-          "Name": "val"
+          "Type": "Enum",
+          "Name": "object0",
+          "EnumName": "CO_TYPE"
         },
         {
-          "Type": "S32",
-          "Name": "val"
+          "Type": "Enum",
+          "Name": "object1",
+          "EnumName": "CO_TYPE"
         }
       ]
     },
@@ -11767,8 +11780,9 @@
       "Indent": "None",
       "Args": [
         {
-          "Type": "S32",
-          "Name": "val"
+          "Type": "Enum",
+          "Name": "bgType",
+          "EnumName": "BG_TYPE"
         }
       ]
     },
@@ -12286,11 +12300,11 @@
       "Args": [
         {
           "Type": "S32",
-          "Name": "arg0"
+          "Name": "bitIndex"
         },
         {
           "Type": "COperand",
-          "Name": "arg1"
+          "Name": "condition"
         }
       ]
     },
@@ -13239,8 +13253,8 @@
       "Indent": "None",
       "Args": [
         {
-          "Type": "S32",
-          "Name": "unk1"
+          "Type": "BOOL",
+          "Name": "enable"
         }
       ]
     },
@@ -13363,8 +13377,8 @@
       "Indent": "None",
       "Args": [
         {
-          "Type": "S32",
-          "Name": "unk1"
+          "Type": "BOOL",
+          "Name": "hide"
         }
       ]
     },
@@ -13504,7 +13518,7 @@
       ]
     },
     "62": {
-      "Name": "CheckEnemyNameUnk",
+      "Name": "CheckEnemyNameEx",
       "Args": [
         {
           "Type": "C16BYTE",
@@ -13512,7 +13526,7 @@
         },
         {
           "Type": "S32",
-          "Name": "unk1"
+          "Name": "bossFilter"
         },
         {
           "Type": "S32",
@@ -13524,8 +13538,9 @@
       "Name": "LinkObjectPositionX",
       "Args": [
         {
-          "Type": "S32",
-          "Name": "objId"
+          "Type": "Enum",
+          "Name": "object",
+          "EnumName": "CO_TYPE"
         }
       ]
     },
@@ -13533,8 +13548,9 @@
       "Name": "LinkObjectPositionY",
       "Args": [
         {
-          "Type": "S32",
-          "Name": "objId"
+          "Type": "Enum",
+          "Name": "object",
+          "EnumName": "CO_TYPE"
         }
       ]
     },
@@ -13542,8 +13558,9 @@
       "Name": "LinkObjectPushCollision",
       "Args": [
         {
-          "Type": "S32",
-          "Name": "objId"
+          "Type": "Enum",
+          "Name": "object",
+          "EnumName": "CO_TYPE"
         }
       ]
     },
@@ -13551,17 +13568,18 @@
       "Name": "LinkObjectColor",
       "Args": [
         {
-          "Type": "S32",
-          "Name": "objId"
+          "Type": "Enum",
+          "Name": "object",
+          "EnumName": "CO_TYPE"
         }
       ]
     },
     "22022": {
-      "Name": "Unknown22022",
+      "Name": "MutekiBit80",
       "Args": [
         {
-          "Type": "S32",
-          "Name": "unk1"
+          "Type": "BOOL",
+          "Name": "enable"
         }
       ]
     }
